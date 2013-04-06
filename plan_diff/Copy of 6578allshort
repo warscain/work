@@ -1,0 +1,20 @@
+		176687	[virtual networks]Cloned domain with macvtap NIC - bug 786648	yupzhang	 None	Manual		 Regression	P1	None	Edit
+		176692	[miscellanea] Clear prompt should be seen when specify a non-existent image file in domain config file - Bug 591363	jialiu	 None	Manual		Regression	P3	None	Edit
+		176743	[virtual networks] can't add new netdevs after most recently added netdev is detached BZ#827544	whuang	 None	Manual		 Regression	P1	None	Edit
+		176745	Expose 'virDomain{Get,Set}InterfaceParameters' APIs in python binding BZ#770971	whuang	 None	Manual		 Function	P1	None	Edit
+		176746	[libvirtd] memory leak when performing persistent network device update (e.g. virsh domif-setlink --persistent)BZ#802854	whuang	 None	Manual		 Regression	P1	None	Edit
+		176747	memory leaks/dangling pointers caused by virDomainDetachDeviceConfig (virsh detach-*) BZ#802851	whuang	 None	Manual		 Regression	P1	None	Edit
+		176748	Syscall param rt_sigaction(act->sa_flags) points to uninitialised byte(s) BZ#814080	whuang	 None	Manual		 Regression	P1	None	Edit
+		176749	[virtual networks] Unable to determine device index for network device" when attaching new network device to a guest that already has a netdev of type='hostdev' BZ#827519	whuang	 None	Manual		 Regression	P1	None	Edit
+		176750	[remote access] virsh connect should not disconnect current connection until a new connection succeeds BZ#829160	whuang	 None	Manual		 Regression	P1	None	Edit
+		176752	[Domain async job handling] loop to cancel a stuck migration job do not cause libvirtd hang - 821468	bili	 None	Manual		 Regression	P1	None	Edit
+		176773	[console and serial devices] set escape character for console - bug 754800 845460	gsun	 None	Manual		 Function	P1	None	Edit
+		176774	[console and serial devices] use non-root user to connect guest console - bug 700443	gsun	 None	Manual		 Function	P1	None	Edit
+		176777	[console and serial devices]forced console connection--Bug:811497	zpeng	 None	Manual		 Function	P1	None	Edit
+		176787	[CPU Management] Check KVM host/guest cpu capping isolation-bug822090	honzhang	 None	Manual		 Function	P1	None	Edit
+		176788	[CPU Management] Check KVM host/guest cpu pinning isolation-bug822064.bug871312,bug870099	honzhang	 None	Manual		 Function	P1	None	Edit
+		176826	[Disk hotplug] Attach virtual disks with multifunction = on	weizhan	 None	Manual (Autoproposed)		 Function	P1	None	Edit
+		176835	[Disk hotplug] Attach/Detach a FC disk with readonly mode	weizhan	 None	Manual (Autoproposed)		 Function	P1	None	Edit
+		176836	[Disk hotplug] Attach/Detach a local disk with readonly mode	weizhan	 None	Manual (Autoproposed)		 Function	P1	None	Edit
+		176838	[Disk hotplug] Attach/Detach a nfs disk with readonly mode	weizhan	 None	Manual (Autoproposed)		 Function	P1	None	Edit
+		176844	[Disk hotplug] Attach/Detach an iscsi disk with readonly mode	weizhan	 None	Manual (Autoproposed)		 Function	P1	None	Edit

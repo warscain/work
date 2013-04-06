@@ -1,0 +1,11 @@
+243828	 - Libvirt is not relabelling qcow2 backing files BZ#896013
+244105	 - vdsm: cannot run a vm with several snapshots BZ#903248
+176807	[CPU Management] Check vcpupin for non-exist cpu and vcpu
+239894	[Graphical framebuffer]SPICE video streaming support
+236561	[Guest resource control] Cgroups memory limit are causing the virt to be terminated unexpectedly - bug 891653
+177075	[libvirt-snmp]Use "ctrl+c" to close libvirtMib_subagent will not lead to memory leak - Bug 736258
+244290	[LXC] start OS container with selinux disabled - bug 915485
+244296	[LXC] virsh start is too slow - bug 904951
+244297	[LXC] error message occur in libvirtd.log when destroy the lxc container - bug 903092
+238848	[Migration] VDSM | Libvirt fails the migration process when removing 1st boot device from running VM BZ 889961
+244291	[Virtual disks] Start a guest with shareable block cdrom/floppy - bug 908073

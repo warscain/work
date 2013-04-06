@@ -1,0 +1,3 @@
+176807	[CPU Management] Check vcpupin for non-exist cpu and vcpu
+239894	[Graphical framebuffer]SPICE video streaming support
+236561	[Guest resource control] Cgroups memory limit are causing the virt to be terminated unexpectedly - bug 891653

@@ -1,0 +1,1296 @@
+		215535	 It is failed to start guest when the number of vcpu is different between <vcpu> and <cputune/> BZ#853930	whuang	None	Manual		 Regression	P1	None	Edit
+		215536	 Watch for an event to indicate guest stopped using a hotunplugged device - bug 813752	bili	None	Manual		 Regression	P1	None	Edit
+		215537	 [Miscellanea] libvirt's text interfaces are locale-dependent - 845493	ajia	None	Manual		Bug verification	P2	None	Edit
+		215538	 [virtual networks] RFE: [required for VMFEX support] Add ability to dynamically change a libvirt network - BZ#844404	ajia	ajia	Manual		Bug verification	P1	None	Edit
+		215540	Expose 'virDomain{Get,Set}InterfaceParameters' APIs in python binding BZ#770971	whuang	None	Manual		 Function	P1	None	Edit
+		215541	memory leaks/dangling pointers caused by virDomainDetachDeviceConfig (virsh detach-*) BZ#802851	whuang	None	Manual		 Regression	P1	None	Edit
+		215542	Syscall param rt_sigaction(act->sa_flags) points to uninitialised byte(s) BZ#814080	whuang	None	Manual		 Regression	P1	None	Edit
+		215543	[configuration] can not start vdsmd service after update the libvirt packages - bug 837485	bili	None	Manual		 Regression	P1	None	Edit
+		215549	[configuration] enable or disable s3/s4 per VMs	dyuan	None	Manual		 Function	P1	None	Edit
+		215557	[configuration]host uuid modify	zhpeng	None	Manual		 Function	P2	None	Edit
+		215559	[configuration]keepalive protocol	zhpeng	None	Manual		 Function	P2	None	Edit
+		215560	[configuration]unix socket modification	zhpeng	None	Manual		 Function	P2	None	Edit
+		215561	[configuration]uri aliases and uri default	zhpeng	None	Manual		 Function	P2	None	Edit
+		215569	[console and serial devices] set escape character for console - bug 754800 845460	gsun	None	Manual		 Function	P1	None	Edit
+		215570	[console and serial devices] use non-root user to connect guest console - bug 700443	gsun	None	Manual		 Function	P1	None	Edit
+		215573	[console and serial devices]forced console connection--Bug:811497	zpeng	None	Manual		 Function	P1	None	Edit
+		215574	[console and serial devices]Modify target type of channel element from 'virtio' to 'guestfwd' should not cause libvirtd crash -- Bug 856489	zpeng	None	Manual		 Function	P1	None	Edit
+		215581	[CPU Management] Check error message when change VM's processor count to 0-bug834365	honzhang	None	Manual		 Function	P1	None	Edit
+		215585	[CPU Management] Check KVM host/guest cpu capping isolation-bug822090	honzhang	None	Manual		 Function	P1	None	Edit
+		215586	[CPU Management] Check KVM host/guest cpu isolation-bug822064	honzhang	None	Manual		 Function	P1	None	Edit
+		215589	[CPU Management] Check the range of cpuset-bug852688	honzhang	None	Manual		 Function	P1	None	Edit
+		215592	[CPU Management] Configure timezone of guest - bug859868	honzhang	None	Manual		 Function	P1	None	Edit
+		215604	[CPU Management] libvirt should support AMD Abu-Dhabi (AMD Opteron™ 63xx series) processor-bug838129	honzhang	None	Manual		 Function	P1	None	Edit
+		215605	[CPU Management] libvirt should support AMD Seoul (AMD Opteron™ 4xxx series) processor -bug838127	honzhang	None	Manual		 Function	P1	None	Edit
+		215608	[CPU Management] libvirt support Haswell new instructions- bug844007	honzhang	None	Manual		 Function	P1	None	Edit
+		215609	[CPU Management] libvirt support PV EOI feature- bug840940	honzhang	None	Manual		 Function	P1	None	Edit
+		215620	[CPU Management] vcpupin after the status of physical cpu change from offline to online-bug838070	honzhang	None	Manual		 Function	P1	None	Edit
+		215622	[cpu]Check vcpuinfo could show correct info after hostplug cpu - bug 855218	yupzhang	None	Manual		 Function	P1	None	Edit
+		215623	[cpu]libvirt should check the range of setting maxvcpus in xml when start guest - bug 855296	yupzhang	None	Manual		 Regression	P1	None	Edit
+		215633	[Disk hotplug] Attach virtual disks with multifunction = on	weizhan	None	Manual		 Function	P1	None	Edit
+		215642	[Disk hotplug] Attach/Detach a FC disk with readonly mode	weizhan	None	Manual		 Function	P1	None	Edit
+		215643	[Disk hotplug] Attach/Detach a local disk with readonly mode	weizhan	None	Manual		 Function	P1	None	Edit
+		215645	[Disk hotplug] Attach/Detach a nfs disk with readonly mode	weizhan	None	Manual		 Function	P1	None	Edit
+		215651	[Disk hotplug] Attach/Detach an iscsi disk with readonly mode	weizhan	None	Manual		 Function	P1	None	Edit
+		215666	[Disk hotplug]Attach cdrom disk with startupPolicy='mandatory'	weizhan	weizhan	Manual		 Function	P1	None	Edit
+		215667	[Disk hotplug]Attach cdrom disk with startupPolicy='optional'	weizhan	weizhan	Manual		 Function	P1	None	Edit
+		215668	[Disk hotplug]Attach cdrom disk with startupPolicy='requisite'	weizhan	weizhan	Manual		 Function	P1	None	Edit
+		215669	[Disk hotplug]Attach floppy disk with startupPolicy='mandatory'	weizhan	None	Manual		 Function	P1	None	Edit
+		215670	[Disk hotplug]Attach floppy disk with startupPolicy='optional'	weizhan	weizhan	Manual		 Function	P1	None	Edit
+		215671	[Disk hotplug]Attach floppy disk with startupPolicy='requisite'	weizhan	weizhan	Manual		 Function	P1	None	Edit
+		215674	[Docs] Check libvirtd and virt-xml-validate manual page - Bug 819364	bili	None	Manual		 Regression	P1	None	Edit
+		215677	[Docs]Check the doc of virsh help command - bug 738411/736297/837761	yupzhang	None	Manual		 Regression	P3	None	Edit
+		215678	[Docs]Check the manual of virsh - bug 736297/738933/769506/770458/839557	yupzhang	None	Manual		 Regression	P1	None	Edit
+		215679	[Docs]domjobinfo and domjobabort command does not work for domain restore job - 816721	yupzhang	None	Manual		 Regression	P1	None	Edit
+		215687	[Domain async job handling] loop to cancel a stuck migration job do not cause libvirtd hang - 821468	bili	None	Manual		 Regression	P1	None	Edit
+		215693	[domdisplay] - provides a URI for spice with ssl and password	zpeng	None	Manual		 Function	P1	None	Edit
+		215700	[Graphical framebuffers] libvirt: missing spice channel 'default' - bug 819499	ydu	None	Manual		 Function	P1	None	Edit
+		215702	[Graphical framebuffers] Configuring Spice compression options - bug 682237	vbian	vbian	Manual		 Regression	P1	None	Edit
+		215705	[Graphical framebuffers] libvirt: missing spice channel 'usbredir' - bug 819498	ydu	None	Manual		 Function	P1	None	Edit
+		215725	[Graphical framebuffers]Remove channel content----Bug 851963	zpeng	None	Manual		 Function	P1	None	Edit
+		215726	[Graphical framebuffers]Specify spice mouse mode	zpeng	None	Manual		 Function	P1	None	Edit
+		215727	[Graphical framebuffers]support USB redirection - bug 836670	zpeng	None	Manual		 Function	P1	None	Edit
+		215730	[Graphical framebuffer] Filter out certain devices from redirecion	zpeng	None	Manual		 Function	P1	None	Edit
+		215735	[Graphical framebuffer] Support for network usb redirection	zpeng	None	Manual		 Function	P1	None	Edit
+		215736	[Graphical framebuffer] Try to connect one guest with several console -- VNC	zpeng	None	Manual		 Function	P1	None	Edit
+		215750	[Guest kernel debugging] Send Alt+SysRq+B to trigger guest reboot - bug 708756	yoyzhang	None	Manual		Feature	P1	None	Edit
+		215753	[Guest kernel debugging]Check libvirtd with poorly formatted human monitor command - 688723	yupzhang	None	Manual		Negative test	P1	None	Edit
+		215757	[Guest kernel debugging]Run virsh dump with both --live and --crash options - 698490 826325 826315	yupzhang	None	Manual		Negative test	P1	None	Edit
+		215758	[guest kernel debugging]Run virsh dump with option --bypass-cache to avoid file system cache when saving	yupzhang	None	Manual		 Function	P1	None	Edit
+		215759	[Guest kernel debugging]Run virsh save after performing some domain operations - 688850	yupzhang	None	Manual		Negative test	P1	None	Edit
+		215761	[Guest kernel debugging]Send NMI to QEMU guests - 632495	yupzhang	None	Manual		Feature	P1	None	Edit
+		215763	[Guest kernel debugging]Sending a bad keycode to guest or send key to a shutdown guest - bug 733597/746268	yupzhang	None	Manual		 Function	P1	None	Edit
+		215769	[Guest network driver]macvtap (negtive testing) --- Bug 649964	vbian	None	Manual		 Regression	P3	None	Edit
+		215793	[Guest resource control] libvirt isn't checking values emulator_period and emulator_quota in XML and in command with --config BZ 854537 854133	zhpeng	None	Manual		 Regression	P2	None	Edit
+		215803	[Guest resource control]Support policy base guest management BZ 826576	zhpeng	None	Manual		 Regression	P2	None	Edit
+		215812	[hooks] kvm-guest failed to start; avoid double-close bug in libvirt - bug 827050	dyuan	None	Manual		 Regression	P1	None	Edit
+		215816	[Hooks] qemu - pre-migration hook on desination - bug 795127 822916	weizhan	weizhan	Manual		 Function	P1	None	Edit
+		215819	[Hooks] Start guest with hooks script - bug 823716	weizhan	None	Manual		 Function	P1	None	Edit
+		215821	[Host network interface management] 'XML error: bond interface misses the bond element' when try to stop a bond through command - bug 786696	ydu	None	Manual		 Function	P1	None	Edit
+		215838	[Host network interface management] Define an interface with netmask > 24 -- bug 848722	ydu	ydu	Manual		 Function	P1	None	Edit
+		215851	[input/output devices] Configure sound pass-through to appear as MIC as opposed to line-in- bug816503	honzhang	None	Manual		 Function	P1	None	Edit
+		215852	[input/output device]Change the order of video devices - bug 823535	yupzhang	None	Manual		 Regression	P1	None	Edit
+		215858	[installation]Can't install an OS via PXE on a VM with NIC defined to work in NAT mode BZ#809723	whuang	None	Manual		 Regression	P1	None	Edit
+		215864	[interface hotplug] Attach interface with same mac or target as already attached interface	gsun	None	Manual		--default--	P1	None	Edit
+		215870	[interface hotplug] [RFE] virsh attach-interface can't attach a new device to an inactive domain - bug 677229	gsun	None	Manual		--default--	P1	None	Edit
+		215872	[interface hotplug]hotplug supported type of interfaces	vbian	None	Manual		 Regression	P1	None	Edit
+		215876	[libvirt domain event handler] Bug 839661 - libvirt: support QMP event for S4	whuang	None	Manual		 Regression	P1	None	Edit
+		215879	[Libvirt domain event handler] libvirt domain event handler can not receive messages after several times virKeepAliveTimer warning BZ#821991	whuang	None	Manual		 Regression	P1	None	Edit
+		215885	[libvirt domain event handler]Bug 834927 - virConnectDomainEventRegisterAny won't register the same callback for the same event but for different domains	whuang	None	Manual		 Regression	P1	None	Edit
+		215888	[libvirt-snmp] Control domain lifecycle	xhu	None	Manual		Feature	P1	None	Edit
+		215889	[libvirt-snmp] Request information about domain status	xhu	None	Manual		Feature	P3	None	Edit
+		215890	[libvirt-snmp] Snmptrap of domain lifecycle event	xhu	None	Manual		Feature	P1	None	Edit
+		215891	[libvirt-snmp]libvirtMib_subagent will stop when request information after libvirtd restarted - bug 736596	zhpeng	None	Manual		 Regression	P1	None	Edit
+		215892	[libvirt-snmp]Use "ctrl+c" to close libvirtMib_subagent will not lead to memory leak - Bug 736258	zhpeng	None	Manual		 Regression	P1	None	Edit
+		215897	[libvirtd] libvirtd does not close all fds opened by virt-install - bug 766308	ydu	None	Manual		 Function	P2	None	Edit
+		215899	[libvirtd] polkit authorization broken in libvirt 0.9.10 - bug 795978	ydu	None	Manual		 Function	P2	None	Edit
+		215900	[libvirtd] /etc/init.d/libvirtd restart provides wrong status - bug 730510	ydu	None	Manual		 Function	P2	None	Edit
+		215901	[libvirtd] /var/run/libvirtd.pid will be lost after restarting libvirtd with vdsm installed - bug 726649	ydu	None	Manual		Feature	P2	None	Edit
+		215903	[libvirtd] Check for domain being active on successful job acquire	ydu	None	Manual		 Function	P2	None	Edit
+		215907	[libvirtd] destroy a creating domain - bug 843716	ydu	None	Manual		 Function	P1	None	Edit
+		215908	[libvirtd] fail to start guest with bad file descriptor error - bug 823716	ydu	None	Manual		 Function	P1	None	Edit
+		215909	[libvirtd] Include the default listen address in the live guest XML	ydu	None	Manual		 Function	P1	None	Edit
+		215913	[libvirtd] Libvirt client may crash when it closes connection to libvirtd - bug 800185	ydu	None	Manual		 Function	P2	None	Edit
+		215914	[libvirtd] libvirt lost SIGHUP reloading behavior - bug 730428	ydu	None	Manual		 Regression	P2	None	Edit
+		215915	[libvirtd] Libvirt should never be double-closing an fd - bug 845893	ydu	None	Manual		 Function	P1	None	Edit
+		215916	[libvirtd] libvirt unresolved dependency: dmidecode Bug: 782444	zhpeng	None	Manual		 Regression	P2	None	Edit
+		215917	[libvirtd] libvirtd crash/hang at virFDStreamEvent when qemu guest shuts down - BZ#716393	ydu	None	Manual		Feature	P2	None	Edit
+		215920	[libvirtd] libvirtd memory leak BZ#851401	whuang	None	Manual		 Regression	P1	None	Edit
+		215922	[libvirtd] Make avahi failure on startup non-fatal - bug 785269	ydu	None	Manual		 Function	P2	None	Edit
+		215923	[libvirtd] memory leak when performing persistent network device update (e.g. virsh domif-setlink --persistent)BZ#802854	whuang	None	Manual		 Regression	P1	None	Edit
+		215931	[libvirtd] overriding the default configuration file	ydu	None	Manual		 Function	P1	None	Edit
+		215932	[libvirtd] overriding the default pid file	ydu	None	Manual		 Function	P1	None	Edit
+		215933	[libvirtd] per-device boot elements cannot be used together with os/boot elements - bug 751287	ydu	None	Manual		 Regression	P2	None	Edit
+		215934	[libvirtd] QEMU attach a nonexistent PID	ydu	None	Manual		 Function	P2	None	Edit
+		215942	[libvirtd] Restart libvirtd without killing guest - bug 816465	ydu	None	Manual		 Function	P1	None	Edit
+		215944	[libvirtd] run libvirtd foreground BZ#831044	ydu	None	Manual		 Function	P1	None	Edit
+		215947	[libvirtd] start libvirtd on s390x machine - BZ#698208 & BZ#678027	ydu	None	Manual		 Regression	P2	None	Edit
+		215951	[libvirtd] virsh crashes at remoteStreamEventTimer when libvirtd restarts - BZ#716781	ydu	None	Manual		Feature	P2	None	Edit
+		215952	[libvirtd] virt-manager causes iowait, due to rewriting XML files repeatable - bug 831149	ydu	None	Manual		 Function	P1	None	Edit
+		215956	[libvirtd]libvirtd crash when start a net with special MAC address Bug#817234 , 823765	whuang	None	Manual		 Regression	P1	None	Edit
+		215966	[lock manager] Sanlock locking failed for readonly devices - Bug 837659	ydu	ydu	Manual		 Function	P1	None	Edit
+		215970	[Log and debugging] Improve libvirt debug capability - bug 818467	ydu	None	Manual		 Function	P1	None	Edit
+		215971	[Log and debugging] Check the install.log for all libvirt related pkgs	dyuan	None	Manual		 Function	P2	None	Edit
+		215972	[Log and debugging] Check the vm-pid in VIRT_CONTROL	dyuan	None	Manual		 Function	P2	None	Edit
+		215977	[Log and debugging] null dereference while preparing libvirt logs - bug 728546	ydu	None	Manual		 Function	P2	None	Edit
+		215978	[Log and debugging] null dereference while preparing libvirt logs - BZ#711206	ydu	None	Manual		 Regression	P2	None	Edit
+		215980	[Log and debugging] Starting libvirtd with libvirtd.conf containing an unterminated string - bug 728654	dyuan	None	Manual		 Regression	P1	None	Edit
+		215981	[Log and debugging]Coredump filter to exclude KVM guest OS memory out of QEMU process -- Bug 822641	zpeng	None	Manual		 Function	P1	None	Edit
+		215982	[Log and debugging]Enable stack traces in log messages	honzhang	None	Manual		 Function	P1	None	Edit
+		215983	[Longevity] 256 pools active on 1 machine for 2 weeks after 10 times libvirtd reload	weizhan	None	Manual		 Function	P1	None	Edit
+		215986	[Longevity] Guest running 2 weeks with maximum attached disks number (hotplug)	weizhan	None	Manual		 Function	P1	None	Edit
+		215987	[Longevity] Guest running 2 weeks with maximum attached interfaces number (hotplug)	weizhan	weizhan	Manual		 Function	P1	None	Edit
+		215989	[Longevity] Keep guests running 2 weeks after 100 times migration	weizhan	None	Manual		 Function	P1	None	Edit
+		215991	[Longevity] libvirt python event handler running 2 weeks both on local and remote	weizhan	None	Manual		 Function	P1	None	Edit
+		215996	[Longevity] Running 1024 guests 2 weeks - bug 707155	weizhan	None	Manual		 Function	P1	None	Edit
+		215999	[LXC] Application container suspend/resume - bug 773212 842979 857341	yupzhang	None	Manual		 Regression	P1	None	Edit
+		216004	[LXC] get domain infor via virsh dominfo - bug 819401	dyuan	None	Manual		 Function	P1	None	Edit
+		216006	[LXC] interface devices are defined with a private network namespace	dyuan	None	Manual		 Function	P1	None	Edit
+		216020	[LXC]define/start LXC Application container BZ#769752	zhpeng	None	Manual		 Regression	P3	None	Edit
+		216022	[Managed save] bypass the file system cache when saving and restoring guests	dyuan	None	Manual		Feature	P1	None	Edit
+		216033	[Managed save] Don't start libvirt-guests on upgrade libvirt-client - bug 660706	dyuan	None	Manual		 Regression	P1	None	Edit
+		216034	[Managed save] Ignore the incomplete save file and start guest normally - bug 730750	dyuan	None	Manual		 Regression	P1	None	Edit
+		216035	[Managed save] Implement START_DELAY in libvirt-guests before starting next guest	dyuan	None	Manual		Feature	P1	None	Edit
+		216039	[Managed save] managed save should not crash libvirtd for <cpu mode='host-model'> guest - bug 801160	dyuan	None	Manual		 Regression	P1	None	Edit
+		216047	[Managed save] The managed save image is removed when undefining the domain with "--manage-save" flag	dyuan	dyuan	Auto		Feature	P1	None	Edit
+		216048	[Managed save]Checking the status of libvirt-guests service	honzhang	None	Manual		 Function	P1	None	Edit
+		216049	[Managed save]Checking the status of libvirt-guests service-bug816448	honzhang	None	Manual		 Function	P1	None	Edit
+		216050	[Managed save]List the domains with managed save state-bug810799	honzhang	None	Manual		 Function	P2	None	Edit
+		216064	[memory management] unit test for memory - bug 808522 & 813972	dyuan	None	Manual		 Function	P1	None	Edit
+		216065	[Memory management]setmem when guest do S3 operations	zhpeng	None	Manual		 Function	P1	None	Edit
+		216066	[Memory management]setmem when guest do S4 operations	zhpeng	None	Manual		 Function	P1	None	Edit
+		216067	[Migration] Do live migration from rhel6.1 to rhel6.2 or later with pci 0:0:2.0 not assign to video - bug 771603	weizhan	None	Manual		 Regression	P1	None	Edit
+		216071	[Migration] Break migration with gdb help - bug 795305, 806206	weizhan	weizhan	Manual		 Function	P1	None	Edit
+		216073	[migration] check the host's uuid before migration	whuang	None	Manual		 Function	P1	None	Edit
+		216077	[Migration] Do libvirt statistics command loop during migration	weizhan	weizhan	Manual		 Function	P1	None	Edit
+		216078	[Migration] Do migration loop with setmaxdowntime - bug 803186	weizhan	None	Manual		 Function	P1	None	Edit
+		216082	[migration] general error return on migrate after calling abortjob() - bug 760149	ydu	None	Manual		 Function	P1	None	Edit
+		216092	[Migration] Live migration of storage (without moving VM) - bug 638506	weizhan	None	Manual		 Regression	P1	None	Edit
+		216119	[Migration] Migration with copy-storage-inc	weizhan	None	Manual		 Function	P1	None	Edit
+		216120	[Migration] Migration with different cache mode - bug 751631	weizhan	None	Manual		 Function	P1	None	Edit
+		216121	[Migration] Migration with inactive iso attached with rhevm- bug 701106	weizhan	None	Manual		 Regression	P1	None	Edit
+		216126	[Migration] Migration with non-existent xml - bug 773208	weizhan	None	Manual		 Regression	P1	None	Edit
+		216127	[Migration] Migration with non-shared floppy and cdrom with startupPolicy	weizhan	None	Manual		 Function	P1	None	Edit
+		216129	[Migration] Migration with sheepdog	weizhan	None	Manual		 Function	P2	None	Edit
+		216131	[Migration] Migration with unknown tcp socket - bug 720269	weizhan	None	Manual		 Regression	P1	None	Edit
+		216132	[Migration] Migration with xml and persistent - bug 835300	weizhan	None	Manual		 Function	P1	None	Edit
+		216134	[Migration] P2P migration using a TLS enabled URI - Bug 721411	weizhan	None	Auto		 Regression	P1	None	Edit
+		216135	[Migration] P2P migration using TCP enabled URI without sasl	weizhan	None	Auto		 Function	P1	None	Edit
+		216136	[Migration] P2P reverse migration with TLS enabled URI - bug 722738	weizhan	None	Manual		 Regression	P1	None	Edit
+		216138	[Migration] Seamless spice migration with graphic guest and windows spice client- bug 783968	weizhan	None	Manual		 Regression	P1	None	Edit
+		216147	[Migration] Tunnelled migration using a TLS enabled URI	weizhan	None	Auto		 Regression	P1	None	Edit
+		216148	[Migration] Tunnelled migration using TCP enabled URI without sasl	weizhan	None	Auto		 Function	P1	None	Edit
+		216152	[migration]Add live migration support for USB BZ 843560	zhpeng	None	Manual		 Regression	P1	None	Edit
+		216156	[Migration]DNS resolving fails during migration - bug 729567, 738915	weizhan	None	Manual		 Regression	P1	None	Edit
+		216160	[migration]error messages may not be propagated properly during failed migration 844378	zhpeng	None	Manual		 Regression	P1	None	Edit
+		216163	[Migration]migrated VM not visible to non-root user on the target host BZ 847822	zhpeng	None	Manual		 Regression	P1	None	Edit
+		216164	[Migration]migrating domain to unreachable destination - bug 723912, 723881	weizhan	None	Manual		 Regression	P1	None	Edit
+		216165	[migration]migration from RHEL6.X to RHEL6.Y which X > Y BZ 815503	zhpeng	None	Manual		 Regression	P1	None	Edit
+		216167	[migration]migration will cause guest IO failure when DST sebool is virt_use_nfs=off BZ 822052	zhpeng	None	Manual		 Regression	P1	None	Edit
+		216171	[Miscellanea] Ability to specify custom BIOS for QEMU/KVM using <loader> XML (for WHQL testing) - bug 811227	bili	None	Manual		 Regression	P2	None	Edit
+		216172	[Miscellanea] Deadlock on libvirt when playing with hotplug and add/remove vm - bz#856950	ajia	ajia	Manual		Feature	P2	None	Edit
+		216173	[Miscellanea] libvirt driver lock is held for too long - bz#856609	ajia	ajia	Manual		Feature	P2	None	Edit
+		216178	[Miscellanea] Upgrade libvirt packages cause guest show list wrong - bug 837787	bili	None	Manual		 Regression	P1	None	Edit
+		216179	[Miscellanea]Cannot roundtrip blkio parameters due to broken deviceWeight handling BZ#800734	whuang	None	Manual		 Regression	P1	None	Edit
+		216180	[Miscellanea]Guest bios useserial	zhpeng	None	Manual		 Function	P3	None	Edit
+		216181	[Miscellanea]Guest OS bios loader	zhpeng	None	Manual		 Function	P3	None	Edit
+		216182	[Miscellanea]Guest OS boot menu	zhpeng	None	Manual		 Function	P3	None	Edit
+		216183	[Miscellanea]Guest OS type	zhpeng	None	Manual		 Function	P3	None	Edit
+		216184	[Miscellanea]on_crash lifecycle control	zhpeng	None	Manual		 Function	P3	None	Edit
+		216185	[Miscellanea]on_poweroff lifecycle control	zhpeng	None	Manual		 Function	P3	None	Edit
+		216186	[Miscellanea]on_reboot lifecycle control	zhpeng	None	Manual		 Function	P3	None	Edit
+		216187	[Miscellanea]OS boot device and boot rules	zhpeng	None	Manual		 Function	P3	None	Edit
+		216210	[network filter]DHCP Snooping	lsu	None	Manual		 Function	P1	None	Edit
+		216211	[network filter]Ip set API	lsu	lsu	Manual		 Function	P1	None	Edit
+		216212	[network filter]Multiple IP address support to DHCP snooping	lsu	lsu	Manual		 Function	P1	None	Edit
+		216239	[NPIV]Automatically generate unique WWN	zpeng	None	Manual		 Function	P1	None	Edit
+		216240	[NPIV]option to associate a WWN with a VM	zpeng	None	Manual		 Function	P1	None	Edit
+		216250	[NUMA]memory tuning interleave mode	gren	None	Manual		 Regression	P1	None	Edit
+		216251	[NUMA]memory tuning preferred mode	gren	None	Manual		 Regression	P1	None	Edit
+		216252	[NUMA]memory tuning strict mode	gren	None	Manual		 Regression	P1	None	Edit
+		216253	[NUMA]numad testing - bug 769930, 810157, 820461	gsun	None	Manual		 Function	P1	None	Edit
+		216254	[NUMA]Run virsh cpu-stats command on NUMA machine - bug 846629	yupzhang	None	Manual		 Regression	P1	None	Edit
+		216255	[PCI and USB device assignment] allow to disable usb & vga altogether BZ#818996	ajia	None	Manual		 Function	P1	None	Edit
+		216256	[PCI and USB device assignment] Remove usb controller and vga device-bug818996.	honzhang	None	Manual		 Function	P1	None	Edit
+		216257	[PCI and USB assignment] USB device can be reassigned to another VM without error - bug743671	honzhang	None	Manual		Bug verification	P1	None	Edit
+		216259	[PCI and USB device assignment] Attach 1 usb device when have 2 usb devices with same vendor and product id - bug 815755	weizhan	None	Manual		 Function	P1	None	Edit
+		216262	[PCI and USB device assignment] Check automatic PCI address assignment for USB2 companion controllers-bug820869	honzhang	None	Manual		 Function	P1	None	Edit
+		216269	[PCI and USB device assignment] Detach device during guest boot- bug 807023	weizhan	None	Manual		 Function	P1	None	Edit
+		216283	[PCI and USB device assignment] Pass multi usb contorllers unordered - bug 822159	weizhan	None	Manual		 Function	P1	None	Edit
+		216288	[PCI and USB device assignment] Support for qemu PCI romfile option	ajia	ajia	Auto		 Function	P1	None	Edit
+		216290	[PCI and USB device assignment] USB 2.0 pass-through can boot guest VM for a SECOND time - bug 808459	bili	None	Manual		 Regression	P2	None	Edit
+		216291	[PCI and USB device assignment]Missing support for persistent hotplug attach/detach of <hostdev> devices BZ#802856	whuang	None	Manual		 Function	P1	None	Edit
+		216292	[PCI and USB device assignment]segfault when attempting to detach non-existent network device BZ#802664	whuang	None	Manual		 Regression	P1	None	Edit
+		216294	[PCI and USB devices assignment] migration with assigned devices - bug 816519	dyuan	None	Manual		 Function	P1	None	Edit
+		216296	[python binding] blkioParameters test BZ#770795	zhpeng	None	Manual		 Regression	P3	None	Edit
+		216297	[python binding] blockIoTune did not work right with parameters BZ#770683	zhpeng	None	Manual		 Regression	P3	None	Edit
+		216299	[reboot] reboot guest with 'agent' shutdown mode	ydu	None	Manual		 Function	P1	None	Edit
+		216329	[remote access] virsh connect fails with remote machine which has different libvirt version BZ#760436	whuang	None	Manual		 Regression	P1	None	Edit
+		216330	[remote access] virsh connect should not disconnect current connection until a new connection succeeds BZ#829160	whuang	None	Manual		 Regression	P1	None	Edit
+		216332	[remote access]libvirt runs qemu with tls options even when certs/keys are not set BZ#790436	whuang	None	Manual		 Regression	P1	None	Edit
+		216333	[remote access]There are some typos when virsh connect source guest server with ssh PermitRootLogin disabled BZ#822340	whuang	None	Manual		 Regression	P1	None	Edit
+		216337	[Scalability] 256 autostarted network (isolated, route , NAT) reloading	honzhang	None	Manual		Stress	P1	None	Edit
+		216349	[Scalability] Attach 1024 virtio scsi disks on 1 guest	weizhan	None	Manual		 Function	P1	None	Edit
+		216350	[Scalability] Attach/Detach maximum Vfs to one guest for looping 10 times-bug696877,bug678368	honzhang	None	Manual		Stress	P1	None	Edit
+		216351	[Scalability] Attach/Detach maxmum ide disks to guest for looping 10 times	honzhang	None	Manual		 Function	P1	None	Edit
+		216352	[Scalability] Attach/Detach virtual disk which is 1TB to guest for looping 100 times	honzhang	None	Manual		Stress	P1	None	Edit
+		216353	[Scalability] Attach/Detach virtual disks to guest over the top limitation via attach-device	honzhang	None	Manual		 Function	P1	None	Edit
+		216354	[Scalability] Attach/Detach virtual disks to guest over the top limitation via attach-disk	honzhang	None	Manual		 Function	P1	None	Edit
+		216355	[Scalability] Attach/Detach virtual interfaces (vnet) to one guest to the top limitation of the guest	honzhang	None	Manual		Stress	P1	None	Edit
+		216356	[Scalability] Bi-directional migration for looping 500 times through TLS connection --tunnelled -bug807996	honzhang	None	Manual		Stress	P1	None	Edit
+		216359	[Scalability] Check performance when 'cpu' controller with many sub-groups created on large SMP systems (96 cpus)-bug623712	honzhang	None	Manual		Stress	P1	None	Edit
+		216360	[Scalability] Check running total number of 256 vm's disks-bug740899	honzhang	None	Manual		 Function	P1	None	Edit
+		216361	[Scalability] Check the libvirtd status when qemu process are unresponsive-bug692663	honzhang	None	Manual		 Function	P1	None	Edit
+		216362	[Scalability] Check virDomainCreateXML status after start multi guests with vdsm-bug691514	honzhang	None	Manual		 Function	P1	None	Edit
+		216363	[Scalability] Concurrent migrate 514 guests through TLS connection using live,undefinesource,persistent with ipv6	honzhang	None	Manual		 Function	P1	None	Edit
+		216364	[Scalability] Create 1024 guests on different kinds of virtual network (isolated, route , NAT) with DHCP	honzhang	None	Manual		 Function	P1	None	Edit
+		216365	[Scalability] Define domain with 232 usb disks with multifunction-bug807145, 808980	honzhang	None	Manual		 Function	P1	None	Edit
+		216366	[Scalability] Do bidirection migration with rhevm - bug 722282, 638285	honzhang	None	Manual		 Function	P1	None	Edit
+		216367	[Scalability] Do concurrent migration with rhevm - bug 722282, 638285	weizhan	None	Manual		 Regression	P1	None	Edit
+		216368	[Scalability] Do libvirt statistics command to fetch the dom/blk/mem/list info about 1024 guests-bug617286,bug687907	honzhang	None	Manual		Stress	P1	None	Edit
+		216369	[Scalability] Kill SIGKILL/SIGSEGV qemu processes	honzhang	None	Manual		 Function	P1	None	Edit
+		216372	[Scalability] Migrate 514 guests through TCP connection --tunnelled with ipv6 - bug 807907,807910	honzhang	None	Manual		Stress	P1	None	Edit
+		216373	[Scalability] Migrate 514 guests through TLS connection --live --persistent with ipv4	honzhang	None	Manual		Stress	P1	None	Edit
+		216374	[Scalability] Migrate 514 guests through TLS connection --live --undefinesource with ipv4	honzhang	None	Manual		Stress	P1	None	Edit
+		216385	[Scalability] qemu-kvm process status monitoring kill -SIGSEGV/19/9 qemu pid	honzhang	None	Manual		 Function	P1	None	Edit
+		216386	[Scalability] Reloading 1024 running guests for looping 100 times	honzhang	None	Manual		Stress	P1	None	Edit
+		216387	[Scalability] Restart vdsmd service after start 200 guests with rhevm-bug723811	honzhang	None	Manual		 Function	P1	None	Edit
+		216389	[Scalability] Start a guest with host free memory size-bug825133	honzhang	None	Manual		 Function	P1	None	Edit
+		216390	[Scalability] Start/Destroy 1024 guests including 16 kinds of os - bug 769500, 769503,806752	honzhang	None	Manual		Stress	P1	None	Edit
+		216391	[Scalability] Start/Destroy 1024 guests with empty image	honzhang	None	Manual		Stress	P1	None	Edit
+		216392	[Scalability] Start/Destroy one guest with 1TB mem/160 vCPUs for looping 10 times - bug 748946	honzhang	None	Manual		Stress	P1	None	Edit
+		216393	[Scalability] Start/Destroy one guest with the minimum memory for looping 500 times	honzhang	None	Manual		Stress	P1	None	Edit
+		216394	[Scalability] Start/Stop 100 guests for 10 times in rhevm, check the libvirtd status-bug670848	honzhang	None	Manual		 Function	P1	None	Edit
+		216396	[Scalability]Concurrent migrate 514 guests through TLS connection using live,undefinesource,persistent with ipv4	honzhang	None	Manual		Stress	P1	None	Edit
+		216403	[snapshot] check snapshot-info BZ 842966	whuang	None	Manual		 Regression	P1	None	Edit
+		216407	[snapshot] create snapshot for a paused guest at the second time will take long time BZ#771626	whuang	None	Manual		 Function	P1	None	Edit
+		216410	[snapshot] disk-only snapshot create external file even if snapshot command failed BZ#843372	whuang	None	Manual		 Regression	P1	None	Edit
+		216415	[snapshot] Expose 'virDomainSnapshotListChildrenNames' API in python binding - bug 766553	gsun	None	Manual		 Function	P1	None	Edit
+		216417	[snapshot] libvirt should check for ABI compatibility of snapshots --bug 738676	nzhang	None	Manual		 Function	P2	None	Edit
+		216418	[snapshot] libvirt should not leave stale snapshot metadata behind after domain disappears --bug 735457	nzhang	None	Manual		 Function	P2	None	Edit
+		216419	[snapshot] libvirt should reject snapshots of autodestroy domains --bug 733806	nzhang	None	Manual		 Function	P2	None	Edit
+		216420	[snapshot] libvirtd crash when executing "virsh snapshot-create-as" command sometimes --bug 737010	nzhang	None	Manual		 Function	P2	None	Edit
+		216422	[snapshot] Return a specific error when qemu-ga is missing or unusable during a live snapshot (quiesce) BZ# 845635	whuang	None	Manual		 Regression	P1	None	Edit
+		216427	[snapshot] snapshot-edit will report error message but return 0 when do not update xml BZ#843324	whuang	None	Manual		 Regression	P1	None	Edit
+		216428	[snapshot] snapshot-list --descendants --from will core dumped BZ#845468	whuang	None	Manual		 Regression	P1	None	Edit
+		216429	[snapshot] virsh should have better snapshot support --bug 735495	nzhang	None	Manual		 Function	P2	None	Edit
+		216430	[snapshot] [RFE] support domain offline --disk-only snapshots Bug#817226	whuang	None	Manual		 Regression	P1	None	Edit
+		216431	[snapshot]Check for guest agent presence when issuing command BZ 808527	zhpeng	None	Manual		 Regression	P1	None	Edit
+		216432	[snapshot]Delete snapshot parent will crash libvirtd BZ#790744	whuang	whuang	Manual		 Function	P1	None	Edit
+		216435	[snapshot]libvirtd crashed with SIGSEGV in __strcmp_ssse3() BZ 808371	zhpeng	None	Manual		 Regression	P1	None	Edit
+		216436	[snapshot]list snapshots with options BZ 807545 807555 842947	zhpeng	None	Manual		 Regression	P1	None	Edit
+		216438	[snapshot]Live snapshots must be consistent (fail or succeed for all the drives) BZ#782457	whuang	None	Manual		 Function	P1	None	Edit
+		216444	[snapshot]snapshot with quiesce option BZ 804210	zhpeng	None	Manual		 Regression	P1	None	Edit
+		216449	[Snapshot]Use snapshot-edit to change snaphsot name - bug 744724	yupzhang	None	Manual		 Regression	P1	None	Edit
+		216450	[snapshot]virsh heap corruption due to bad memmove BZ 819636	zhpeng	None	Manual		 Regression	P1	None	Edit
+		216476	[SR-IOV] Hotplug/unplug network device with managed='yes' - bug 844287, 843016	weizhan	None	Manual		 Function	P1	None	Edit
+		216477	[SR-IOV] Install guest through a attached VF - bug 781562 - only on 82576	ajia	None	Manual		 Function	P1	None	Edit
+		216490	[stable guest ABI] Do live migration from rhel6.1.z release version to rhel6.x newest version and back --bug 856864	weizhan	weizhan	Manual		 Function	P1	None	Edit
+		216491	[stable guest ABI] Do live migration from rhel6.2.z release version to rhel6.x newest version and back	weizhan	weizhan	Manual		 Function	P1	None	Edit
+		216492	[stable guest ABI] Do live migration from rhel6.3.z release version to rhel6.x newest version and back	weizhan	weizhan	Manual		 Function	P1	None	Edit
+		216493	[stable guest ABI] Do live migration from rhel6.x latest release version to rhel6.x newest version - bug 796063	weizhan	None	Manual		 Function	P1	None	Edit
+		216495	[Stable guest ABI] Stable guest ABI when migrate domain to higher version qemu-kvm	ydu	None	Manual		Feature	P3	None	Edit
+		216502	[Stable Guest ABI]Check domain Channel ABI Stability - bug 842557	lsu	lsu	Manual		Feature	P1	None	Edit
+		216503	[Stable Guest ABI]Check domain clock ABI Stability	lsu	lsu	Manual		Feature	P1	None	Edit
+		216504	[Stable Guest ABI]Check domain console ABI Stability	lsu	lsu	Manual		Feature	P1	None	Edit
+		216505	[Stable Guest ABI]Check domain controller ABI Stability	lsu	lsu	Manual		Feature	P1	None	Edit
+		216506	[Stable Guest ABI]Check domain CPU ABI Stability	lsu	lsu	Manual		Feature	P1	None	Edit
+		216507	[Stable Guest ABI]Check domain device info ABI Stability	lsu	lsu	Manual		Feature	P1	None	Edit
+		216508	[Stable Guest ABI]Check domain disk ABI Stability	lsu	lsu	Manual		Feature	P1	None	Edit
+		216509	[Stable Guest ABI]Check domain FS ABI Stability	lsu	lsu	Manual		Feature	P1	None	Edit
+		216510	[Stable Guest ABI]Check domain HostDev ABI Stability	lsu	lsu	Manual		Feature	P1	None	Edit
+		216511	[Stable Guest ABI]Check domain hub ABI Stability	lsu	lsu	Manual		Feature	P1	None	Edit
+		216512	[Stable Guest ABI]Check domain input ABI Stability	lsu	lsu	Manual		Feature	P1	None	Edit
+		216513	[Stable Guest ABI]Check domain memballon ABI Stability	lsu	lsu	Manual		Feature	P1	None	Edit
+		216514	[Stable Guest ABI]Check domain net ABI Stability	lsu	lsu	Manual		Feature	P1	None	Edit
+		216515	[Stable Guest ABI]Check domain Parallel ABI Stability	lsu	lsu	Manual		Feature	P1	None	Edit
+		216516	[Stable Guest ABI]Check domain serial ABI Stability	lsu	lsu	Manual		Feature	P1	None	Edit
+		216517	[Stable Guest ABI]Check domain smart card ABI Stability	lsu	lsu	Manual		Feature	P1	None	Edit
+		216518	[Stable Guest ABI]Check domain sound ABI Stability	lsu	lsu	Manual		Feature	P1	None	Edit
+		216519	[Stable Guest ABI]Check domain status ABI Stability	lsu	lsu	Manual		Feature	P1	None	Edit
+		216520	[Stable Guest ABI]Check domain video ABI Stability	lsu	lsu	Manual		Feature	P1	None	Edit
+		216521	[Stable Guest ABI]Check domain watchdog ABI Stability	lsu	lsu	Manual		Feature	P1	None	Edit
+		216534	[storage] create volumes with virsh vol-create-as command for mutipath	zpeng	None	Manual		 Function	P1	None	Edit
+		216540	[storage] discover potential iscsi storage - BZ#851423	whuang	None	Manual		 Function	P1	None	Edit
+		216554	[storage] Incorrect hardcoded sector size in disk storage pool --bug 735441	nzhang	None	Manual		 Function	P2	None	Edit
+		216562	[storage] the <format> element of a disk pool can not edit by pool-edit command in active status BZ# 851078	whuang	None	Manual		 Regression	P1	None	Edit
+		216565	[Storage]check storage pool permission -- Bug: 815644	zpeng	None	Manual		 Function	P1	None	Edit
+		216566	[Storage]Create 128 partition volume on disk pool	vbian	None	Manual		 Regression	P1	None	Edit
+		216567	[storage]create a pool based on glusterFS	zpeng	None	Manual		 Function	P1	None	Edit
+		216568	[storage]create a rbd pool and create vol in the pool	zpeng	None	Manual		 Function	P1	None	Edit
+		216569	[Storage]create guest on lvm volume groups that contains mirrored LVM	zpeng	None	Manual		 Function	P1	None	Edit
+		216570	[Storage]Define a storage pool with supported format types	vbian	None	Manual		 Regression	P1	None	Edit
+		216571	[Storage]Define a storage pool with unsupported format type	vbian	None	Manual		 Regression	P1	None	Edit
+		216573	[storage]define multiple pools with the same target--bug: 817219	zpeng	None	Manual		 Function	P1	None	Edit
+		216574	[Storage]find-storage-pool-sources/ find-storage-pool-sources-as for all pool type -- Bug 823850	zpeng	None	Manual		 Function	P1	None	Edit
+		216575	[Storage]large udevadm settle waiting time when connecting to libvirtd	zpeng	None	Manual		 Function	P1	None	Edit
+		216577	[Storage]lvm volume groups that contains snapshot lvm	zpeng	None	Manual		 Function	P1	None	Edit
+		216578	[storage]use pool-create/pool-create-as with --build option to create pool -- Bug:830056	zpeng	None	Manual		 Function	P1	None	Edit
+		216579	[Storage]vol-create-as should fail when allocate a malformed size image --Bug 823362	zpeng	None	Manual		Negative test	P1	None	Edit
+		216581	[supported hypervisors]Check libvirt can deal ESX guest with distributed virtual switches network.- bug851075	yupzhang	None	Manual		 Regression	P1	None	Edit
+		216582	[Supported hypervisors]connection to hyper-v	zpeng	None	Manual		 Function	P1	None	Edit
+		216583	[Supported hypervisors]connection to vCenter server --Bug 819729	zpeng	None	Manual		 Function	P1	None	Edit
+		216584	[Supported hypervisors]libvirt need to support ESXi5.0 - bug 758231	yupzhang	None	Manual		 Regression	P1	None	Edit
+		216585	[Supported hypervisors]Probing for guest capabilities --bug 813735	zpeng	None	Manual		 Function	P1	None	Edit
+		216586	[Supported hypervisors]Unclear error message when wrong ESX url is passed-781718	tzheng	None	Manual		 Regression	P1	None	Edit
+		216587	[sVirt] Allow a base label to be specified in dynamic labelling mode	gsun	None	Manual		--default--	P3	None	Edit
+		216588	[sVirt] Allow for resource relabelling with static labels	gsun	None	Manual		--default--	P1	None	Edit
+		216590	[sVirt] create live snapshot (disk-only) with guest's image backing file on NFS storage - bug 822015	gsun	gsun	Manual		--default--	P3	None	Edit
+		216600	[sVirt] libvirt (KVM) NFS Image File Isolation - bug 738882, 731134	gsun	gsun	Manual		--default--	P3	None	Edit
+		216601	[sVirt] libvirt DAC Isolation - bug 822589	gsun	gsun	Manual		--default--	P1	None	Edit
+		216606	[sVirt] qemu-kvm cannot access -mem-path if umask is 027 - bug 815206	gsun	gsun	Manual		 Function	P1	None	Edit
+		216613	[sVirt] security: support for names on DAC labels - 860519	gsun	gsun	Manual		 Function	P2	None	Edit
+		216614	[sVirt] selinux should not block start virtual network - bug 788985	gsun	None	Manual		 Regression	P1	None	Edit
+		216615	[sVirt] set security_default_confined in qemu.conf - bug 823857	gsun	None	Manual		 Function	P1	None	Edit
+		216616	[sVirt] set security_driver in /etc/libvirt/qemu.conf	gsun	None	Manual		--default--	P3	None	Edit
+		216617	[sVirt] set security_require_confined in qemu.conf	gsun	gsun	Manual		 Function	P1	None	Edit
+		216618	[sVirt] set set_process_name in /etc/libvirt/qemu.conf	gsun	None	Manual		--default--	P3	None	Edit
+		216621	[sVirt] static DAC seclable value check problem - bug 856951	gsun	gsun	Manual		Negative test	P1	None	Edit
+		216624	[sVirt][FEAT RHEL6.3]: Grant KVM guests retain arbitrary capabilitiesBZ#767425	whuang	None	Manual		 Regression	P1	None	Edit
+		216628	[Update device flags] Cannot insert CD (update device) to VM when LIVE constant is not used in updateDeviceFlags command - bug 716826	gsun	None	Manual		--default--	P2	None	Edit
+		216631	[Update device flags] control link up/down state of guest NICs via XML & on the fly - bug 643373	gsun	None	Manual		 Function	P1	None	Edit
+		216634	[Update device flags] persistent option of virsh update-device command never work - bug 598792	gsun	None	Auto		--default--	P2	None	Edit
+		216640	[Update device flags] using virsh command to insert & eject media - bug 713932	gsun	None	Manual		 Function	P1	None	Edit
+		216641	[update device flags] virsh can't detach virtio-scsi CD-ROM (passed through from host) - Bug 809783	ydu	None	Manual		 Function	P1	None	Edit
+		216648	[virsh cmd]Some issues about virsh -h usage BZ 817244	zhpeng	None	Manual		 Regression	P1	None	Edit
+		216661	[virtio-serial]libvirtd dead when create a guest with "--channel pty,target_type=virtio" by virt-install BZ#790745	whuang	None	Manual		 Function	P1	None	Edit
+		216662	[Virtio] control the event index support in virtio and vhost-net - BZ#725448	nzhang	None	Manual		 Function	P1	None	Edit
+		216677	[Virtio] Support for KVM virtio console	nzhang	None	Manual		 Function	P1	None	Edit
+		216678	[Virtio] Support for setting IOeventFD for virtio block	nzhang	None	Manual		 Function	P1	None	Edit
+		216679	[Virtio] Support for virtio-net tuning option	nzhang	None	Manual		 Function	P2	None	Edit
+		216680	[virtio]Controllers do not support virsh attach/detach-device --persistent BZ#804601	whuang	None	Manual		 Regression	P1	None	Edit
+		216681	[Virtual disks] Attach a disk with specific name - bug 829246	weizhan	None	Manual		 Function	P1	None	Edit
+		216682	[virtual disks] Attach ide/scsi disks with wwn and serial numbers - bug 831099	weizhan	None	Manual		 Function	P1	None	Edit
+		216685	[Virtual disks] Entry into S4 state after hotplug disks - bug 808463	weizhan	None	Manual		 Regression	P1	None	Edit
+		216686	[Virtual disks] Hotplug/unplug Hotplug/unplug disk with scsi bus type	weizhan	None	Manual		 Function	P1	None	Edit
+		216687	[Virtual disks] Split ide-drive into ide-cd and ide-hd - BZ 801772 #c6	weizhan	None	Manual		 Function	P1	None	Edit
+		216688	[Virtual disks] Support disk file name with comma - bug 801970	weizhan	None	Manual		 Function	P1	None	Edit
+		216689	[Virtual disks] Support virtio-scsi disk - bug 782034, 801772, 721250	weizhan	None	Manual		 Function	P1	None	Edit
+		216690	[Virtual disks]Attach disk with --cache - bug 829562	weizhan	None	Manual		 Function	P1	None	Edit
+		216698	[virtual networks] can't add new netdevs after most recently added netdev is detached BZ#827544	whuang	None	Manual		 Regression	P1	None	Edit
+		216705	[virtual networks] Defining the port masquerading range in XML - bug 851455	ydu	None	Manual		 Function	P1	None	Edit
+		216725	[virtual networks] openvswitch support	ydu	None	Manual		 Function	P1	None	Edit
+		216728	[virtual networks] Restart libvirtd after create networks - bug 819416	weizhan	None	Manual		 Regression	P1	None	Edit
+		216737	[virtual networks] Unable to determine device index for network device" when attaching new network device to a guest that already has a netdev of type='hostdev' BZ#827519	whuang	None	Manual		 Regression	P1	None	Edit
+		216748	[virtual networks]Libvirt with NAT setup nukes port forwarding into the internal network BZ#812441	whuang	None	Manual		 Regression	P1	None	Edit
+		216802	[Watchdog device] Watchdog device "i6300esb" - dump	ydu	None	Manual		Feature	P3	None	Edit
+		217606	[Migration] Improved live migration statistics - support in libvirt BZ 857578	zhpeng	None	Manual		 Regression	P1	None	Edit
+		217918	[Domain async job handling] Restore job & domjobinfo and domjobabort - Bug 580876	yupzhang	None	Manual		 Regression	P1	None	Edit
+		218696	[Host network interface management]setting of rx, tx, sg, tso, ufo, gso, gro, lro against physical network interfaces--bug 616841	lsu	None	Manual		 Function	P1	None	Edit
+		218714	 [Host network interface management]should prompt user destroy iface first before undefine it -- bug 721232	lsu	None	Manual		 Function	P1	None	Edit
+		218756	[snapshot]virsh vol-clone drop the snapshot of qcow2 image --bug 717869	lsu	None	Manual		 Function	P1	None	Edit
+		220048	[Migration] Page Delta Compression (xbzrle) for Live Migration Feature Request - support in libvirt BZ 842857	zhpeng	None	Manual		 Regression	P1	None	Edit
+		220049	[Migration] Reduced Live Migration Downtime - Post-Copy in libvirt BZ 830971	zhpeng	None	Manual		 Regression	P1	None	Edit
+		220051	[Migration] migration will cause guest IO failure when DST sebool is virt_use_nfs=off BZ 822052	zhpeng	None	Manual		 Regression	P1	None	Edit
+		220052	[Migration] guest may remain in existence on dst host if src libvirtd stopped during tunneled migration BZ 728603	zhpeng	None	Manual		 Regression	P1	None	Edit
+		220057	[Migration] stopping src libvirtd during migration pauses the guest being migrated BZ 728341	zhpeng	None	Manual		 Regression	P1	None	Edit
+		220059	[Guest kernel debugging] "virsh dump" support for automatic capturing and automatic actions after capturing BZ 828546	zhpeng	None	Manual		 Regression	P1	None	Edit
+		220062	[Guest kernel debugging] "virsh dump" support for SR-IOV or path through devices BZ 828543	zhpeng	None	Manual		 Regression	P1	None	Edit
+		220063	[Guest kernel debugging] Libvirt doesn't detect crashed domains correctly after restarted libvirtd BZ 749096	zhpeng	None	Manual		 Regression	P1	None	Edit
+		220064	[Memory management] Support for memory hot-plug/hot-unplug BZ 790583	zhpeng	None	Manual		 Regression	P1	None	Edit
+		220067	[Memory management] start guest will fail with different errors when can't allocate memory BZ 765733	zhpeng	None	Manual		 Regression	P1	None	Edit
+		220356	[libvirtd] Missing systemD unit file BZ#818957	whuang	None	Manual		 Regression	P1	None	Edit
+		220358	[libvirtd]ip_forward is not persistent BZ#810464	whuang	None	Manual		 Regression	P1	None	Edit
+		220453	[Virtual Networks] Define and start a macvtap network with invalid section - bug 767057	ydu	None	Manual		 Function	P1	None	Edit
+		220604	[managed save] kill libvirtd in the middle of managed save - bug 831159	dyuan	None	Manual (Autoproposed)		 Function	P1	None	Edit
+		220606	[CPU Management]Support new KVM processor models in QEMU driver-bug836667	honzhang	None	Manual		 Function	P1	None	Edit
+		220614	[Miscellanea] start FITRIM in the guest (via qemu-ga)	dyuan	None	Manual (Autoproposed)		 Function	P1	None	Edit
+		220619	[CPU Management]Query QEMU for CPU capabilities-bug824989	honzhang	None	Manual		 Function	P1	None	Edit
+		220625	[CPU Management] vCPU hotunplug -bug816475	honzhang	None	Manual		 Function	P1	None	Edit
+		220626	[CPU Management] Enable rtc time drift correction by default-bug805257	honzhang	None	Manual		 Function	P1	None	Edit
+		220663	[Miscellanea]Assign bootindex to usb-host and usb-redir devices -bug805414	honzhang	None	Manual		 Function	P1	None	Edit
+		222636	[PCI and USB device assignment] add support for more usb devices - bug 861345	weizhan	None	Manual		 Function	P1	None	Edit
+		224810	[PCI and USB device assignment] support for USB 2.0 (EHCI) - bug 836670	weizhan	weizhan	Manual		 Function	P1	None	Edit
+		224812	[Virtual Networks] libvirt iptable rules integration with firewalld - bug 622649	ydu	None	Manual		 Function	P1	None	Edit
+		224822	[Virtual Networks] - Introduce API for XML normalization	ydu	None	Manual		 Function	P1	None	Edit
+		224823	[Virtual Networks] - Introduce API for XML normalization	ydu	None	Manual		 Function	P1	None	Edit
+		224840	[migration]Add live migration support for USB - bug 836670	zhpeng	zhpeng	Manual		 Regression	P1	None	Edit
+		225096	[console and serial devices] support Para-Virtualized Entropy -- Bug: 852187	zpeng	None	Manual		 Function	P1	None	Edit
+		225098	[storage]VMDK v5 disk format in storage driver -- Bug:836676	zpeng	None	Manual		 Function	P1	None	Edit
+		225122	[PCI and USB device assignment] USB 2.0 support in usb storage - bug 836670, bug 861344	weizhan	None	Manual		 Function	P1	None	Edit
+		225123	[PCI and USB device assignment] Support USB 3.0 controller - bug 836670	weizhan	None	Manual		 Function	P1	None	Edit
+		225208	[storage]	zpeng	None	Manual		 Function	P1	None	Edit
+		225209	[storage] Configure 4KiB alignment for 4KiB physical drives -- Bug: 749122	zpeng	None	Manual		 Function	P1	None	Edit
+		225264	[Virtual disks] Attach disk in /root dir - bug 768859	weizhan	None	Manual		 Function	P1	None	Edit
+		225391	[storage]libvirt changes for QEMU Glusterfs backend -- Bug:841218	zpeng	None	Manual		 Function	P1	None	Edit
+		225393	[NPIV]Seamless VM migration with FC's NPIV feature --Bug:726797	zpeng	None	Manual		 Function	P1	None	Edit
+		225394	[storage]Requesting qcow2 allocation should preallocate metadata -- Bug:684793	zpeng	None	Manual		 Function	P1	None	Edit
+		225419	[Virtual disks] Specifying the entire image chain as a qemu drive - bug 760547	weizhan	None	Manual		 Function	P1	None	Edit
+		225421	[Virtual disks] customization of vendor/product via libvirt XML - bug 729635	weizhan	None	Manual		 Function	P1	None	Edit
+		225442	[Virtual disks] virtio-scsi improvement - bug 721250	weizhan	None	Manual		 Function	P1	None	Edit
+		225899	[libvirt domain event handler] memory balloon events - bug 822094	gsun	gsun	Manual		 Regression	P1	None	Edit
+		226978	[Migration] Storage Live Migration with Live Guest Migration in libvirt BZ 869944	zhpeng	None	Manual		 Regression	P1	None	Edit
+		226981	[Migration] Migration fails in migrating guests repetitively. BZ 869947	zhpeng	None	Manual		 Regression	P1	None	Edit
+		229395	[configuration] host pm tag discover	zhpeng	zhpeng	Manual		 Function	P2	None	Edit
+		229432	[configuration]Set the delay time before rebooting via boot parameter-bug855237	honzhang	honzhang	Manual		 Function	P1	None	Edit
+		229832	[snapshot] - libvirt should not attempt QMP commands that have not been documented in qemu.git BZ#872292	whuang	None	Manual		 Regression	P1	None	Edit
+		231794	[Virtual Networks] MAC Programming for virtio over macvtap - bug 848199	ydu	None	Manual		 Function	P1	None	Edit
+		231795	[Virtual Networks] Extend libvirt network QoS to support guaranteed minimum bandwidth "floor" - bug 837908	ydu	None	Manual		 Function	P1	None	Edit
+		231796	[Virtual Networks] libvirt support for QEMU network helper for unprivileged users - bug 833167	ydu	None	Manual		 Function	P1	None	Edit
+		231801	[Virtual Networks] The DHCP service in libvirt needs much more configurability - bug 824573	ydu	None	Manual		 Function	P1	None	Edit
+		231802	[Virtual Networks] Support communication channel between KVM and e-switch - bug 804571	ydu	None	Manual		 Function	P1	None	Edit
+		231803	[Virtual Networks] KVM NW Performance: multiple TX queue support in macvtap/virtio-net - bug 651941	ydu	None	Manual		 Function	P1	None	Edit
+		233200	[libvirtd] check systemD unit file	ydu	None	Manual		 Function	P1	None	Edit
+		233376	[Virtio disks] Hotplug/unplug virtio-scsi CD-ROM	weizhan	ydu	Manual		 Function	P1	None	Edit
+		215547	[configuration] domain resume when nfs with soft option is not available permanently/temporarily - bug 707202	gren	None	Manual		 Regression	P1	10	Edit
+		215794	[Guest resource control] Persistently hot-plug a qcow2 disk with a backing file pointing at a host device	ajia	ajia	Manual		Feature	P2	10	Edit
+		215800	[Guest resource control] Support disk I/O bandwidth limitation / priority control - bug 515694	nzhang	yoyzhang	Manual		 Regression	P2	10	Edit
+		216245	[NUMA] memory tuning for node out of range	mzhan	gren	Manual		Negative test	P1	10	Edit
+		233722	[libvirt event domain handler] Avoid calling 'query-balloon' monitor API in virDomainGetXMLDesc and virDomainGetInfo - bug 822094	mzhan	mzhan	Manual		 Function	P1	10	Edit
+		215550	[configuration] libvirt fails to save VM into NFS with RHEVM - bug 707257	nzhang	None	Manual		 Function	P1	20	Edit
+		215778	[Guest resource control] blkiotune set weight on total and virtio device together will not cause libvirtd hang BZ#770520	zhpeng	None	Manual		 Regression	P2	20	Edit
+		215801	[Guest resource control] Support network I/O bandwidth controls	nzhang	yoyzhang	Manual		Feature	P2	20	Edit
+		216238	[NPIV] RFE: Automatically generate unique WWN -bug 557935	nzhang	None	Manual		 Function	P1	20	Edit
+		215551	[configuration] libvirtd fails to start with rhevm's cert configured - bug 723447	nzhang	None	Manual		 Function	P1	30	Edit
+		215787	[Guest resource control] Guest can be started with <iotune> setting in xml BZ#768870	zhpeng	None	Manual		 Regression	P2	30	Edit
+		215802	[Guest resource control] Use cgroups to enforce host RAM limit according to current memory balloon allocation - bug 515692	nzhang	yoyzhang	Manual		Regression	P2	30	Edit
+		215552	[configuration] run libvirtd with all vdsm related configure	dyuan	None	Manual		Feature	P1	40	Edit
+		215771	[Guest resource control] Hot-plug a qcow2 disk with a backing file pointing at a host device, and restarting libvirtd service	ajia	None	Auto		Feature	P2	40	Edit
+		215554	[configuration] save/restore the guest to pre-created file on root_squashing export nfs with dynamic_ownership=1 - bug 810241	gsun	None	Manual		 Function	P1	50	Edit
+		215788	[Guest resource control] Hot-plug a qcow2 disk with a backing file pointing at a host device, and shutdowning guest	ajia	None	Auto		Feature	P2	50	Edit
+		216666	[Virtio] EMBARGOED libvirt: support SG_IO for virtio-blk opt-in (CVE-2011-4127 mitigation) [rhel-6.3] - bug 756678	nzhang	None	Manual		 Function	P2	50	Edit
+		215556	[configuration] suspend-->stop VM to nfs with dynamic_ownership=0 with RHEVM - bug 716478	dyuan	None	Manual		Feature	P1	60	Edit
+		215789	[Guest resource control] Hot-plug a qcow2 disk with a backing file pointing at a host partition, and restarting libvirtd service	ajia	None	Auto		Feature	P2	60	Edit
+		216809	[Watchdog device] Watchdog device "ib700" - dump(bug667090)	ydu	None	Manual		Feature	P3	60	Edit
+		215558	[configuration]Install a new guest with spice via Runonce in rhev-m	whuang	None	Manual		 Regression	P1	70	Edit
+		215790	[guest resource control] Hot-plug a qcow2 disk with a backing file pointing at a host partition, and shutdowning guest	ajia	None	Auto		Feature	P2	70	Edit
+		215795	[guest resource control] Persistently hot-plug a qcow2 disk with a backing file pointing at a host partition	ajia	None	Manual		Feature	P2	80	Edit
+		216653	[VirtFS]support readonly	zpeng	None	Manual		 Function	P1	80	Edit
+		215553	[configuration] save/restore the guest to pre-created file on root_squashing export nfs with dynamic_ownership=0	dyuan	None	Auto		Feature	P1	90	Edit
+		215798	[guest resource control] Set the outside range of 0-262144 value for cpu_shares of the guest	ajia	None	Auto		Feature	P2	90	Edit
+		215555	[configuration] Starting libvirtd with libvirtd.conf containing an unterminated string - bug 728654	dyuan	dyuan	Manual		 Regression	P1	100	Edit
+		215770	[Guest resource control] a guest qcow2 disk with a backing file pointing at a host device, containing a qcow2 image, pointing at another raw host device	xhu	None	Auto		--default--	P2	100	Edit
+		216750	[Virtual Networks]PXE and TFTP support in virtual network	gren	None	Auto		Feature	P1	100	Edit
+		215544	[configuration] customize the libvirtd.conf	dyuan	None	Manual		Feature	P1	110	Edit
+		215772	[Guest resource control] a <serial> port pointing at a host serial port	xhu	None	Auto		--default--	P2	110	Edit
+		216752	[Virtual network] Active-inactive virtual network loop for 1000 times	jiachen	None	Auto		Stress	P2	110	Edit
+		215545	[configuration] domain resume when nfs with hard option is not available permanently/temporarily - bug 707202	gren	None	Manual		 Regression	P1	120	Edit
+		215773	[Guest resource control] a guest qcow2 disk with a backing file pointing at a host device	xhu	None	Auto		--default--	P2	120	Edit
+		215774	[Guest resource control] a guest qcow2 disk with a backing file pointing at a host partition	xhu	None	Auto		--default--	P2	130	Edit
+		216754	[Virtual network] Define-undefine single virtual network loop for 1000 times	jiachen	None	Auto		Stress	P2	130	Edit
+		215775	[Guest resource control] a guest raw disk with a backing file pointing at a host device	xhu	None	Auto		--default--	P2	140	Edit
+		215672	[Docs] The "virt-mem" is removed from manual page - bug 639603	ccui	None	Manual		 Regression	P3	150	Edit
+		215776	[Guest resource control] a guest raw disk with a backing file pointing at a host partition	xhu	None	Auto		--default--	P2	150	Edit
+		216756	[volume wiping] the volume format of qcow2 is changed to raw after volume wiped	whuang	None	Manual		 Function	P1	150	Edit
+		215675	[Docs] virsh help: network can't be destroyed and dumped xml via id - bug 617439	ccui	None	Manual		 Regression	P3	160	Edit
+		215779	[Guest resource control] check whether libvirt default devices appear in devices.list	xhu	None	Auto		--default--	P1	160	Edit
+		216758	[Volume wiping] wipe logical volume in logical volume pool	jyang	None	Auto		Feature	P2	160	Edit
+		215780	[Guest resource control] check whether libvirt group can successfully be created	xhu	None	Auto		--default--	P1	170	Edit
+		216760	[Volume wiping] wipe partition volume in disk pool - bug 738936	jyang	None	Manual		Feature	P2	170	Edit
+		215783	[Guest resource control] Get memory parameter for a guest with option	ajia	ajia	Auto		Feature	P2	180	Edit
+		216762	[Volume wiping] wipe volume(QCOW2) in directory pool	jyang	jyang	Auto		Feature	P1	180	Edit
+		215784	[Guest resource control] Get memory parameter for a guest without option	ajia	None	Manual		Feature	P2	190	Edit
+		216765	[Volume wiping] wipe volume(QCOW2) in filesystem pool	jyang	jyang	Auto		Feature	P2	190	Edit
+		215785	[Guest resource control] Get the current blkio parameters for a guest	ajia	None	Auto		Feature	P2	200	Edit
+		216767	[Volume wiping] wipe volume(QCOW2) in network filesystem pool	jyang	jyang	Auto		Feature	P2	200	Edit
+		215786	[Guest resource control] Get the value of cpu_shares property of the guest	xhu	xhu	Auto		--default--	P2	210	Edit
+		216769	[Volume wiping] wipe volume(RAW) in directory pool	jyang	jyang	Auto		Feature	P1	210	Edit
+		215796	[Guest resource control] Set memory parameter with min_guarantee option	ajia	None	Manual		Feature	P2	220	Edit
+		216771	[Volume wiping] wipe volume(RAW) in directory pool by vol-key or vol-path	kxiong	None	Auto		--default--	P2	220	Edit
+		215797	[Guest resource control] Set the current blkio parameters for a guest without any optional	ajia	ajia	Auto		Feature	P2	230	Edit
+		216773	[Volume wiping] wipe volume(RAW) in filesystem pool	jyang	None	Auto		Feature	P2	230	Edit
+		215791	[Guest resource control] hot-plug/unplug a qcow2 disk with a backing file pointing at a host device	xhu	None	Auto		--default--	P2	240	Edit
+		216775	[Volume wiping] wipe volume(RAW) in network filesystem pool	jyang	jyang	Auto		Feature	P2	240	Edit
+		215717	[Graphical framebuffers] spice ssl connection	vbian	None	Manual		Feature	P2	250	Edit
+		215792	[Guest resource control] hot-plug/unplug a qcow2 disk with a backing file pointing at a host partition	xhu	None	Auto		--default--	P2	250	Edit
+		216777	[Volume wiping] wipe volume(sparse file) in directory pool	jyang	jyang	Auto		Feature	P2	250	Edit
+		215799	[Guest resource control] Set the value of cpu_shares property of the guest	xhu	None	Auto		--default--	P2	260	Edit
+		216779	[Volume wiping] wipe volume(sparse file) in directory pool by pool uuid	kxiong	None	Auto		Feature	P2	260	Edit
+		215777	[guest resource control] bandwidth info in portgroup	ydu	None	Manual		 Function	P2	270	Edit
+		216781	[Volume wiping] wipe volume(sparse file) in filesystem pool	jyang	jyang	Auto		Feature	P2	270	Edit
+		215781	[Guest resource control] Control network bandwidth in guest xml	ajia	None	Auto		Feature	P2	280	Edit
+		216783	[Volume wiping] wipe volume(sparse file) in network filesystem pool	jyang	jyang	Auto		Feature	P2	280	Edit
+		215782	[Guest resource control] Control network bandwidth in virtual network xml	ajia	None	Auto		Feature	P2	290	Edit
+		216785	[Volume wiping] wipe volume(VMDK) in directory pool	jyang	jyang	Auto		Feature	P2	290	Edit
+		216787	[Volume wiping] wipe volume(VMDK) in filesystem pool	jyang	jyang	Auto		Feature	P2	300	Edit
+		216789	[Volume wiping] wipe volume(VMDK) in network filesystem pool	jyang	jyang	Auto		Feature	P2	310	Edit
+		216703	[Virtual Networks] deactivate network	gren	gren	Auto		Feature	P1	330	Edit
+		216704	[Virtual Networks] define network	gren	gren	Auto		Feature	P1	340	Edit
+		216706	[Virtual Networks] destroy network	gren	gren	Auto		Feature	P1	350	Edit
+		216707	[Virtual Networks] Enlarge the maximum number of DHCP leases to 253 in libvirt - Bug 524280	yoyzhang	yoyzhang	Manual		Regression	P3	360	Edit
+		216708	[Virtual Networks] IPv6 support in Isolated network	xhu	None	Auto		Feature	P1	370	Edit
+		216709	[Virtual Networks] IPv6 support in NAT virtual network	xhu	None	Auto		Feature	P1	380	Edit
+		216710	[Virtual Networks] IPv6 support in Shared physical network	xhu	None	Auto		Feature	P1	390	Edit
+		216711	[Virtual Networks] Isolated virtual network	gren	yoyzhang	Auto		Feature	P2	400	Edit
+		216712	[Virtual networks] libvirtd in guest collides with default host virtual network routing - bug 594494	eli	None	Manual		Feature	P3	410	Edit
+		216713	[Virtual networks] libvirtd in guest collides with default host virtual network routing - bug 594494	eli	eli	Manual		Feature	P3	420	Edit
+		216715	[Virtual Networks] migrate guest with the virtual network that doesn't exist on target host	xhu	None	Auto		--default--	P2	430	Edit
+		216716	[virtual networks] Migrate with Bridged network, eth + bridge + tap BZ 851981	xhu	None	Manual		Feature	P1	440	Edit
+		215824	[Host network interface management] Define a bridge interface contains a bond which contains two Ethernet	yoyzhang	None	Manual		Feature	P2	450	Edit
+		216717	[virtual networks] Migrate with Bridged network, eth + macvtap + bridge	xhu	None	Manual		 Function	P1	450	Edit
+		215825	[Host network interface management] Define a bridge interface contains a vlan which is using an Ethernet	yoyzhang	None	Manual		Feature	P2	460	Edit
+		216718	[virtual networks] Migrate with Bridged network, eth + macvtap + vepa	xhu	None	Manual		 Function	P1	460	Edit
+		215827	[Host network interface management] Define a bridge using a not existing Ethernet interface	yoyzhang	None	Manual		Negative test	P2	470	Edit
+		216719	[Virtual Networks] NAT virtual network	gren	yoyzhang	Auto		Feature	P2	470	Edit
+		215828	[Host network interface management] Define a bridge using an existing Ethernet interface which is not defined and up	yoyzhang	None	Manual		Feature	P2	480	Edit
+		216721	[Virtual Networks] network autostart set	gren	gren	Auto		Feature	P1	480	Edit
+		215830	[Host network interface management] Define an arp bond interface that contains two Ethernet	yoyzhang	None	Manual		Feature	P2	490	Edit
+		216723	[Virtual Networks] nfs access from guest	jialiu	None	Manual		--default--	P1	490	Edit
+		215832	[Host network interface management] Define an ethernet with dhcp ipv4	yoyzhang	None	Manual		Feature	P2	500	Edit
+		216730	[Virtual Networks] Route virtual network	gren	yoyzhang	Manual		Feature	P2	500	Edit
+		215837	[Host network interface management] Define an ethernet wtih multi static ipv6 address	yoyzhang	None	Manual		Feature	P2	510	Edit
+		216732	[Virtual Networks] Shared physical network	gren	gren	Manual		Feature	P1	510	Edit
+		215862	[Interface hotplug] Attach interface from args with specified model type - Bug 627125	gsun	None	Manual		Regression	P1	520	Edit
+		216734	[Virtual Networks] the number of guests exceeds the maximum IP number of DHCP	xhu	None	Manual		--default--	P2	520	Edit
+		216739	[Virtual Networks] undefine network	gren	gren	Auto		Feature	P1	530	Edit
+		216741	[Virtual Networks] using remote TFTP server in virtual network - bug 683377	gren	None	Manual		Feature	P2	540	Edit
+		216743	[Virtual Networks] virtual network of ethernet type - bug 593903	jialiu	None	Manual		Regression	P3	550	Edit
+		216746	[virtual networks] xml with mutiple dhcp sections - bug 735950	xhu	None	Manual		 Regression	P1	560	Edit
+		216691	[virtual networks] - VM creation failure should not leave behind stale macvtap interfaces - bug 754621	xhu	None	Manual		 Regression	P1	570	Edit
+		216692	[Virtual Networks] activate network	gren	gren	Auto		Feature	P1	580	Edit
+		216693	[virtual networks] Bridged network, eth + bridge + tap	xhu	None	Manual		Feature	P1	590	Edit
+		216694	[virtual networks] Bridged network, eth + macvtap + bridge	xhu	None	Manual		Feature	P1	600	Edit
+		216695	[virtual networks] Bridged network, eth + macvtap + passthrough	xhu	None	Manual		 Function	P1	610	Edit
+		216696	[virtual networks] Bridged network, eth + macvtap + vepa	xhu	None	Manual		Feature	P1	620	Edit
+		215906	[libvirtd] Delete UNIX sockets upon libvirtd shutdown	kxiong	None	Manual		--default--	P2	630	Edit
+		216697	[Virtual Networks] Bridges created by libvirtd should be started even the network interface has no IP - Bug 532834	yoyzhang	yoyzhang	Manual		Regression	P3	630	Edit
+		216699	[virtual networks] check /var/lib/libvirt/dnsmasq/default.hostsfile - bug 727982	xhu	None	Auto		 Regression	P1	640	Edit
+		215912	[libvirtd] Let /var/lib/libvirt/qemu belongs to qemu group	kxiong	None	Manual		Feature	P2	650	Edit
+		216700	[virtual networks] check /var/lib/libvirt/dnsmasq/default.hostsfile - bug 727982	xhu	xhu	Manual		 Regression	P1	650	Edit
+		215918	[libvirtd] Libvirtd daemon core dump	kxiong	None	Manual		--default--	P2	660	Edit
+		216701	[Virtual Networks] Create more than 256 nic for guest - Bug 519729	yoyzhang	yoyzhang	Manual		Regression	P3	660	Edit
+		216702	[Virtual Networks] create network	gren	gren	Auto		Feature	P1	670	Edit
+		215943	[libvirtd] Restart libvirtd without killing guests	kxiong	kxiong	Auto		--default--	P1	680	Edit
+		215948	[libvirtd] Upstart libvirtd service	mzhan	mzhan	Auto		--default--	P1	680	Edit
+		215960	[libvirtd]Qemu get hang will not lead libvirtd to hang	kxiong	None	Auto		--default--	P2	710	Edit
+		216649	[VirtFS] Invalid virtfs parameters handling	jialiu	None	Manual		Feature	P2	710	Edit
+		216025	[Managed save] Domains are *not* automatically restore via initscript with "ON_BOOT=ignore" when host boots up	dyuan	None	Auto		Feature	P2	720	Edit
+		216650	[VirtFS] Run a guest with virtio p9fs supported	jialiu	None	Manual		Feature	P1	720	Edit
+		216030	[Managed save] Domains are automatically start via initscript when host start	yimwang	None	Auto		--default--	P2	730	Edit
+		216651	[VirtFS] Try to start a guest with a emulator that does not support virtfs	jialiu	None	Manual		Feature	P2	730	Edit
+		216652	[VirtFS]Run a guest with different access mode for virtfs mount type	jialiu	None	Manual		Feature	P1	740	Edit
+		216057	[Memory management] Deactivate memory balloon with type of none BZ 833674	mzhan	None	Manual		Feature	P2	750	Edit
+		216663	[Virtio] Create domain with virtio block device driver (only for Linux)	yimwang	None	Auto		 Regression	P2	750	Edit
+		225898	[Memory management] RFE: Avoid calling 'query-balloon' monitor API in virDomainGetXMLDesc and virDomainGetInfo - bug 822094	gsun	gsun	Manual		Feature	P2	750	Edit
+		216058	[Memory management] Disable ksm for per VM - BZ#635419	mzhan	mzhan	Manual		Feature	P2	760	Edit
+		216061	[Memory management] Memory usage works fine in libvirtd udev backend - bug 595490	mzhan	None	Manual		 Regression	P3	770	Edit
+		216099	[migration] migrate a guest for 1024 rounds through TCP connection --live	jiachen	None	Auto		Stress	P2	810	Edit
+		216143	[Migration] SSL connected spice migration	weizhan	None	Manual		--default--	P2	840	Edit
+		216630	[Update device flags] change the media in an existing FLOPPY device on the fly	jialiu	None	Auto		Feature	P2	840	Edit
+		216149	[Migration] Tunnelled spice migration - bug 591974	weizhan	None	Manual		 Regression	P2	850	Edit
+		216633	[update device flags] live modification	jyang	None	Manual		Feature	P4	850	Edit
+		216153	[Migration]Bi-directional p2p migration between 2 hosts.	weizhan	None	Manual		 Regression	P2	860	Edit
+		216635	[Update device flags] report cdrom tray status - bug 723272	gsun	None	Manual		--default--	P2	860	Edit
+		216155	[Migration]Change domain name during migration	weizhan	None	Auto		--default--	P1	870	Edit
+		216636	[Update device flags] RFE: implement insert-media and eject-media virsh commands - bug 713932	gsun	None	Manual		--default--	P2	870	Edit
+		216166	[Migration]Migration name collision check	weizhan	None	Manual		Negative test	P1	880	Edit
+		216637	[update device flags] update floppy disk on the fly with <readonly/> - bug 740702	gsun	None	Manual		--default--	P2	880	Edit
+		216642	[Video devices] cirrus	gren	gren	Auto		Feature	P3	890	Edit
+		216643	[Video devices] Compare the resolution of display between 2 video types	xhu	None	Manual		Feature	P3	900	Edit
+		216644	[Video devices] qxl---For Linux	kxiong	None	Manual		Feature	P3	910	Edit
+		216645	[Video devices] qxl---For Windows	kxiong	None	Manual		Feature	P3	920	Edit
+		216646	[Video devices] Remove video device	ydu	None	Manual		Feature	P3	930	Edit
+		216647	[Video devices] vga	xhu	None	Auto		Feature	P3	940	Edit
+		216625	[Update device flags] "persistent" update CD-ROM device - bug 598792	xhu	None	Both		Feature	P2	990	Edit
+		216626	[Update device flags] "persistent" update VNC password	xhu	None	Manual		Feature	P2	1000	Edit
+		216656	[Virtio-serial] Hotplug of channel device	nzhang	None	Manual		Feature	P2	1000	Edit
+		216627	[Update device flags] (QMPEjectNotify) QEMU driver does not notice when a guest OS ejects CDROM/Floppy device media - bug 575160	gsun	None	Manual		--default--	P2	1010	Edit
+		216556	[Storage] libvirt should places new added IDE disks after virtio/scsi disks - Bug 521053	yoyzhang	yoyzhang	Auto		Regression	P3	1020	Edit
+		216557	[Storage] List vols	yoyzhang	yoyzhang	Auto		--default--	P1	1030	Edit
+		216558	[Storage] Logical based storage pool	nzhang	yoyzhang	Auto		Feature	P1	1040	Edit
+		216559	[Storage] mpath based storage pool	jialiu	None	Auto		Feature	P2	1050	Edit
+		216560	[Storage] netfs based storage pool	nzhang	None	Auto		Feature	P1	1060	Edit
+		216564	[storage] vol-info get the wrong "Type" for a directory --bug 750683	nzhang	None	Manual		 Function	P2	1070	Edit
+		216576	[storage]libvirt should use vgchange -aly/-aln instead of vgchange -ay/-an for clustered volume groups BZ#748248	whuang	whuang	Manual		 Regression	P1	1080	Edit
+		216532	[Storage] correct work flow for pool management	vbian	None	Manual		 Function	P1	1090	Edit
+		216537	[Storage] Delete a vol - Bug 510450	yoyzhang	yoyzhang	Auto		Regression	P2	1100	Edit
+		216538	[Storage] Delete storage volumes from a pool residing on a root-squashed NFS share - BZ#612341	nzhang	None	Manual		 Function	P1	1110	Edit
+		216539	[Storage] Dir based storage pool	nzhang	yoyzhang	Auto		Feature	P1	1120	Edit
+		216542	[Storage] Disk based storage pool -- Bug 570286	nzhang	nzhang	Both		Feature	P2	1130	Edit
+		216545	[Storage] FileSystem based storage pool	nzhang	None	Auto		Feature	P1	1140	Edit
+		216546	[Storage] Find potential storage pool sources - logical - Bug 509979	yoyzhang	yoyzhang	Auto		Regression	P2	1150	Edit
+		216547	[Storage] Find potential storage pool sources - netfs	yoyzhang	yoyzhang	Auto		--default--	P2	1160	Edit
+		216548	[Storage] Get vol basic info	yoyzhang	yoyzhang	Auto		--default--	P2	1170	Edit
+		216529	[Storage] check vol sticky bit - bug 839463	gsun	gsun	Manual		--default--	P3	1180	Edit
+		216549	[Storage] Get vol detail info	yoyzhang	yoyzhang	Auto		--default--	P1	1180	Edit
+		216550	[Storage] Get vol key by name or path	yoyzhang	yoyzhang	Auto		--default--	P2	1190	Edit
+		216551	[Storage] Get vol name by key or path	yoyzhang	yoyzhang	Auto		--default--	P2	1200	Edit
+		216552	[Storage] Get vol path by name or key - Bug 509306	yoyzhang	yoyzhang	Auto		--default--	P2	1210	Edit
+		216553	[Storage] Get vol path by name or key - Bug 509306	yoyzhang	yoyzhang	Auto		--default--	P2	1220	Edit
+		216555	[Storage] iSCSI based storage pool	nzhang	yoyzhang	Auto		Feature	P2	1230	Edit
+		216484	[SR-IOV] Save a guest with assigned VF	yoyzhang	None	Auto		Feature	P2	1240	Edit
+		216485	[SR-IOV] Shutdown guest with assigned VF	yoyzhang	yoyzhang	Manual		Feature	P2	1250	Edit
+		216486	[SR-IOV] Suspend and resume guest with assigned VF	yoyzhang	yoyzhang	Auto		Feature	P2	1260	Edit
+		216489	[Stable guest ABI] Stable domain compatibility for Linux guest	yimwang	None	Manual		Feature	P3	1260	Edit
+		216487	[SR-IOV] tight loop of hotplug/unplug PF to guest on SR-IOV host-- Bug 635669	vbian	None	Manual		 Regression	P1	1270	Edit
+		216494	[Stable guest ABI] Stable domain compatibility for Windows guest	yimwang	None	Manual		Feature	P3	1270	Edit
+		216021	[Managed save] A managed save file for a domain can be manually removed	yimwang	None	Auto		--default--	P1	1280	Edit
+		216488	[SR-IOV]tight loop of hotplug/unplug VF to guest on SR-IOV host-- Bug 635669	vbian	None	Manual		 Regression	P1	1280	Edit
+		216522	[Start & Destroy] start & destroy 1000 guest for 10 rounds on host (96 cores CPU, 1TB mem)	jiachen	None	Auto		Stress	P2	1290	Edit
+		216523	[Start & Destroy] start & destroy a guest for 1000 rounds on host (64 cores CPU, 512GB mem)	jiachen	None	Auto		Stress	P2	1300	Edit
+		216524	[Start & Destroy] start & destroy a guest for 1000 rounds on host (96 cores CPU, 1TB mem)	jiachen	None	Auto		Stress	P2	1310	Edit
+		216525	[storage] Client blocks indefinitely on virStream API BZ#741337	whuang	whuang	Manual		 Regression	P1	1320	Edit
+		216597	[sVirt] Guest with sVirt on root_squash NFS	jialiu	None	Auto		Feature	P2	1320	Edit
+		216526	[storage] Libvirtd hangs forever when destroying multiple domains with disks on an unreachable NFS storage. BZ#746666	whuang	whuang	Manual		 Regression	P1	1330	Edit
+		216611	[sVirt] Save/Restore guest on no_root_squash NFS	jialiu	None	Auto		Feature	P2	1330	Edit
+		216527	[storage] creating libvirt storage pools fails for lvm volume groups with striped volumes - Bug 727474	whuang	whuang	Manual		 Regression	P1	1340	Edit
+		216612	[sVirt] Save/Restore guest on root_squash NFS	jialiu	None	Auto		Feature	P1	1340	Edit
+		216528	[storage] libvirt should skip not activated/suspended volumes during pool-create/pool-refresh for logical pools BZ#748282	whuang	whuang	Manual		 Regression	P1	1350	Edit
+		216622	[sVirt] sVirt error message handling for NFS permission denial	jialiu	None	Auto		 Regression	P1	1350	Edit
+		216530	[storage] Clone a new vol from the source vol - Bug 671104	nzhang	None	Manual		 Regression	P2	1360	Edit
+		216632	[Update device flags] Eject CD-ROM in use with --force option	gsun	None	Manual		--default--	P2	1360	Edit
+		216462	[SR-IOV] Check nodedev-dumpxml show SR-IOV detail info correctly - bug665446	yoyzhang	None	Manual		 Regression	P2	1370	Edit
+		216463	[SR-IOV] Check nodedev-dumpxml show SR-IOV detail info correctly - bug665446	yoyzhang	yoyzhang	Manual		 Regression	P2	1380	Edit
+		216464	[SR-IOV] Confirm a VF that is assigned to guest cannot be used by the host or other guests - bug 559122	yoyzhang	yoyzhang	Auto		Feature	P2	1390	Edit
+		216465	[SR-IOV] Confirm a VF that is assigned to guest cannot be used by the host or other guests - bug 559122	yoyzhang	yoyzhang	Manual		Feature	P2	1400	Edit
+		216466	[SR-IOV] Create up to MAX VFs	yoyzhang	yoyzhang	Auto		Feature	P2	1410	Edit
+		216467	[SR-IOV] Hot unplug PF	yoyzhang	yoyzhang	Manual		--default--	P2	1420	Edit
+		216468	[SR-IOV] Hot unplug VF	yoyzhang	yoyzhang	Manual		--default--	P1	1430	Edit
+		216469	[SR-IOV] Hotplug PF	yoyzhang	yoyzhang	Manual		--default--	P2	1440	Edit
+		216470	[SR-IOV] Hotplug PF to guest should fail when the same VF is already assigned - bug669634	yoyzhang	None	Manual		Negative test	P2	1450	Edit
+		216471	[SR-IOV] Hotplug VF	yoyzhang	yoyzhang	Manual		--default--	P1	1460	Edit
+		216472	[SR-IOV] Hotplug VF to guest should fail when the same PF is assigned	yoyzhang	None	Manual		Negative test	P2	1470	Edit
+		216473	[SR-IOV] Hotplug/hotunplug MAX VFs to guest - bug670787	yoyzhang	yoyzhang	Manual		Feature	P2	1480	Edit
+		216474	[SR-IOV] Hotplug/hotunplug MAX VFs to guest - bug670787, 616415	yoyzhang	None	Manual		Feature	P2	1490	Edit
+		216475	[SR-IOV] Hotplug/Hotunplug VF for 500 times	jialiu	None	Manual		Stress	P2	1500	Edit
+		216478	[SR-IOV] Migrate a guest with assigned VF	yoyzhang	yoyzhang	Auto		Feature	P2	1510	Edit
+		216479	[SR-IOV] Prepare: Enable VT-D	yoyzhang	yoyzhang	Manual		Feature	P1	1520	Edit
+		216480	[SR-IOV] Prepare: intel network adapters includes 82576, 82599, x3100	nzhang	None	Manual		--default--	P2	1530	Edit
+		216481	[SR-IOV] Put VFs to a different VLAN	yoyzhang	None	Manual		Feature	P2	1540	Edit
+		216658	[Virtio-serial] Create a channel with socket-virtconsole type	gren	None	Manual		virtio-serial	P1	1540	Edit
+		216482	[SR-IOV] Reboot guest with assigned VF	yoyzhang	yoyzhang	Auto		Feature	P2	1550	Edit
+		216659	[Virtio-serial] Migrate a guest with assigned virtio-serial	yoyzhang	None	Manual		Feature	P2	1550	Edit
+		216483	[SR-IOV] Released VF from guest can be used in host or the other guests	dyuan	dyuan	Manual		Feature	P2	1560	Edit
+		216660	[Virtio-serial] Verify virtio-serial functionality with MSI Enabled/Disabled	yoyzhang	None	Manual		Feature	P2	1560	Edit
+		216442	[snapshot]revert should be forbidden without --force BZ 742615	zhpeng	zhpeng	Manual		 Regression	P1	1570	Edit
+		216446	[snapshot]snapshot XML description --bug 741510	zhpeng	zhpeng	Manual		 Regression	P1	1580	Edit
+		216448	[snapshot]snapshot-parent should error when current snapshot is a root --bug 742410	zhpeng	zhpeng	Manual		 Regression	P1	1590	Edit
+		216451	[snapshot]virsh snapshot-edit should edit disk snapshots --bug 744071	zhpeng	zhpeng	Manual		 Regression	P1	1600	Edit
+		216453	[Sound devices] ac97, es1370 - VNC	jyang	None	Manual		Feature	P3	1610	Edit
+		216454	[Sound devices] Get sound under different graphics type - spice	ydu	None	Manual		Feature	P3	1620	Edit
+		216455	[Sound devices] Intel HDA support	ydu	None	Manual		Feature	P3	1630	Edit
+		216456	[SR-IOV] Assign one PF to one guest	yoyzhang	yoyzhang	Manual		Feature	P2	1640	Edit
+		216457	[SR-IOV] Assign one VF to one guest	yoyzhang	yoyzhang	Auto		Feature	P1	1650	Edit
+		216458	[SR-IOV] Assign seven VFs to the same guest.	yoyzhang	yoyzhang	Manual		Feature	P2	1660	Edit
+		216800	[Watchdog device] Watchdog device "i6300esb" - shutdown	yimwang	None	Auto		Feature	P2	1660	Edit
+		216460	[SR-IOV] Assign VF to guest with non-ACS capability SR-IOV devices and enable relaxed_acs_check in qemu.conf	ajia	None	Manual		Feature	P1	1670	Edit
+		216805	[Watchdog device] Watchdog device "i6300esb" - none	yimwang	None	Manual		Feature	P3	1670	Edit
+		216461	[SR-IOV] Assign VF to guest with non-ACS capability SR-IOV devices and use qemu.conf default configuration	ajia	None	Manual		Feature	P1	1680	Edit
+		216811	[Watchdog device] Watchdog device "ib700" - poweroff(bug667090)	yimwang	None	Manual		 Regression	P3	1680	Edit
+		216411	[Snapshot] Domain snapshot with FC	mzhan	mzhan	Manual		Function	P1	1690	Edit
+		216412	[Snapshot] Domain snapshot with iSCSI	nzhang	None	Manual		 Regression	P1	1700	Edit
+		216817	[Watchdog device]Watchdog device "ib700" - none(bug667090)	yimwang	None	Manual		 Regression	P3	1700	Edit
+		216413	[Snapshot] Domain snapshot with NFS	nzhang	None	Manual		Feature	P1	1710	Edit
+		216433	[snapshot]libvirt should give error when qemu-kvm disabled live snapshot support --bug 747115	zhpeng	zhpeng	Manual		 Regression	P1	1720	Edit
+		216154	[Migration]Break migration during migrating-bug635353	yimwang	None	Manual		--default--	P2	1730	Edit
+		216378	[Scalability] migrate a guest for 1024 rounds through TCP connection --p2p	weizhan	None	Manual		Stress	P1	1730	Edit
+		216381	[Scalability] migrate a guest for 1024 rounds through TLS connection --p2p	weizhan	None	Manual		Stress	P1	1740	Edit
+		216384	[Scalability] Multiple concurrent events catching	vbian	None	Manual		 Function	P1	1750	Edit
+		216667	[Virtio] Hot plug a virtio disk	jialiu	None	Manual		Feature	P1	1750	Edit
+		216388	[Scalability] Running guests with more than 256 disks - Bug 740899	weizhan	None	Manual		 Regression	P1	1760	Edit
+		216668	[Virtio] Hot plug a virtio NIC	jialiu	None	Manual		Feature	P1	1760	Edit
+		216395	[Scalability] Support 500 concurrent guests - bug 638996	gsun	None	Manual		--default--	P2	1770	Edit
+		216669	[Virtio] Hot plug multiple (up to 29 or so) virtio disks	jialiu	None	Manual		Feature	P1	1770	Edit
+		216670	[Virtio] Hot plug multiple (up to 29 or so) virtio NIC	jialiu	None	Manual		Feature	P1	1780	Edit
+		216397	[Scalability]destroy the 256 guests	vbian	None	Manual		 Regression	P1	1790	Edit
+		216671	[Virtio] Hot unplug a virtio disk	jialiu	None	Manual		Feature	P1	1790	Edit
+		216398	[Scalability]kill SIGSTOP qemu processes	vbian	None	Manual		 Regression	P1	1800	Edit
+		216672	[Virtio] Hot unplug a virtio NIC	jialiu	None	Manual		Feature	P1	1800	Edit
+		216673	[Virtio] Migrate a guest with virtio NICs and disks	jialiu	None	Manual		Feature	P1	1810	Edit
+		216399	[Scalability]migrating vm and restarting libvirtd	vbian	None	Manual		--default--	P1	1820	Edit
+		216676	[Virtio] Save/restore a guest with virtio NICs and disks	jialiu	None	Manual		Feature	P1	1820	Edit
+		215829	[Host network interface management] Define a vlan	yimwang	None	Manual		Feature	P2	1830	Edit
+		216400	[Scalability]reconnect to the 256 guests	vbian	None	Manual		--default--	P1	1830	Edit
+		216401	[smbios]add new smbios information - bug 671326	gren	None	Manual		Feature	P1	1840	Edit
+		216402	[smbios]add new smbios information - bug 671326	gren	gren	Manual		Feature	P1	1850	Edit
+		225902	[smbios] RFE: TPM and Trusted Computing support - bug 836672	gsun	gsun	Manual		Feature	P1	1850	Edit
+		216029	[Managed save] Domains are automatically shutdown PARALLELLY via initscript when host shuts down	dyuan	dyuan	Auto		--default--	P2	1860	Edit
+		216031	[Managed save] Domains that take too long to shutdown PARALLELLY via initscript are killed when host shuts down	dyuan	dyuan	Auto		--default--	P2	1860	Edit
+		216335	[Scalability] qemu-kvm process status monitoring kill -SIGSEGV qemu pid	vbian	None	Manual		 Function	P1	1860	Edit
+		216032	[Managed save] Domains that take too long to shutdown SERIALLY via initscript are killed when host shuts down	yimwang	None	Auto		--default--	P2	1870	Edit
+		216336	[Scalability] Spice WAN performance	vbian	None	Manual		 Function	P1	1870	Edit
+		215849	[Input devices] absolute cursor function	gren	yoyzhang	Manual		Feature	P3	1890	Edit
+		216339	[Scalability] 256 mixed guests boot up	gsun	None	Manual		--default--	P2	1900	Edit
+		215850	[Input devices] relative cursor function	gren	gren	Manual		Feature	P3	1910	Edit
+		216340	[Scalability] 256 RHEL guests boot up – 128 guests – 50%	gsun	None	Manual		--default--	P2	1910	Edit
+		216341	[Scalability] 256 RHEL guests boot up – 204 guests – 80%	gsun	None	Manual		--default--	P2	1920	Edit
+		216342	[Scalability] 256 RHEL guests boot up – 256 guests – 100%	gsun	None	Manual		--default--	P2	1930	Edit
+		216343	[Scalability] 256 RHEL guests boot up – 51 guests – 20%	gsun	None	Manual		--default--	P2	1940	Edit
+		216344	[Scalability] 256 windows guests boot up – 128 guests – 50%	gsun	None	Manual		--default--	P2	1950	Edit
+		216345	[Scalability] 256 windows guests boot up – 204 guests – 80%	gsun	None	Manual		--default--	P2	1960	Edit
+		216346	[Scalability] 256 windows guests boot up – 256 guests – 100%	gsun	None	Manual		--default--	P2	1970	Edit
+		216347	[Scalability] 256 windows guests boot up – 50 guests – 20%	gsun	None	Manual		--default--	P2	1980	Edit
+		216348	[Scalability] 35 guests migration	gsun	None	Manual		--default--	P2	1990	Edit
+		216357	[Scalability] bidirectional migrate multiple guests simultaneously	gsun	None	Manual		Stress	P2	2000	Edit
+		216358	[Scalability] Cgroup operation -- BZ# 623712	vbian	None	Manual		 Function	P1	2010	Edit
+		216370	[Scalability] Libvirt event handler investigation - scenario 1	vbian	None	Manual		 Function	P1	2020	Edit
+		216371	[scalability] Libvirt event handler investigation - scenario 2	gsun	None	Manual		 Function	P3	2030	Edit
+		216310	[Remote access] Connect to the hypervisor on host using TCP connection with SASL via ipv6	yoyzhang	None	Manual		Feature	P2	2040	Edit
+		216311	[Remote access] Connect to the hypervisor running on host over an SSH connection via ipv4	yoyzhang	None	Manual		Feature	P2	2050	Edit
+		216312	[Remote access] Connect to the hypervisor running on host over an SSH connection via ipv6 - bug 785164	yoyzhang	None	Manual		Feature	P2	2060	Edit
+		216313	[Remote access] Connect to the hypervisor running on host using TLS with SASL via ipv6	xhu	None	Manual		Feature	P2	2070	Edit
+		216314	[Remote access] Connect to the hypervisor running on host using TLS without SASL via ipv4	yoyzhang	yoyzhang	Manual		Feature	P1	2080	Edit
+		216315	[remote access] Connect to the hypervisor using TLS with SASL BZ#726568	whuang	None	Manual		 Regression	P1	2090	Edit
+		216316	[Remote access] Connect to the local 'default' hypervisor running on host	yoyzhang	yoyzhang	Auto		--default--	P2	2100	Edit
+		216317	[remote access] Customizable x509 certificate paths for client - tls	yoyzhang	None	Manual		Feature	P1	2110	Edit
+		216318	[Remote access] Libvirtd output proper error for TLS failure	yoyzhang	None	Auto		Negative test	P2	2120	Edit
+		216319	[remote access] listen_addr custom	whuang	None	Manual		Feature	P1	2130	Edit
+		216320	[remote access] mDSN custom	whuang	None	Manual		Feature	P1	2140	Edit
+		216321	[Remote Access] memory leak on virNetTLSContextCheckCertificate and testTLSSessionInit BZ#735650	whuang	None	Manual		 Regression	P1	2150	Edit
+		216322	[remote access] missing functions on remote libvirt give wrong error BZ#738439BZ#781895	whuang	None	Manual		 Regression	P1	2160	Edit
+		216323	[remote access] RunVmOnce often fails to start the VM, VM in wait_for_launchBZ#746689	whuang	whuang	Manual		 Regression	P1	2170	Edit
+		216324	[remote access] sasl_allowed_username_list custom	whuang	None	Auto		Feature	P1	2180	Edit
+		216325	[remote access] TCP ports custom	whuang	None	Manual		Feature	P1	2190	Edit
+		215694	[Floppy disk support] Test floppy media insert/eject Bug - 625319	yimwang	None	Manual		Feature	P2	2200	Edit
+		216326	[remote access] TLS ports custom	whuang	None	Manual		Feature	P1	2200	Edit
+		216327	[Remote access] UNIX socket access controls	whuang	None	Auto		Feature	P1	2210	Edit
+		216328	[remote access] UNIX socket dir custom	whuang	None	Manual		Feature	P1	2220	Edit
+		216331	[remote access]Check if the guest in WaitForLaunch status after run once with "paused" mode - 748025	yupzhang	None	Manual		 Regression	P1	2230	Edit
+		216334	[Scalability] 256 autostarted storage pools reloading	jiachen	None	Auto		Stress	P2	2240	Edit
+		215764	[Guest network driver] Illegal interface type or NIC model	xhu	None	Manual		Negative test	P3	2250	Edit
+		216274	[PCI and USB device assignment] Hot unplug normal PCI device with 'managed=yes' - bug 781985	yimwang	None	Auto		--default--	P1	2250	Edit
+		216275	[PCI and USB device assignment] Hot unplug normal PCI device without 'managed=yes'	jialiu	None	Auto		--default--	P1	2260	Edit
+		215768	[Guest network driver] NIC virtio driver with and without vhost-net	xhu	None	Manual		Feature	P3	2270	Edit
+		216278	[PCI and USB device assignment] Hotplug PCI device to guest via virt-manager - bug 555309	yoyzhang	yoyzhang	Auto		Regression	P2	2270	Edit
+		216279	[PCI and USB device assignment] Hotplug/Hotunplug normal USB device with bus + device	jialiu	None	Auto		--default--	P1	2280	Edit
+		216280	[PCI and USB device assignment] Hotplug/Hotunplug normal USB device with product + vendor-bug798838	jialiu	None	Auto		--default--	P2	2290	Edit
+		216282	[PCI and USB device assignment] Need an xml switch to disable rombar of assigned devices	ajia	None	Auto		--default--	P1	2300	Edit
+		216281	[PCI and USB device assignment] libvirt Support ivshmem (Inter-VM Shared Memory) - bug787536	ajia	ajia	Manual		--default--	P1	2310	Edit
+		216284	[PCI and USB device assignment] passthrough multifunction PCI devices to KVM guests	ajia	None	Auto		--default--	P1	2310	Edit
+		216285	[PCI and USB device assignment] PCI passthrough normal device with manage='yes' and then hot-unplug	weizhan	None	Manual		 Function	P1	2320	Edit
+		216286	[PCI and USB device assignment] PCI passthrough normal device without manage='yes' and then hot-unplug	yoyzhang	yoyzhang	Auto		--default--	P2	2330	Edit
+		216287	[PCI and USB device assignment] Prevent PCI coldplug/hotplug on non-IOMMU host	yoyzhang	yoyzhang	Auto		--default--	P2	2340	Edit
+		216295	[PCI device] attach-detach one vnet for 1000 rounds	jiachen	None	Auto		Stress	P2	2350	Edit
+		216405	[Snapshot] Create a domain snapshot of a running domain with a specified name and description	jyang	None	Auto		Feature	P2	2350	Edit
+		216298	[python-virtinst] serial file path is converted to lower case? -- bug 731115	vbian	vbian	Manual		 Function	P1	2360	Edit
+		216300	[Remote access] Configuration TLS x509 server key file path	whuang	None	Auto		 Regression	P1	2370	Edit
+		216414	[Snapshot] Dump the XML of a domain snapshot	jyang	None	Auto		Feature	P1	2370	Edit
+		216301	[remote access] connect to hypervisor with unconfigured tls/tcp connection BZ#723442	whuang	None	Manual		 Regression	P1	2380	Edit
+		216302	[remote access] SSH GSSAPI login broken BZ#737176	whuang	None	Manual		 Regression	P1	2390	Edit
+		216416	[Snapshot] Get the current snapshot	jyang	None	Auto		Feature	P1	2390	Edit
+		216303	[Remote access] access test driver - bug 684848	jyang	yoyzhang	Auto		Feature	P2	2400	Edit
+		216304	[Remote access] access test driver - bug 684848	jyang	jyang	Both		Feature	P2	2410	Edit
+		216423	[Snapshot] Revert a running domain to a running snapshot	jyang	yoyzhang	Auto		Feature	P2	2410	Edit
+		216305	[Remote access] Check connect with UNIX sockets with polkit	yoyzhang	None	Auto		Feature	P2	2420	Edit
+		216306	[Remote access] Check connect with UNIX sockets with SASL	yoyzhang	None	Auto		Feature	P2	2430	Edit
+		216307	[Remote access] Check connect with UNIX sockets without auth check	yoyzhang	None	Auto		Feature	P2	2440	Edit
+		216308	[Remote access] Connect to a non-kvm hypervisor	yoyzhang	None	Manual		Feature	P2	2450	Edit
+		216309	[Remote access] Connect to the hypervisor on host using a plain TCP connection without SASL via ipv4	yoyzhang	None	Manual		Feature	P1	2460	Edit
+		216500	[Stable guest ABI] Update lower version qemu-kvm with Linux domain	jialiu	None	Manual		Feature	P3	2480	Edit
+		216497	[Stable guest ABI] Stable PCI addresses when adding devie for linux guest	jialiu	None	Manual		Feature	P3	2500	Edit
+		216580	[Supported hypervisors] KVM Xen VMware (LXC)	nzhang	None	Manual		Feature	P1	2520	Edit
+		216594	[sVirt] Guest on OS with selinux disabled	jialiu	None	Manual		Feature	P2	2540	Edit
+		216619	[sVirt] shared disks with <shareable/> usability	jialiu	yoyzhang	Auto		Feature	P2	2560	Edit
+		216654	[Virtio-serial] Create a channel with pty-virtserialport type	nzhang	None	Manual		Feature	P2	2600	Edit
+		215820	[Host network interface management] Define a bond interface that contains two ethernets	yimwang	None	Manual		Feature	P2	2620	Edit
+		216657	[Virtio-serial] Open multiple channels at same time	nzhang	yoyzhang	Manual		Feature	P2	2630	Edit
+		215826	[Host network interface management] define a bridge that uses an ethernet interface	yimwang	None	Manual		Feature	P2	2640	Edit
+		216293	[PCI and USB devices assignment] Hot/Cold-plug a PCI device without FLR capability to guest -- bug 773667	ajia	ajia	Manual		Feature	P1	2640	Edit
+		216276	[PCI and USB device assignment] Hot/cold-plug a PCI device to guest on Intel VT/AMD-V + non-VT-d/non-IOMMU host-bug818055	ajia	None	Auto		Feature	P1	2650	Edit
+		215831	[Host network interface management] Define an ethernet with both static IPv4 and IPv6 address	jialiu	None	Manual		Feature	P2	2660	Edit
+		216277	[PCI and USB device assignment] Hot/Cold-plug multiple PCI devices to guest	ajia	None	Auto		Feature	P1	2660	Edit
+		216289	[PCI and USB device assignment] tight loop of hotplug/unplug NIC to guest on normal host-- Bug 619455,Bug822373	vbian	None	Auto		 Regression	P1	2670	Edit
+		216813	[Watchdog device]Watchdog device "i6300esb" - pause	jialiu	yoyzhang	Auto		Feature	P2	2670	Edit
+		215834	[Host network interface management] Define an ethernet with static IPv4 address	jialiu	None	Manual		Feature	P2	2680	Edit
+		216258	[PCI and USB device assignment] attach-detach-reattach node device for 1000 rounds	jiachen	None	Auto		Stress	P2	2680	Edit
+		216260	[PCI and USB device assignment] Block assignment of devices below non-ACS switch - bug 526713	yoyzhang	yoyzhang	Auto		--default--	P2	2690	Edit
+		216807	[Watchdog device] Watchdog device "i6300esb" - poweroff	jialiu	yoyzhang	Auto		Feature	P2	2690	Edit
+		215835	[Host network interface management] Define an ethernet with static IPv6 address	jialiu	None	Manual		Feature	P2	2700	Edit
+		216261	[PCI and USB device assignment] Block assignment of devices below non-ACS switch - bug 526713,706869	yoyzhang	yoyzhang	Auto		 Regression	P2	2700	Edit
+		216272	[PCI and USB device assignment] Hot plug normal PCI device with 'managed=yes'	yimwang	None	Auto		--default--	P1	2710	Edit
+		216815	[Watchdog device]Watchdog device "i6300esb" - reset	jialiu	None	Auto		Feature	P2	2710	Edit
+		215843	[Host network interface management] Error handlING for invalid IP address	jialiu	None	Manual		Feature	P2	2720	Edit
+		216273	[PCI and USB device assignment] Hot plug normal PCI device without 'managed=yes'	jialiu	None	Auto		--default--	P1	2720	Edit
+		215861	[Interface hotplug] Attach 32 NIC to guest	jialiu	None	Manual		--default--	P1	2750	Edit
+		215863	[Interface hotplug] attach interface via xml after libvirtd restart - bug 623877	xhu	None	Manual		Regression	P1	2760	Edit
+		215865	[Interface hotplug] Attach/Detach e1000 NIC to guest	jialiu	None	Auto		--default--	P1	2770	Edit
+		215868	[Interface hotplug] Attach/Detach virtio NIC to guest	jialiu	None	Auto		--default--	P1	2780	Edit
+		215866	[Interface hotplug] Attach/Detach NIC to guest for 500 times - stress test - Bug 618484	jialiu	None	Manual		Regression	P1	2790	Edit
+		215867	[Interface hotplug] Attach/Detach rtl8139 NIC to guest	jialiu	None	Auto		--default--	P1	2800	Edit
+		216265	[PCI and USB device assignment] Cold-plug a USB device to guest with bus + device and then hot-unplug	ajia	None	Auto		Feature	P1	2850	Edit
+		216026	[Managed save] Domains are *not* automatically restored via initscript when host boots up	yimwang	None	Auto		--default--	P2	2870	Edit
+		216266	[PCI and USB device assignment] Cold-plug a USB device to guest with product + vendor and the hot-unplug-bug798838	ajia	None	Auto		Feature	P1	2870	Edit
+		216041	[Managed save] Same domain cannot be started with the same saved image again.	yimwang	None	Auto		--default--	P2	2880	Edit
+		216028	[Managed save] Domains are automatically saved via initscript when host shuts down	yimwang	None	Auto		--default--	P2	2890	Edit
+		216267	[PCI and USB device assignment] Cold-plug multiple USB devices to guest	ajia	None	Auto		Feature	P1	2890	Edit
+		216027	[Managed save] Domains are automatically restored via initscript when host boots up	yimwang	None	Auto		--default--	P2	2900	Edit
+		216268	[PCI and USB device assignment] Cold/hot-plug USB/PCI devices to guest and then shutdown or reboot the guest	ajia	None	Auto		Feature	P1	2900	Edit
+		216044	[Managed save] Stopped domain fails to be saved via virsh.	yimwang	None	Auto		--default--	P2	2910	Edit
+		216270	[PCI and USB device assignment] Dynamically switch a PCI/USB devices between different guests without shutdown	ajia	None	Auto		Feature	P1	2910	Edit
+		216045	[Managed save] Stopped domain with managed save file can be manually restored via virsh	yimwang	None	Auto		--default--	P2	2920	Edit
+		216271	[PCI and USB device assignment] Dynamically switch one PCI/USB device between different guests	ajia	ajia	Auto		Feature	P1	2920	Edit
+		216237	[NPIV] Restart the libvirtd to see if the wwpn is same as before	nzhang	None	Manual		--default--	P1	3000	Edit
+		216244	[NUMA] libvirtd drops client connection when querying capabilities on NUMA machines with sparse topology	gren	gren	Manual		 Regression	P1	3020	Edit
+		216263	[PCI and USB device assignment] Check owner and selinux label after hot-unplugging a USB device from guest with managed mode-bug825068	ajia	ajia	Auto		Feature	P1	3030	Edit
+		216264	[PCI and USB device assignment] Check whether return device to host when destroying guest with managed mode after stopping libvirtd service	ajia	ajia	Auto		Feature	P1	3040	Edit
+		216217	[Node devices] Dump usb device xml info	yoyzhang	yoyzhang	Auto		--default--	P2	3110	Edit
+		216219	[Node devices] node driver should be back after reattach node device - bug 713697	mzhan	mzhan	Manual		 Regression	P1	3120	Edit
+		216157	[Migration]During live migration, fail gracefully on network error BZ 822839	yimwang	None	Manual		--default--	P2	3130	Edit
+		216220	[Node devices] Reattach a pci device which is using by guest to host - bug 603039	mzhan	mzhan	Manual		Negative test	P1	3130	Edit
+		216158	[Migration]During live migration, restart destination libvirtd	yimwang	None	Manual		--default--	P2	3140	Edit
+		216221	[Node devices] Reattach node device on host	yoyzhang	yoyzhang	Auto		--default--	P2	3140	Edit
+		216159	[Migration]During live migration, restart source libvirtd - bug 690175,634065,728603	yimwang	None	Manual		 Regression	P2	3150	Edit
+		216222	[Node devices] Reset node device from host	yoyzhang	yoyzhang	Auto		--default--	P2	3150	Edit
+		216161	[Migration]Live migration of a domain with a PCI device hotplugged	yimwang	None	Manual		--default--	P2	3160	Edit
+		216223	[Node devices] Support for wireless NIC node device	mzhan	None	Manual		Feature	P2	3160	Edit
+		216162	[Migration]Live migration of a domain with hotplugged NICs	yimwang	None	Manual		--default--	P2	3170	Edit
+		216224	[Node devices] Try to create node device which is not a fibre channel HBA- bug 510426	yoyzhang	yoyzhang	Manual		Regression	P3	3170	Edit
+		216168	[Migration]Offline migration	yimwang	None	Auto		--default--	P1	3180	Edit
+		216225	[Node devices]Virtio Net/Disk block devices get correct parent in node device info - bug 570130	mzhan	None	Manual		 Regression	P2	3180	Edit
+		216169	[Migration]Tunnelled migration	yimwang	None	Manual		--default--	P2	3190	Edit
+		216226	[Node devices]Virtio Net/Disk block devices get correct parent in node device info - bug 570130	mzhan	mzhan	Manual		 Regression	P2	3190	Edit
+		216170	[Migration]Use an alternate migration URI to do the migration	yimwang	None	Manual		--default--	P2	3200	Edit
+		216227	[NPIV] Create a virtual HBA with NPIV	nzhang	None	Manual		Feature	P1	3200	Edit
+		216228	[NPIV] Create and destroy vport frequently - bug595490	nzhang	None	Auto		Stress	P1	3210	Edit
+		216229	[NPIV] Create and destroy vport frequently - bug595490	nzhang	nzhang	Auto		Stress	P1	3220	Edit
+		216230	[NPIV] Create more than 2 vports and destroy one to see if others can still work	nzhang	None	Manual		--default--	P1	3230	Edit
+		216249	[NUMA] VM CPU Runtime pinning	xhu	None	Auto		--default--	P1	3230	Edit
+		216231	[NPIV] Create up to 127 vport	nzhang	None	Manual		--default--	P1	3240	Edit
+		216232	[NPIV] Destroy a virtual HBA with NPIV	nzhang	None	Manual		Feature	P1	3250	Edit
+		216233	[NPIV] Discover SAN Storage	nzhang	None	Manual		Feature	P1	3260	Edit
+		216234	[NPIV] Each guest writes data into SAN storage via different vHBA at the same time.	xhu	None	Manual		--default--	P2	3270	Edit
+		216235	[NPIV] Install a guest into SAN storage via vHBA.	xhu	None	Manual		--default--	P1	3280	Edit
+		216236	[NPIV] Install a guest on the storage which connect to the vport of host1 and reconnect it to host2 with the same vport	nzhang	None	Manual		Feature	P1	3290	Edit
+		216189	[Network filter] - edit XML configuration for a network filter	jyang	yoyzhang	Auto		Feature	P1	3300	Edit
+		216190	[Network filter] - libvirt should initialize nwfilter when /tmp is mounted with noexec option - bug 752255	xhu	None	Manual		 Regression	P1	3310	Edit
+		216191	[Network filter] - list network filters	jyang	yoyzhang	Auto		Feature	P1	3320	Edit
+		216192	[Network filter] - network filter information in XML	jyang	yoyzhang	Auto		Feature	P1	3330	Edit
+		216193	[Network filter] - undefine a network filter	jyang	yoyzhang	Auto		Feature	P1	3340	Edit
+		216194	[Network filter] allow arp	jyang	jyang	Auto		Feature	P2	3350	Edit
+		216195	[Network filter] allow incoming ipv4	jyang	yoyzhang	Auto		Feature	P2	3360	Edit
+		216196	[Network filter] allow ipv4	jyang	None	Auto		Feature	P1	3370	Edit
+		216197	[Network filter] allow-dhcp	xhu	None	Manual		Feature	P2	3380	Edit
+		216198	[Network filter] allow-incoming-arp	xhu	None	Manual		Feature	P1	3390	Edit
+		216199	[Network filter] allow-ipv6	xhu	None	Auto		Feature	P1	3400	Edit
+		216200	[Network filter] clean-traffic	xhu	None	Manual		Feature	P2	3410	Edit
+		216375	[Scalability] migrate a guest for 1024 rounds through SSH connection --live	gsun	None	Auto		Stress	P2	3410	Edit
+		216201	[Network filter] disallow arp	jyang	yoyzhang	Auto		Feature	P1	3420	Edit
+		216376	[Scalability] migrate a guest for 1024 rounds through SSH connection --tunnelled	gsun	gsun	Auto		Stress	P2	3420	Edit
+		216202	[Network filter] disallow dhcp	jyang	yoyzhang	Auto		Feature	P2	3430	Edit
+		216377	[Scalability] migrate a guest for 1024 rounds through TCP connection --live	jialiu	None	Manual		Stress	P2	3430	Edit
+		216203	[Network filter] disallow-dhcp-server	xhu	None	Manual		--default--	P1	3440	Edit
+		216379	[Scalability] migrate a guest for 1024 rounds through TCP connection --tunnelled	jialiu	jialiu	Manual		Stress	P2	3440	Edit
+		216204	[Network filter] disallow-ipv6	xhu	None	Auto		Feature	P1	3450	Edit
+		216380	[Scalability] migrate a guest for 1024 rounds through TLS connection --live	gsun	None	Auto		Stress	P2	3450	Edit
+		216205	[Network filter] no-arp-spoofing	xhu	None	Manual		Feature	P2	3460	Edit
+		216382	[Scalability] migrate a guest for 1024 rounds through TLS connection --tunnelled	gsun	gsun	Auto		Stress	P2	3460	Edit
+		216383	[Scalability] migrate a guest for 1024 rounds with undefinesource and persistent option -- bug 757635	gsun	gsun	Manual		Stress	P2	3460	Edit
+		216206	[Network filter] no-ip-spoofing	xhu	None	Manual		Feature	P2	3470	Edit
+		216404	[Snapshot] Create a domain snapshot of a running domain	xhu	None	Auto		--default--	P1	3470	Edit
+		216207	[Network filter] no-mac-broadcast	xhu	None	Manual		Feature	P2	3480	Edit
+		216406	[Snapshot] Create a domain snapshot of a shutdown domain	xhu	None	Auto		--default--	P1	3480	Edit
+		216208	[Network filter] no-mac-spoofing	xhu	None	Manual		Feature	P2	3490	Edit
+		216409	[Snapshot] Delete a snapshot and all children snapshots	xhu	None	Manual		--default--	P2	3490	Edit
+		216209	[Network filter] no-other-l2-traffic	xhu	None	Manual		Feature	P2	3500	Edit
+		216424	[Snapshot] Revert a running domain to a shutdown snapshot	xhu	None	Auto		--default--	P2	3500	Edit
+		216213	[Node devices] Allow PCI PM reset on multi-function devices - bug 517460	yoyzhang	yoyzhang	Manual		--default--	P2	3510	Edit
+		216425	[Snapshot] Revert a shutdown domain to a running snapshot	xhu	None	Auto		--default--	P2	3510	Edit
+		216214	[Node devices] Allow PCI PM reset on multi-function devices - bug 517460	yoyzhang	yoyzhang	Manual		--default--	P2	3520	Edit
+		216426	[Snapshot] Revert a shutdown domain to a shutdown snapshot	xhu	None	Auto		--default--	P2	3520	Edit
+		216215	[Node devices] Dettach node device from host	yoyzhang	yoyzhang	Auto		--default--	P2	3530	Edit
+		216216	[Node devices] Dump network device xml info	yoyzhang	yoyzhang	Auto		--default--	P2	3540	Edit
+		216543	[Storage] error handle for overcommit to storage - scenario 1	jialiu	None	Manual		--default--	P2	3540	Edit
+		216175	[Miscellanea] QEMU driver does not notice when a guest OS ejects CDROM/Floppy device media - Bug 575160	gren	None	Manual		 Regression	P1	3550	Edit
+		216544	[Storage] error handle for overcommit to storage - scenario 2	jialiu	None	Manual		--default--	P2	3550	Edit
+		216174	[Miscellanea] QEMU driver does not notice when a guest OS ejects CDROM/Floppy device media	gren	gren	Manual		 Regression	P1	3560	Edit
+		216561	[Storage] SCSI based storage pool	xhu	None	Manual		--default--	P2	3560	Edit
+		216176	[Miscellanea] Upgrade all related pkgs on RHEL6.0 release os tree and test basic operations	mzhan	mzhan	Manual		 Regression	P1	3570	Edit
+		216177	[Miscellanea] Upgrade all related pkgs on RHEL6.0 release os tree and test basic operations	mzhan	mzhan	Manual		 Regression	P1	3580	Edit
+		216683	[Virtual disks] create guest with disk have error_policy - bug 730909	zpeng	zpeng	Manual		 Function	P1	3590	Edit
+		216188	[Network filter] - define or update a network filter from an XML file	jyang	yoyzhang	Auto		Feature	P1	3600	Edit
+		216144	[Migration] Stopping src libvirtd during migration - bug 728341	weizhan	None	Manual		 Regression	P1	3610	Edit
+		216122	[Migration] migration with large RAM	gren	yoyzhang	Auto		--default--	P2	3640	Edit
+		216123	[Migration] migration with multi guests	gren	yoyzhang	Auto		--default--	P2	3650	Edit
+		216124	[Migration] migration with network load on both source and target host in high speed(1000Mb/s) network	xhu	None	Manual		Stress	P2	3660	Edit
+		216125	[Migration] migration with network load on both source and target host in slow(128Kb/s) network	xhu	None	Manual		--default--	P2	3670	Edit
+		216128	[Migration] Migration with not start libvirtd on target host - bug 736590	weizhan	weizhan	Manual		 Regression	P1	3680	Edit
+		216130	[Migration] migration with SMP enabled	gren	yoyzhang	Manual		--default--	P2	3690	Edit
+		216133	[Migration] p2p migration	jyang	yoyzhang	Auto		Feature	P2	3700	Edit
+		216137	[Migration] Reboot the host durning live migration	nzhang	None	Manual		--default--	P2	3710	Edit
+		215697	[Floppy disk support] readonly	jyang	yoyzhang	Auto		Feature	P2	3720	Edit
+		216139	[Migration] seemless SPICE migration - Bug 589989	jialiu	None	Auto		Regression	P2	3720	Edit
+		215698	[Floppy disk support] shareable	jyang	yoyzhang	Auto		Feature	P2	3730	Edit
+		216140	[Migration] Set bandwidth of migration	weizhan	None	Manual		 Regression	P1	3730	Edit
+		215699	[Floppy disk support] write & read floppy	jyang	None	Auto		Feature	P2	3740	Edit
+		216141	[Migration] Set bandwidth of migration with virt-manager	weizhan	weizhan	Manual		 Regression	P1	3740	Edit
+		216142	[Migration] Set max downtime during migration	weizhan	None	Manual		 Regression	P1	3750	Edit
+		216098	[Migration] migrate a guest based on iscsi storage	jialiu	None	Manual		--default--	P2	3760	Edit
+		215765	[Guest network driver] NIC e1000 driver	gren	gren	Auto		Feature	P3	3770	Edit
+		216100	[Migration] migrate a guest for 1024 rounds through TCP connection --offline	ajia	None	Auto		Stress	P2	3770	Edit
+		215766	[Guest network driver] NIC rtl8139 driver	gren	yoyzhang	Auto		Feature	P3	3780	Edit
+		215767	[Guest network driver] NIC virtio driver	gren	yoyzhang	Auto		Feature	P3	3790	Edit
+		215823	[Host network interface management] define & undefine interface	jyang	None	Auto		Feature	P2	3800	Edit
+		216101	[Migration] migrate a guest with disk I/O load	ajia	None	Manual		Stress	P2	3800	Edit
+		215839	[Host network interface management] destroy & start interface	jyang	None	Auto		Feature	P2	3810	Edit
+		216102	[Migration] migrate a guest with heavy CPU load	jialiu	None	Manual		Stress	P2	3810	Edit
+		215840	[Host network interface management] dump interface's xml	jyang	None	Auto		Feature	P2	3820	Edit
+		216103	[Migration] migrate a guest with heavy MEM load	jialiu	None	Manual		Stress	P2	3820	Edit
+		215841	[Host network interface management] dump interface's xml (--inactive)	jyang	None	Auto		Feature	P2	3830	Edit
+		216104	[Migration] migrate a guest with hugepage memory	jialiu	None	Manual		--default--	P2	3830	Edit
+		215842	[Host network interface management] edit interface's xml	jyang	None	Auto		Feature	P2	3840	Edit
+		216105	[Migration] migrate a guest with vcpu pinning on the same CPU model	jialiu	None	Manual		--default--	P2	3840	Edit
+		215846	[Host network interface management] list interfaces	jyang	None	Auto		Feature	P2	3850	Edit
+		216106	[Migration] Migrate a paused KVM guest - Bug 519204	yoyzhang	yoyzhang	Auto		Regression	P2	3850	Edit
+		215844	[Host network interface management] Get interface name via MAC address	jyang	yoyzhang	Auto		Feature	P2	3860	Edit
+		215845	[Host network interface management] Get MAC address via interface name	jyang	None	Auto		Feature	P2	3870	Edit
+		216108	[Migration] Migrate to wrong uri - bug 730244, 759432	weizhan	weizhan	Manual		 Regression	P1	3870	Edit
+		216107	[Migration] Migrate guest with different connect way(tcp, tls) - Bug 491295	yoyzhang	yoyzhang	Auto		Regression	P2	3880	Edit
+		216109	[Migration] Migrating the same guest again after terminating last migration with ctrl-c - bug 682953	weizhan	None	Manual		 Regression	P1	3880	Edit
+		216110	[Migration] Migration after eject cdrom in guest - bug 725673	weizhan	None	Manual		 Regression	P1	3890	Edit
+		216111	[Migration] migration based on ssh connection with ipv6 address - Bug 624626 846013	jialiu	None	Manual		--default--	P2	3910	Edit
+		216112	[Migration] migration based on tcp connection with ipv6 address - Bug 624626 846013	jialiu	None	Manual		--default--	P2	3920	Edit
+		215902	[libvirtd] check access control of readonly unix socket.	jyang	yoyzhang	Auto		--default--	P2	3930	Edit
+		216113	[Migration] migration based on TLS connection with ipv6 address - Bug 624626 846013	jialiu	None	Manual		--default--	P2	3930	Edit
+		215904	[libvirtd] concurrent remote access	jyang	yoyzhang	Both		--default--	P2	3940	Edit
+		216114	[Migration] migration during vm boot	gren	yoyzhang	Manual		--default--	P2	3940	Edit
+		215905	[libvirtd] daemon convention testing	jyang	yoyzhang	Manual		--default--	P2	3950	Edit
+		216115	[Migration] migration during vm installation	gren	yoyzhang	Manual		--default--	P2	3950	Edit
+		215974	[Log and debugging] log testing - 1	jyang	yoyzhang	Manual		--default--	P2	3960	Edit
+		216116	[Migration] migration during vm reboot	gren	yoyzhang	Manual		--default--	P2	3960	Edit
+		215975	[Log and debugging] log testing - 2	jyang	yoyzhang	Manual		--default--	P2	3970	Edit
+		216070	[Migration] Block the storage domain connectivity on destination during migration - bug 705405	weizhan	None	Manual		 Regression	P1	3970	Edit
+		215976	[Log and debugging] log testing - 3	jyang	yoyzhang	Manual		--default--	P2	3980	Edit
+		216072	[Migration] Change domain xml and name together during migration - Bug 744237, 741251	weizhan	None	Manual		 Regression	P1	3980	Edit
+		215927	[libvirtd] network interface <target> after libvirtd restart - Bug 588046	jialiu	None	Manual		Regression	P2	3990	Edit
+		216074	[Migration] compare cpu number and memory size between before migration and after migration	jyang	yoyzhang	Auto		Feature	P1	3990	Edit
+		215928	[libvirtd] option "--timeout" testing - 1	jyang	jyang	Manual		--default--	P1	4000	Edit
+		216075	[Migration] compare domain xml before migrated and after migrated	jyang	yoyzhang	Manual		Feature	P2	4000	Edit
+		215929	[libvirtd] option "--timeout" testing - 2	jyang	yoyzhang	Manual		--default--	P2	4010	Edit
+		216076	[Migration] direct migration - bug 832373	jyang	yoyzhang	Manual		Feature	P2	4010	Edit
+		215930	[libvirtd] option "--timeout" testing - 3	jyang	yoyzhang	Manual		--default--	P2	4020	Edit
+		216079	[Migration] Do readonly command during qemu migration - bug 704124	weizhan	None	Manual		 Regression	P1	4020	Edit
+		215979	[Log and debugging] per log for per-hypervisor	jyang	yoyzhang	Manual		--default--	P2	4030	Edit
+		216080	[Migration] During migration dump domain xml - Bug 742277	weizhan	None	Manual		 Regression	P1	4030	Edit
+		215945	[libvirtd] send "SIGABRT" and "SIGKILL" to libvirtd	jyang	yoyzhang	Manual		--default--	P2	4040	Edit
+		216081	[Migration] During migration reboot guest with virsh command - Bug 744967	weizhan	None	Manual		 Regression	P1	4040	Edit
+		215946	[libvirtd] send signal "SIGTERM", "SIGQUIT", "SIGINT" to libvirtd	jyang	jyang	Manual		--default--	P1	4050	Edit
+		216083	[Migration] guest timer check after migration	jialiu	None	Auto		--default--	P1	4050	Edit
+		215954	[libvirtd] xmldesc with a typo should not make libvirtd segfault - Bug 523418	yoyzhang	yoyzhang	Manual		Regression	P2	4060	Edit
+		216084	[Migration] Kill destination during live migration	nzhang	None	Manual		--default--	P2	4060	Edit
+		216085	[Migration] Live migrate with high memory load with no swap	nzhang	None	Manual		--default--	P2	4070	Edit
+		216086	[Migration] Live migration based on same cpu vendor - AMD	dyuan	dyuan	Auto		--default--	P2	4080	Edit
+		216087	[Migration] Live migration based on same cpu vendor - intel	gren	None	Auto		--default--	P1	4090	Edit
+		216088	[Migration] Live migration between non-similar processors - different vendor	yimwang	None	Manual		--default--	P2	4100	Edit
+		216040	[Managed save] Running domain can be manually saved via virsh	jyang	None	Auto		Feature	P1	4110	Edit
+		216089	[Migration] Live migration of a domain while playing online streaming media	weizhan	None	Manual		--default--	P2	4110	Edit
+		216051	[Memory management] ballooning testing(API)	jyang	yoyzhang	Manual		--default--	P2	4120	Edit
+		216090	[Migration] Live migration of a domain with a PCI device passed-through	yimwang	None	Manual		Feature	P2	4120	Edit
+		216052	[Memory management] ballooning testing(virsh)	jyang	jyang	Both		--default--	P1	4130	Edit
+		216091	[Migration] Live migration of a domain with hotplugged disks	yimwang	None	Manual		--default--	P2	4130	Edit
+		216056	[Memory management] Change KVM guest memory info - bug 508266	yoyzhang	yoyzhang	Manual		Regression	P2	4140	Edit
+		216093	[Migration] Live migration with multiple virtual network interfaces	nzhang	None	Manual		--default--	P2	4140	Edit
+		216060	[Memory management] huge pages	jyang	jyang	Auto		--default--	P1	4150	Edit
+		216094	[Migration] Live migration with non-shared storage for kvm - 677220	weizhan	weizhan	Manual		 Function	P1	4150	Edit
+		216095	[Migration] live migration with option "--persistent"	jyang	yoyzhang	Auto		Feature	P2	4160	Edit
+		216096	[Migration] live migration with option --undefinesource	jialiu	None	Auto		--default--	P2	4170	Edit
+		216097	[migration] migrate 100 guests at one time through TLS connection on hosts(48 cores CPU / 512GB mem)	jiachen	None	Auto		Stress	P2	4180	Edit
+		216042	[Managed save] Skip the URI during host shutdown when the URI cannot to be connectted to via initscript	dyuan	None	Manual		 Regression	P2	4190	Edit
+		216053	[Memory Management] bounary test -- guest memory up to free host physical memory plus free swap size	eli	None	Manual		--default--	P1	4200	Edit
+		216054	[Memory Management] bounary test -- guest memory up to host physical memory	eli	None	Manual		--default--	P1	4210	Edit
+		216055	[Memory Management] bounary test -- set guest memory down to 256M	eli	None	Manual		--default--	P1	4220	Edit
+		216059	[Memory Management] functional test -- set guest memory	eli	None	Manual		--default--	P1	4230	Edit
+		216063	[Memory Management] scalability test -- reduce guest memory and increase back	eli	None	Manual		--default--	P1	4240	Edit
+		216068	[Migration] Bi-directional live migration between 2 hosts.	weizhan	None	Manual		 Regression	P2	4250	Edit
+		216069	[Migration] Bi-directional tunnelled migration between 2 hosts.	weizhan	None	Manual		 Regression	P2	4270	Edit
+		216015	[LXC] set memory	jyang	None	Manual		Feature	P2	4290	Edit
+		216016	[LXC] shutdown/destroy container	jyang	None	Manual		Feature	P2	4300	Edit
+		216218	[Node devices] List all node devices on host	yoyzhang	None	Auto		--default--	P1	4300	Edit
+		216017	[LXC] undefine	jyang	None	Manual		Feature	P2	4310	Edit
+		216018	[LXC] version output	jyang	yoyzhang	Manual		Feature	P2	4320	Edit
+		216019	[LXC]capabilities	jyang	None	Manual		Feature	P2	4330	Edit
+		215998	[LXC] Application container life cycle testing	jyang	None	Manual		--default--	P2	4340	Edit
+		216023	[Managed save] Cann't managed save a transient domain	dyuan	None	Manual		Regression	P1	4350	Edit
+		216036	[Managed save] invalid save file should not block the domain start - bug 730750	dyuan	None	Manual		Regression	P1	4360	Edit
+		216038	[Managed save] kill libvirtd in the middle of managed save - bug 727254	dyuan	dyuan	Both		 Regression	P1	4370	Edit
+		216242	[NUMA] creating vm to place the vcpu in certain cell	gren	None	Manual		--default--	P1	4370	Edit
+		215988	[Longevity] keep a running guest for one week	dyuan	None	Manual		--default--	P2	4380	Edit
+		216241	[NUMA] CPU topology parsing bug on special NUMA platform - bug 828729	gsun	gsun	Manual		--default--	P1	4380	Edit
+		216243	[NUMA] guest numa topology - bug 832165	gsun	gsun	Manual		--default--	P1	4380	Edit
+		216246	[NUMA] NUMA aware KSM support in libvirt - bug 840113	gsun	gsun	Manual		--default--	P1	4380	Edit
+		216247	[NUMA] show numa topology	gren	None	Manual		--default--	P1	4380	Edit
+		216248	[NUMA] vcpupin fail with non-specific error msg when numad is running - bug 846620	gsun	gsun	Manual		--default--	P1	4380	Edit
+		215990	[Longevity] keep the cold/hot pluged devices for more than 1 week	ajia	None	Manual		Feature	P1	4390	Edit
+		215992	[Longevity] Run FTP application load in rhel guest	ydu	None	Manual		--default--	P2	4400	Edit
+		215993	[Longevity] Run Mysql application load in rhel guest	ydu	None	Manual		--default--	P2	4410	Edit
+		215994	[Longevity] Run Oracle application load in windows guest	ydu	None	Manual		--default--	P2	4420	Edit
+		215995	[Longevity] Run SQL-server application load in windows guest	ydu	None	Manual		--default--	P2	4430	Edit
+		216001	[LXC] autostart enable/disable	jyang	None	Manual		Feature	P2	4440	Edit
+		216002	[LXC] Check setting memory error message when cgroup is unmounted	ajia	None	Manual		Feature	P2	4450	Edit
+		216003	[LXC] connect to OS container via console	jyang	None	Manual		Feature	P2	4460	Edit
+		215997	[LXC] Application container event register	jyang	yoyzhang	Manual		Feature	P2	4470	Edit
+		216005	[LXC] get interface statistics	jyang	None	Manual		Feature	P2	4480	Edit
+		216007	[LXC] kill process "/usr/libexec/libvirt_lxc"	jyang	yoyzhang	Manual		Feature	P2	4490	Edit
+		216008	[LXC] make sure it will only show the process in the container.	jyang	yoyzhang	Manual		--default--	P2	4500	Edit
+		216408	[Snapshot] Delete a snapshot	ajia	None	Auto		--default--	P1	4500	Edit
+		216000	[LXC] Application container with multi network interfaces	jyang	yoyzhang	Manual		Feature	P2	4510	Edit
+		216421	[Snapshot] List all of the snapshots for a domain	ajia	None	Auto		--default--	P1	4510	Edit
+		216009	[LXC] network device	jyang	None	Manual		Feature	P2	4520	Edit
+		216010	[LXC] OS container suspend/resume	jyang	None	Manual		Feature	P2	4530	Edit
+		216011	[LXC] schedinfo	jyang	None	Manual		Feature	P2	4540	Edit
+		216012	[LXC] schedinfo - give wrong parameters	jyang	yoyzhang	Manual		Feature	P2	4550	Edit
+		216013	[LXC] set max memory	jyang	jyang	Manual		Feature	P2	4560	Edit
+		216014	[LXC] set max memory for shutoff domain	jyang	jyang	Manual		Feature	P1	4570	Edit
+		215961	[lock manager] Incorrect path length check on sanlock lockspace limits directory name length to 47 characters BZ#735443	whuang	None	Manual		 Regression	P1	4580	Edit
+		215963	[lock manager] missing requirement of libvirt-lock-sanlock package BZ#738314	whuang	None	Manual		 Regression	P1	4590	Edit
+		215964	[lock manager] RFE: QEMU driver does not prevent a disk being added to two guests at once in non-shared modeBZ#578121	whuang	None	Manual		 Regression	P1	4600	Edit
+		215962	[lock manager] Live snapshot and merge with sanlock enabled BZ#785736	ajia	None	Manual		 Function	P1	4610	Edit
+		215965	[lock manager] Sanlock library license compatibility testing	ajia	None	Manual		Regression	P1	4610	Edit
+		215968	[lock manager] Support customizable actions when sanlock leases are lost - bug 832156	ajia	None	Manual		Feature	P1	4610	Edit
+		215967	[lock manager] Sanlock socket is incorrectly labelled for SELinux BZ#735442, BZ#820173	whuang	None	Manual		 Regression	P1	4620	Edit
+		215969	[lock manager] virt-sanlock-cleanup command doesn't work BZ# 738534	whuang	None	Manual		 Regression	P1	4630	Edit
+		215984	[Longevity] Check virt-manager and rhel guests after run them for a long time	ydu	None	Manual		--default--	P2	4640	Edit
+		216501	[Stable guest ABI] Update lower version qemu-kvm with Windows domain	jialiu	None	Manual		--default--	P3	4640	Edit
+		215985	[Longevity] Check virt-manager and windows guests after run them for a long time	ydu	None	Manual		--default--	P2	4650	Edit
+		216496	[Stable guest ABI] Stable PCI addresses when adding device for windows guest	jialiu	None	Manual		--default--	P3	4650	Edit
+		215937	[libvirtd] reload configuration testing - 1	jyang	jyang	Manual		--default--	P4	4660	Edit
+		216498	[Stable guest ABI] Stable PCI addresses when removing device from linux guest	jialiu	None	Manual		--default--	P3	4660	Edit
+		215938	[libvirtd] reload configuration testing - 2	jyang	jyang	Manual		--default--	P4	4670	Edit
+		216499	[Stable guest ABI] Stable PCI addresses when removing device from windows guest	jialiu	None	Manual		--default--	P3	4670	Edit
+		215939	[libvirtd] remote access via plain tcp.	jyang	jyang	Both		--default--	P1	4680	Edit
+		215940	[libvirtd] remote access via tcp+sasl(MD5)	gren	yoyzhang	Both		Feature	P2	4690	Edit
+		215941	[libvirtd] remote access via TLS	gren	jyang	Both		Feature	P1	4700	Edit
+		215949	[libvirtd] Using a self recursive snapshot backing store *takes out* libvirtd--Bug 601067	kxiong	None	Manual		--default--	P2	4710	Edit
+		216563	[Storage] Using QCow2 disk encryption	nzhang	None	Manual		Feature	P1	4710	Edit
+		215953	[libvirtd] When restarting libvirtd just after creating a domain the new process is not properly tracked - BZ#707894	ydu	None	Manual		Feature	P2	4720	Edit
+		216589	[sVirt] CDROMs with <readonly/> for multiple guest access	jialiu	None	Auto		Feature	P2	4720	Edit
+		215957	[libvirtd]libvirtd crashes after running virsh cpu-compare with unexpected input--Bug 630618	kxiong	None	Manual		--default--	P2	4730	Edit
+		216592	[sVirt] guest create/destroy with virt-install and sVirt	jialiu	None	Auto		Feature	P1	4730	Edit
+		215910	[libvirtd] Kill qemu process using 'kill' behaves as user shutdown command and not as 'lost connection with qemu process'--Bug 656845	kxiong	None	Manual		--default--	P2	4740	Edit
+		216593	[sVirt] guest create/destroy with virt-manager and sVirt	jialiu	None	Manual		Feature	P1	4740	Edit
+		215919	[libvirtd] libvirtd fails to start due to mDNS requirement- bug 746111	ydu	None	Manual		 Function	P2	4750	Edit
+		215973	[log and debugging] libvirt Sanitized Host Logs for Guests - bug 822592	gsun	gsun	Manual		Feature	P1	4750	Edit
+		216595	[sVirt] Guest with svirt disabled	jialiu	None	Auto		Feature	P1	4750	Edit
+		215921	[libvirtd] local access via unix+policykit	gren	yoyzhang	Manual		Feature	P2	4760	Edit
+		216596	[sVirt] guest with svirt on nfs	jialiu	None	Manual		Feature	P2	4760	Edit
+		215924	[libvirtd] multi-threads testing - 1	jyang	yoyzhang	Manual		--default--	P2	4770	Edit
+		216598	[sVirt] Hot unplug normal PCI device with svirt	jialiu	None	Auto		--default--	P1	4770	Edit
+		215925	[libvirtd] multi-threads testing - 2	jyang	yoyzhang	Manual		--default--	P2	4780	Edit
+		216599	[sVirt] hotplug pci device to guest with svirt	jialiu	None	Auto		--default--	P1	4780	Edit
+		215926	[libvirtd] multi-threads testing - 3	jyang	yoyzhang	Manual		--default--	P2	4790	Edit
+		216602	[sVirt] Manually setting sVirt domain labels using virt-manager	jialiu	None	Manual		Feature	P2	4790	Edit
+		215935	[libvirtd] Reference leak in libvirtd remote*() functions--Bug 603442	kxiong	None	Manual		--default--	P2	4800	Edit
+		216603	[sVirt] migration with svirt - scenario 1	jialiu	None	Auto		--default--	P2	4800	Edit
+		216604	[sVirt] migration with svirt - scenario 2	jialiu	None	Auto		--default--	P2	4810	Edit
+		216605	[sVirt] Passthrough pci device with svirt	jialiu	None	Auto		--default--	P1	4820	Edit
+		216607	[sVirt] save and restore with svirt - scenario 1	jialiu	None	Auto		Feature	P1	4830	Edit
+		216608	[sVirt] save and restore with svirt - scenario 2	jialiu	None	Auto		--default--	P1	4840	Edit
+		216609	[sVirt] save and restore with svirt - scenario 3	jialiu	yoyzhang	Auto		--default--	P2	4850	Edit
+		215887	[libvirt-qpid] Check whether remote libvirt-qpid deamon can be connected	ajia	None	Manual		Feature	P2	4860	Edit
+		216610	[sVirt] save and restore with svirt - scenario 4	jialiu	yoyzhang	Auto		--default--	P2	4860	Edit
+		216620	[sVirt] start guest with image labelled by incorrect security context	jialiu	yoyzhang	Auto		--default--	P2	4870	Edit
+		216629	[Update device flags] change the media in an existing CDROM device on the fly	jialiu	None	Auto		Feature	P2	4880	Edit
+		215893	[Libvirtd status checking] 256 autostarted network reloading	jiachen	None	Auto		Stress	P2	4890	Edit
+		215894	[Libvirtd status checking] 256 non-autostarted network reloading (active + inactive)	jiachen	None	Auto		Stress	P2	4900	Edit
+		216638	[Update device flags] Update spice password for live domain	jialiu	None	Manual		Regression	P2	4900	Edit
+		215895	[Libvirtd status checking] 256 non-autostarted storage pools reloading (active + inactive)	jiachen	None	Auto		Stress	P2	4910	Edit
+		216639	[Update device flags] Update vnc password for live domain - Bug 524623, 596100	jialiu	None	Manual		Regression	P2	4910	Edit
+		215896	[Libvirtd status checking] Reloading 512 running guests	jiachen	None	Auto		Stress	P2	4920	Edit
+		215873	[ipv4 Bi-migration] migrate 250 guests at one time through TLS connection on hosts(48 cores CPU / 512GB mem)	jiachen	None	Manual		 Regression	P1	4930	Edit
+		216665	[Virtio] Create domain with virtio block device driver (only for Windows)	jyang	jyang	Auto		--default--	P2	4930	Edit
+		215874	[ipv4 Bi-migration] migrate 50 guests at one time through TLS connection on hosts(48 cores CPU / 512GB mem)	jiachen	None	Auto		Stress	P2	4940	Edit
+		216675	[Virtio] Replace a domain's existing SCSI/IDE block device driver to virtio	jyang	yoyzhang	Auto		--default--	P1	4940	Edit
+		215875	[ipv4-migration] migrate 500 guests at one time through TLS connection on hosts(48 cores CPU / 512GB mem)	jiachen	None	Manual		 Regression	P1	4950	Edit
+		216674	[Virtio] Replace a domain's existing e1000/RTL8139 network driver to virtio	jyang	jyang	Auto		--default--	P1	4950	Edit
+		215877	[Libvirt domain event handler] Deliberately leading to domain I/O errors	yimwang	None	Manual		--default--	P2	5000	Edit
+		215878	[Libvirt domain event handler] event-test.py help info	jialiu	yoyzhang	Manual		Feature	P2	5010	Edit
+		215880	[Libvirt domain event handler] Other stopping/rebooting operation for domain	yimwang	None	Manual		--default--	P1	5020	Edit
+		215881	[Libvirt domain event handler] Run 'hwclock --systohc'(on the domain) to change the domain clock	yimwang	None	Manual		Feature	P2	5030	Edit
+		215882	[Libvirt domain event handler] Running watchdog action such as pasue action	yimwang	None	Manual		--default--	P1	5040	Edit
+		215883	[Libvirt domain event handler] Track all events for basic operations on a domain	jialiu	None	Auto		Feature	P1	5050	Edit
+		215884	[Libvirt domain event handler] Track all events for multiple domains	jialiu	yoyzhang	Manual		Feature	P2	5060	Edit
+		215886	[Libvirt domain event handler]VNC & SPICE connecting & disconnecting	yimwang	None	Manual		--default--	P1	5070	Edit
+		215853	[Installation - cdrom] Install guest from boot.iso	yoyzhang	yoyzhang	Auto		--default--	P1	5110	Edit
+		216655	[Virtio-serial] Create a socket channel with unix type	gren	None	Manual		--default--	P2	5110	Edit
+		215854	[Installation - cdrom] Install guest from cdrom - spice - HDA	yoyzhang	None	Manual		Feature	P1	5120	Edit
+		215855	[Installation - net] Install guest from http	yoyzhang	yoyzhang	Auto		--default--	P1	5130	Edit
+		215856	[Installation - net] Install guest from nfs - vnc - ac97	yoyzhang	yoyzhang	Manual		acceptance	P1	5140	Edit
+		215857	[Installation - pxe] Install guest from pxe	yoyzhang	None	Auto		Feature	P1	5150	Edit
+		215869	[interface hotplug] [6.2 FEAT] libvirt: Enable 'passthru' mode for direct interfaces - bug 693839	gsun	gsun	Manual		--default--	P1	5160	Edit
+		215871	[interface hotplug] [RHEL6-Beta] 'virsh attach-interface' succeeds even if a nonexistent script file is specified to the option --script - bug 638633	gsun	gsun	Manual		 Regression	P1	5170	Edit
+		215833	[Host network interface management] Define an ethernet with local ipv6 address	yoyzhang	None	Manual		Feature	P2	5180	Edit
+		215836	[Host network interface management] Define an ethernet wtih both autoconf and dhcp ipv6	yoyzhang	None	Manual		Feature	P2	5190	Edit
+		215847	[Host network interface management] Roll back host interfaces to last known good configuration	yoyzhang	None	Manual		Feature	P2	5200	Edit
+		215848	[host network interface management] transaction-oriented API for handling host interfaces	vbian	None	Manual		 Function	P2	5210	Edit
+		176993	[Hooks] Check audit log records kvm related operation	xhu	xhu	Manual		 Function	P2	5250	Edit
+		215804	[Hooks] Check audit log records kvm related operation	xhu	None	Manual		Feature	P2	5250	Edit
+		215805	[Hooks] daemon restart - return non-zero	jialiu	None	Auto		--default--	P2	5260	Edit
+		215806	[Hooks] daemon restart - return zero	jialiu	None	Auto		--default--	P1	5270	Edit
+		215811	[Hooks] kill daemon with SIGHUP	gsun	gsun	Manual		--default--	P1	5270	Edit
+		215807	[Hooks] daemon start - return non-zero	jialiu	None	Auto		--default--	P2	5280	Edit
+		215808	[Hooks] daemon start - return zero	xhu	None	Manual		Feature	P1	5290	Edit
+		215809	[Hooks] daemon stop - return non-zero	jialiu	None	Auto		--default--	P2	5300	Edit
+		215810	[Hooks] daemon stop - return zero	xhu	None	Manual		Feature	P1	5310	Edit
+		215817	[Hooks] qemu - return non-zero	jialiu	None	Auto		--default--	P1	5320	Edit
+		215813	[Hooks] Libvirt is missing important hooks - bug 825820	gsun	gsun	Manual		--default--	P1	5330	Edit
+		215814	[Hooks] lxc - return non-zero	gsun	gsun	Manual		--default--	P1	5330	Edit
+		215815	[Hooks] lxc - return zero	gsun	gsun	Manual		--default--	P1	5330	Edit
+		215818	[Hooks] qemu - return zero	jialiu	None	Auto		--default--	P1	5330	Edit
+		215822	[host network interface management] correct work flow for undefine interface BZ 721232	vbian	None	Manual		 Regression	P2	5340	Edit
+		216118	[Migration] migration with 1-16 VCPUs	gren	yoyzhang	Auto		--default--	P2	5340	Edit
+		215751	[Guest kernel debugging] Send Alt+SysRq+C to trigger guest kdump	yoyzhang	None	Manual		Feature	P1	5360	Edit
+		215752	[Guest kernel debugging] Send NMI to trigger guest kdump	yoyzhang	None	Manual		Feature	P1	5370	Edit
+		215754	[Guest kernel debugging]Check the dumped images can be analyzed with crash tool sucessfully	yupzhang	None	Manual		 Function	P1	5380	Edit
+		215756	[Guest kernel debugging]domstate --reason for stop domain - bug 749096	yupzhang	None	Manual		 Regression	P1	5390	Edit
+		216145	[Migration] suspend migration testing	jyang	yoyzhang	Auto		Feature	P2	5390	Edit
+		215762	[guest kernel debugging]send SysRq key strokes to guests	yupzhang	None	Manual		 Function	P1	5400	Edit
+		216146	[Migration] suspend migration with option --undefinesource	jyang	yoyzhang	Auto		Feature	P2	5400	Edit
+		216150	[Migration] Upload/download a big file by FTP from RHEL/Fedora guest during migration BZ 823453	gren	yoyzhang	Manual		--default--	P2	5410	Edit
+		216714	[virtual networks] macvtap (type='direct')	xhu	None	Manual		Feature	P3	5410	Edit
+		215716	[Graphical framebuffers] SPICE password ticketing and reset	vbian	None	Manual		Feature	P2	5420	Edit
+		216151	[Migration] Upload/download a big file by FTP from Windows guest during migration	gren	yoyzhang	Manual		--default--	P2	5420	Edit
+		215733	[Graphical framebuffer] Spice wan support - bug 667628	vbian	vbian	Manual		 Regression	P1	5430	Edit
+		215734	[Graphical framebuffer] Support connected parameter in set_password -- Bug 707212	vbian	None	Manual		 Function	P1	5440	Edit
+		216541	[Storage] Disk based storage pool -- Bug 570286	nzhang	yoyzhang	Auto		Feature	P2	5440	Edit
+		215719	[Graphical framebuffers] Symbolic network name, to be evaluated to IP on the destination host	vbian	vbian	Manual		 Regression	P1	5450	Edit
+		215724	[Graphical framebuffers]libvirt generate right xml for smartcard -- bug 677308	zpeng	None	Manual		 Function	P1	5460	Edit
+		215737	[Guest kernel debugging] Compress guest core dump to bzip2	yoyzhang	None	Auto		Feature	P2	5470	Edit
+		216572	[Storage]define and build the disk type of pool	gren	yoyzhang	Auto		--default--	P2	5470	Edit
+		215738	[Guest kernel debugging] Compress guest core dump to gzip	yoyzhang	None	Auto		Feature	P1	5480	Edit
+		216535	[Storage] Delete a storage pool - Bug 496579	nzhang	yoyzhang	Auto		Feature	P2	5480	Edit
+		215739	[Guest kernel debugging] Compress guest core dump to invalid format - bug669586	yoyzhang	None	Manual		Negative test	P2	5490	Edit
+		215740	[Guest kernel debugging] Compress guest core dump to invalid format - bug669586	yoyzhang	yoyzhang	Manual		Negative test	P2	5500	Edit
+		215741	[Guest kernel debugging] Compress guest core dump to lzop	yoyzhang	None	Auto		Feature	P2	5510	Edit
+		215742	[Guest kernel debugging] Compress guest core dump to xz	yoyzhang	None	Auto		Feature	P2	5520	Edit
+		215743	[Guest kernel debugging] Compress guest save file to lzop/gzip/bzip2/xz	yoyzhang	None	Manual		Feature	P1	5530	Edit
+		215744	[Guest kernel debugging] Compress guest save to invalid format	yoyzhang	None	Manual		Negative test	P2	5540	Edit
+		215745	[Guest kernel debugging] Core dump a non-live guest should reprot error	yoyzhang	None	Manual		Negative test	P2	5550	Edit
+		215746	[Guest kernel debugging] Libvirt could deliver human monitor commands to guest	yoyzhang	None	Manual		Feature	P1	5560	Edit
+		215747	[Guest kernel debugging] Run virsh save with option --xml to containing updated XML for the target	yupzhang	None	Manual		 Function	P1	5570	Edit
+		215748	[Guest kernel debugging] Save a shut off guest - bug 677547	yoyzhang	None	Manual		 Regression	P2	5580	Edit
+		216533	[Storage] Create a qcow2 file using libvirt storage APIs - Bug 504119	yoyzhang	yoyzhang	Auto		Regression	P3	5580	Edit
+		215749	[guest kernel debugging] Save a shut off guest - bug 677547	yoyzhang	yoyzhang	Manual		 Regression	P2	5590	Edit
+		215704	[Graphical framebuffers] Host firewall port listening for different VNC ports	vbian	None	Manual		Feature	P2	5600	Edit
+		215706	[Graphical framebuffers] multiple spice migration	vbian	None	Manual		 Function	P1	5610	Edit
+		215707	[Graphical framebuffers] RDP	yimwang	None	Manual		--default--	P2	5620	Edit
+		215708	[Graphical framebuffers] SDL	gren	gren	Manual		Feature	P4	5630	Edit
+		215709	[Graphical framebuffers] SDL	yimwang	None	Manual		Feature	P1	5640	Edit
+		215710	[Graphical framebuffers] set the spice listening address	vbian	None	Manual		Feature	P2	5650	Edit
+		215711	[Graphical framebuffers] spice	gren	yoyzhang	Manual		Feature	P2	5660	Edit
+		215715	[Graphical framebuffers] spice migration before passwdValidTo	vbian	None	Manual		 Function	P1	5670	Edit
+		215718	[Graphical framebuffers] support for unix sockets - libvirt/vnc	vbian	None	Manual		 Function	P1	5680	Edit
+		215720	[Graphical framebuffers] vnc	gren	yoyzhang	Manual		Feature	P1	5690	Edit
+		215721	[Graphical framebuffers] VNC password ticketing and reset	vbian	None	Manual		 Regression	P1	5700	Edit
+		215722	[Graphical framebuffers] VNC password ticketing and reset	vbian	vbian	Manual		 Regression	P1	5710	Edit
+		215723	[Graphical framebuffers] vnc tls connection	vbian	None	Manual		 Function	P1	5720	Edit
+		215728	[Graphical framebuffer] Configuring Spice compression options	vbian	vbian	Manual		 Regression	P1	5730	Edit
+		215729	[Graphical framebuffer] Console screenshot	vbian	vbian	Manual		 Regression	P1	5740	Edit
+		215712	[Graphical framebuffers] Spice disable-copy-paste	vbian	vbian	Manual		 Regression	P1	5750	Edit
+		215731	[Graphical framebuffer] SPICE English keymap support	vbian	None	Manual		 Regression	P1	5760	Edit
+		215859	[Interface hotplug] - Attach interface from args	yoyzhang	yoyzhang	Auto		--default--	P1	5760	Edit
+		215713	[Graphical framebuffers] SPICE English keymap support	vbian	vbian	Manual		 Regression	P1	5770	Edit
+		215860	[Interface hotplug] - Detach interface from args	yoyzhang	yoyzhang	Auto		--default--	P1	5770	Edit
+		215732	[Graphical framebuffer] SPICE German keymap support	vbian	None	Manual		 Regression	P3	5780	Edit
+		215959	[libvirtd]libvirtd crashes if client quits unexpectedly - bug 727071	ydu	ydu	Manual		Feature	P2	5780	Edit
+		215714	[Graphical framebuffers] SPICE German keymap support	vbian	vbian	Manual		 Regression	P3	5790	Edit
+		215898	[libvirtd] libvirtd.conf error causes libvirtd to exit silently - bug 728654	ydu	ydu	Manual		Feature	P2	5790	Edit
+		215701	[Graphical framebuffers] After spice passwdValidTo get expired, migration will disconnect the spice connection session	vbian	None	Manual		 Function	P1	5800	Edit
+		215681	[domain async job handling] cancel a stuck migration job -- Bug 725373	vbian	None	Manual		 Function	P1	5810	Edit
+		215682	[domain async job handling] correct prompt info -- Bug 727047	vbian	None	Manual		 Function	P1	5820	Edit
+		215683	[Domain async job handling] crash coredump & domjobabort	jyang	yoyzhang	Auto		Feature	P2	5830	Edit
+		215684	[Domain async job handling] crash coredump & domjobinfo	jyang	None	Auto		Feature	P1	5840	Edit
+		215685	[Domain async job handling] live coredump & domjobabort	jyang	yoyzhang	Auto		Feature	P2	5850	Edit
+		215760	[guest kernel debugging]Run virsh save with option --bypass-cache to avoid file system cache when saving	yupzhang	yupzhang	Manual		 Function	P1	5850	Edit
+		215686	[Domain async job handling] live coredump & domjobinfo	jyang	yoyzhang	Auto		Feature	P2	5860	Edit
+		215688	[Domain async job handling] migrate & domjobabort	jyang	yoyzhang	Auto		Feature	P2	5870	Edit
+		215689	[Domain async job handling] migrate & domjobinfo	jyang	yoyzhang	Auto		Feature	P2	5880	Edit
+		215690	[Domain async job handling] Pause a domain while being migrated - bug 726650	yimwang	None	Auto		Feature	P2	5890	Edit
+		216443	[snapshot]snapshot with --disk-only --bug 747115	zhpeng	zhpeng	Manual		 Regression	P1	5900	Edit
+		215691	[Domain async job handling] save & domjobabort	jyang	None	Auto		Feature	P1	5910	Edit
+		216445	[snapshot]snapshot XML description --bug 741510	zhpeng	zhpeng	Manual		 Regression	P1	5910	Edit
+		215692	[Domain async job handling] save & domjobinfo	yimwang	None	Auto		Feature	P2	5920	Edit
+		215695	[Floppy disk support] Test floppy media insert/eject.bug-625319	yimwang	yimwang	Manual		Feature	P2	5930	Edit
+		216447	[snapshot]snapshot-parent should error when current snapshot is a root --bug 742410	zhpeng	zhpeng	Manual		 Regression	P1	5930	Edit
+		215696	[Floppy disk support] Assign a block type floppy to guest	ydu	None	Manual		Feature	P2	5940	Edit
+		215703	[Graphical framebuffers] Host firewall port listening for different Spice ports	vbian	None	Manual		Feature	P2	5950	Edit
+		215655	[Disk hotplug] Detach virtual disks to guest over the top limitation via detach-disk	ajia	None	Auto		Stress	P1	5960	Edit
+		215657	[Disk hotplug] eject CDROM device media IN guest -- bug 575160	vbian	None	Manual		 Regression	P1	5970	Edit
+		216684	[Virtual disks] Eject CDROM/Floppy device on guest - bug 575160	weizhan	weizhan	Manual		 Regression	P1	5980	Edit
+		215658	[disk hotplug] Hot-plug a large capacity disk	weizhan	None	Manual		--default--	P1	5990	Edit
+		215659	[Disk hotplug] Hot-plug/unplug a SAN disk with NPIV	weizhan	None	Manual		Feature	P1	6000	Edit
+		216437	[snapshot]live snapshot 2 disks with --disk-only --bug 740375	zhpeng	zhpeng	Manual		 Regression	P1	6000	Edit
+		215660	[Disk hotplug] Hot-unplug a disk device to guest with rebooting the guest	weizhan	None	Manual		 Regression	P1	6010	Edit
+		216439	[snapshot]revert a snapshot --bug 742615	zhpeng	zhpeng	Manual		 Regression	P1	6010	Edit
+		216440	[snapshot]revert a snapshot after add a disk --bug 742615	zhpeng	zhpeng	Manual		 Regression	P1	6020	Edit
+		215661	[Disk hotplug] Hotplug a disk device to guest with rebooting the guest	weizhan	None	Manual		 Regression	P1	6030	Edit
+		215662	[disk hotplug] hotunplug a device from guest during the process of start or shutdown guest (658713)	jialiu	None	Manual		--default--	P1	6050	Edit
+		215663	[Disk hotplug] IDE storage devices unsoupport hotplug	yimwang	None	Auto		Negative test	P1	6060	Edit
+		215664	[Disk hotplug] Inject/Eject a cdrom to/from guest	weizhan	None	Manual		Feature	P1	6070	Edit
+		215665	[Disk hotplug] migration after attach disk device to guest	jialiu	None	Manual		Feature	P1	6080	Edit
+		215673	[Docs] The "virt-mem" is removed from manual page - bug 639603	ccui	ccui	Manual		 Regression	P3	6090	Edit
+		215676	[Docs] virsh help: network can't be destroyed and dumped xml via id - bug 617439	ccui	ccui	Manual		 Regression	P3	6100	Edit
+		215680	[Docs]libvirt log messages - 740943	yupzhang	None	Manual		 Regression	P1	6110	Edit
+		215630	[Disk hotplug] Attach iso from readonly filesystem to VM - bug 702044	weizhan	weizhan	Manual		 Regression	P1	6120	Edit
+		215631	[Disk hotplug] Attach virtual disks to guest over the top limitation via attach-device	ajia	None	Auto		Stress	P1	6130	Edit
+		215632	[Disk hotplug] Attach virtual disks to guest over the top limitation via attach-disk	ajia	None	Auto		Stress	P1	6140	Edit
+		215635	[Disk hotplug] Attach/Detach a block device to/from guest - bug 867726	weizhan	None	Manual		Feature	P1	6150	Edit
+		215636	[Disk hotplug] Attach/Detach a cow format disk device to guest	ajia	None	Manual		Feature	P4	6160	Edit
+		215637	[Disk hotplug] Attach/Detach a disk device to guest with --persistent option	jialiu	None	Manual		Feature	P2	6170	Edit
+		215638	[Disk hotplug] Attach/Detach a disk device to guest with --persistent option	weizhan	weizhan	Auto		Feature	P1	6180	Edit
+		215634	[Disk hotplug] attach-disk should detect disk source file type when sourcetype is not specified - bug 803577	gsun	gsun	Manual		 Function	P1	6190	Edit
+		215639	[Disk hotplug] Attach/Detach a disk device to guest with optional argument	jialiu	None	Manual		Feature	P1	6190	Edit
+		215656	[Disk hotplug] detach-disk with wrong arguments - bug 803591	gsun	gsun	Manual		Negative test	P1	6190	Edit
+		215640	[Disk hotplug] Attach/Detach a disk to an inactive domain	weizhan	weizhan	Auto		Feature	P1	6200	Edit
+		215641	[Disk hotplug] Attach/Detach a disk to an inactive domain with xml	weizhan	None	Manual		Feature	P1	6210	Edit
+		215650	[Disk hotplug] Attach/Detach an iscsi disk to/from guest	weizhan	None	Manual		Feature	P1	6220	Edit
+		215644	[Disk hotplug] Attach/Detach a logical volume to/from guest	weizhan	None	Manual		Feature	P1	6230	Edit
+		215646	[Disk hotplug] Attach/Detach a qcow format disk device from XML file to guest	ajia	None	Manual		Feature	P4	6240	Edit
+		215647	[Disk hotplug] Attach/Detach a qcow2 format disk device to guest	ajia	None	Auto		Feature	P1	6250	Edit
+		215648	[Disk hotplug] Attach/Detach a raw format disk device from XML file to guest	nzhang	yoyzhang	Auto		Feature	P1	6260	Edit
+		215649	[Disk hotplug] Attach/Detach a raw format disk device to guest	nzhang	None	Auto		Feature	P1	6270	Edit
+		215652	[Disk hotplug] Attach/Detach disk to guest for 256 times	jialiu	None	Manual		Stress	P1	6290	Edit
+		215653	[Disk hotplug] Audit check when detach disk - bug 710150	weizhan	weizhan	Manual		 Regression	P1	6300	Edit
+		215654	[Disk hotplug] Detach virtual disks to guest over the top limitation via detach-device	ajia	None	Auto		Stress	P1	6310	Edit
+		215577	[CPU Management] libvirt should not allow ambiguous XML config wrt <vcpus> and <topology> - bug 725271	mzhan	mzhan	Manual		 Function	P2	6320	Edit
+		215578	[CPU Management] libvirt should support AMD Bulldozer cpu - bug 767364	mzhan	mzhan	Manual		 Function	P2	6320	Edit
+		215606	[CPU Management] libvirt should support cpu64-rhel* cpu models - bug 768450	mzhan	mzhan	Manual		 Function	P2	6320	Edit
+		215607	[CPU Management] libvirt should support new sandy bridge cpu - bug 761005	mzhan	mzhan	Manual		 Function	P2	6320	Edit
+		215911	[libvirtd] Kill qemu process using 'kill' behaves as user shutdown command and not as 'lost connection with qemu process'--Bug 656845	kxiong	kxiong	Manual		--default--	P2	6320	Edit
+		215611	[CPU Management] Pin domain to non-exist cpu	yoyzhang	yoyzhang	Auto		Negative test	P1	6330	Edit
+		215936	[libvirtd] Reference leak in libvirtd remote*() functions--Bug 603442	kxiong	kxiong	Manual		--default--	P2	6330	Edit
+		215612	[CPU Management] Start guest after offline host's cpu - bug 622515	yoyzhang	None	Manual		Regression	P3	6340	Edit
+		215950	[libvirtd] Using a self recursive snapshot backing store *takes out* libvirtd--Bug 601067	kxiong	kxiong	Manual		--default--	P2	6340	Edit
+		215601	[CPU Management] Guest cpu topology should same with host CPU definition from capabilities XML when set cpu mode='host-model' - bug 806754	mzhan	mzhan	Manual		 Function	P2	6350	Edit
+		215613	[CPU Management] start the guest which CPU comprises flags that host doesn't support - bug 724893	mzhan	mzhan	Manual		Negative test	P3	6350	Edit
+		215955	[libvirtd]After issue "event-test.py qemu:///system", opening virt-viewer will not kill service libvirtd --bug 741533	zhpeng	zhpeng	Manual		 Regression	P1	6350	Edit
+		215958	[libvirtd]libvirtd crashes after running virsh cpu-compare with unexpected input--Bug 630618	kxiong	kxiong	Manual		--default--	P2	6360	Edit
+		215615	[CPU Management] Unplugging vCPUs - bug 562886 bug 816475	yimwang	yimwang	Both		 Regression	P3	6370	Edit
+		216024	[Managed save] Cann't managed save a transient domain - bug 729714	dyuan	dyuan	Auto		Regression	P1	6370	Edit
+		215616	[CPU Management] vCPU balloon out - bug 562886	yimwang	None	Manual		 Regression	P1	6380	Edit
+		216037	[Managed save] invalid save file should not block the domain start - bug 730750	dyuan	dyuan	Auto		Regression	P1	6380	Edit
+		215617	[CPU Management] vCPU hotplug - bug562886,533138,857013	yimwang	None	Both		 Function	P3	6390	Edit
+		215618	[CPU Management] vcpu pin testing -- offline	weizhan	None	Auto		Feature	P2	6400	Edit
+		216043	[Managed save] Skip the URI during host shutdown when the URI cannot to be connectted to via initscript	dyuan	dyuan	Manual		 Regression	P2	6400	Edit
+		215619	[CPU Management] vcpu pin testing -- runtime	gren	None	Auto		Feature	P2	6410	Edit
+		216046	[Managed save] survive from 20 iterations without failure - bug 727249	dyuan	dyuan	Auto		 Regression	P1	6410	Edit
+		215621	[CPU Management] vCPUs balloon in - bug562886	yimwang	None	Manual		 Regression	P3	6420	Edit
+		216062	[Memory management] Memory usage works fine in libvirtd udev backend - bug 595490	mzhan	mzhan	Manual		 Regression	P3	6420	Edit
+		215624	[Disk hotplug] Attach 32 disks to guest	jialiu	None	Auto		Boundary	P1	6430	Edit
+		215625	[Disk hotplug] Attach disk with allow disk format probing	weizhan	None	Manual		 Function	P1	6440	Edit
+		215626	[Disk hotplug] Attach disk with restart libvirtd - bug 728428	weizhan	None	Manual		 Regression	P1	6450	Edit
+		215627	[Disk hotplug] Attach disk with unsupported driver	weizhan	weizhan	Manual		 Regression	P1	6470	Edit
+		215628	[Disk hotplug] Attach disk with wrong xml	weizhan	None	Manual		 Regression	P1	6480	Edit
+		216117	[Migration] Migration with --persistent with changing the original xml of guest - bug 738148	weizhan	weizhan	Manual		 Function	P1	6480	Edit
+		215629	[Disk hotplug] Attach disks with random target order in xml - bug 683005	weizhan	weizhan	Manual		 Regression	P1	6500	Edit
+		215572	[console and serial devices] virtio channel connection and operation	vbian	None	Manual		Feature	P2	6510	Edit
+		215575	[console and serial device] console is not properly released in interactive virsh -- bug 730101	vbian	vbian	Manual		 Function	P1	6520	Edit
+		215576	[console and serial device] exiting the console during output causes subsequent commands to fail - bug731584	vbian	vbian	Manual		 Function	P1	6530	Edit
+		215579	[CPU Management] Check baseline CPU for a set of given capabilities especially with NUMA	mzhan	mzhan	Manual		Feature	P2	6540	Edit
+		215583	[CPU Management] Check guest CPU requirements are properly updated with host CPU features	yimwang	None	Auto		Feature	P2	6550	Edit
+		215587	[CPU Management] check the compatibility of CPU between two host	gren	None	Manual		Feature	P2	6560	Edit
+		215588	[CPU Management] Check the information about host CPU model	gren	None	Auto		Feature	P2	6570	Edit
+		215590	[CPU Management] compare baseline CPU for a set of given capabilities - bug 731151	mzhan	mzhan	Manual		Feature	P2	6580	Edit
+		215591	[CPU Management] compare baseline CPU for a set of given CPUs	gren	None	Auto		Feature	P2	6590	Edit
+		215580	[CPU Management] check CPU models/flags added to cpu_map.xml - bug 797283	mzhan	mzhan	Manual		Feature	P3	6600	Edit
+		215584	[CPU Management] check guest when changing vcpu number - bug 799180	mzhan	mzhan	Manual		Feature	P2	6600	Edit
+		215593	[CPU Management] configuring the guest CPU model-bug822148	gren	gren	Auto		Feature	P2	6600	Edit
+		215598	[CPU Management] enable/disable kvmclock - bug 783921	gren	None	Manual		Feature	P2	6600	Edit
+		215610	[CPU Management] new cpu's flags, to control hyper-v related features - bug784836	mzhan	mzhan	Manual		Feature	P2	6600	Edit
+		215614	[CPU Management] Support host-model and host-passthrough modes - bug 700272	mzhan	mzhan	Manual		Feature	P2	6600	Edit
+		215594	[CPU Management] Control multi domain vcpu affinity	yoyzhang	None	Auto		Feature	P2	6610	Edit
+		215595	[CPU Management] CPU checks during migration - feature check	yimwang	None	Manual		Feature	P2	6620	Edit
+		215596	[CPU Management] CPU checks during migration - verdor check	weizhan	None	Manual		Feature	P2	6630	Edit
+		215597	[CPU Management] CPU counting on a host with 2 cells	weizhan	None	Manual		Feature	P2	6640	Edit
+		215599	[CPU Management] Get the per-cpu physical cpu usage per VM	mzhan	mzhan	Manual		Feature	P2	6650	Edit
+		215600	[CPU Management] Guest cpu topology check	weizhan	None	Manual		Feature	P2	6660	Edit
+		215602	[CPU Management] Illegal cpu_shares value of schedinfo	mzhan	mzhan	Manual		Negative test	P2	6670	Edit
+		215603	[CPU Management] Illegal number of vCPUs	yimwang	None	Auto		Negative test	P2	6680	Edit
+		215582	[CPU Management] Check for maximum number of vcpus exceeding topology limit - bug 725269	mzhan	mzhan	Manual		Negative test	P3	6690	Edit
+		215546	[configuration] domain resume when nfs with hard option is not available temporarily	gren	None	Manual		 Regression	P1	6700	Edit
+		215548	[configuration] domain resume when nfs with soft option is not available temporarily	gren	None	Manual		 Regression	P1	6710	Edit
+		215562	[console and serial devices] exiting console in interactive virsh causes subsequent commands to fail - Bug 731579	vbian	vbian	Manual		 Function	P1	6740	Edit
+		215563	[Console and serial devices] Connect to a guest console	nzhang	None	Auto		Feature	P2	6750	Edit
+		215564	[console and serial devices] garbled console in interactive virsh session -- bug 731583	vbian	vbian	Manual		 Function	P1	6760	Edit
+		216434	[snapshot]libvirt should give error when qemu-kvm disabled live snapshot support --bug 747115	zhpeng	zhpeng	Manual		 Regression	P1	6760	Edit
+		215565	[console and serial devices] no output when set character device type to pipe - bug 740478	ydu	ydu	Manual		 Regression	P2	6770	Edit
+		216441	[snapshot]revert should be forbidden without --force	zhpeng	zhpeng	Manual		 Regression	P1	6770	Edit
+		215566	[console and serial devices] Prevent multiple connections to same VM console BZ#729940	ydu	None	Manual		 Function	P2	6780	Edit
+		215567	[Console and serial devices] Receive data from character device to a file	nzhang	None	Auto		Feature	P2	6790	Edit
+		215568	[Console and serial devices] Serial console disconnection after guest os gets shut down	vbian	None	Manual		 Function	P2	6800	Edit
+		216452	[snapshot]virsh snapshot-edit should edit disk snapshots --bug 744071	zhpeng	zhpeng	Manual		 Regression	P1	6800	Edit
+		215571	[console and serial devices] vc console connection and operations	vbian	None	Manual		Feature	P2	6810	Edit
+		216531	[storage] Clone a new vol from the source vol - Bug 671104	nzhang	nzhang	Manual		 Regression	P2	6840	Edit
+		215539	Create domains with unsupported charactors -- Bug 638962	vbian	None	Manual		 Regression	P1	6850	Edit
+		216536	[Storage] Delete a storage pool - Bug 496579	nzhang	nzhang	Auto		Feature	P2	6850	Edit
+		216591	[sVirt] Failed to reload iptables rules with root permission when starting libvirtd in the way of executing /usr/sbin/libvirtd - bug 716612	gsun	gsun	Manual		 Regression	P2	6880	Edit
+		226900	[sVirt] RFE: the security drivers must remember original permissions/labels and restore them after - bug 547546	gsun	gsun	Manual		 Regression	P2	6880	Edit
+		226901	[sVirt] [RFE] ACLs for libvirt - bug 700443	gsun	gsun	Manual		 Regression	P2	6880	Edit
+		226903	[sVirt] RFE: virtualization network access controls - bug 700443	gsun	gsun	Manual		 Regression	P2	6880	Edit
+		216623	[sVirt] sVirt error message handling for NFS permission denial	jialiu	jialiu	Manual		 Regression	P1	6890	Edit
+		216664	[Virtio] Create domain with virtio block device driver (only for Linux)	yimwang	yimwang	Auto		 Regression	P1	6920	Edit
+		216791	[Watch dog device] Watchdog device "ib700" - shutdown (bug667090)	yimwang	yimwang	Manual		 Regression	P3	6960	Edit
+		216794	[Watch dog device]Watchdog device "ib700" - none(bug667090)	yimwang	yimwang	Manual		 Regression	P3	6970	Edit
+		216796	[Watch dog device]Watchdog device "ib700" - pause(bug667090)	yimwang	yimwang	Manual		 Regression	P3	6980	Edit
+		216798	[Watch dog device]Watchdog device "ib700" - reset(bug667090)	yimwang	yimwang	Manual		 Regression	P3	6990	Edit
+		215755	[Guest kernel debugging]Check the dumped images can be analyzed with crash tool sucessfully	yupzhang	yupzhang	Manual		 Function	P1	7000	Edit
+		216338	[Scalability] 256 autostarted storage pools reloading	jiachen	None	Auto		Stress	P2	7010	Edit
+		216459	[SR-IOV] Assign seven VFs to the same guest.	yoyzhang	yoyzhang	Manual		Feature	P2	7020	Edit

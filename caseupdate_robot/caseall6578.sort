@@ -1,0 +1,1129 @@
+236423	 - EMBARGOED CVE-2013-0170 libvirt: use-after-free in virNetMessageFree() BZ#891837
+243828	 - Libvirt is not relabelling qcow2 backing files BZ#896013
+244105	 - vdsm: cannot run a vm with several snapshots BZ#903248
+243824	[blockpull] "an unexpected error" occur in qed/qcow2 mixing format image with --base option BZ#895305
+176753	[configuration] customize the libvirtd.conf
+176754	[configuration] domain resume when nfs with hard option is not available permanently/temporarily - bug 707202
+176756	[configuration] domain resume when nfs with soft option is not available permanently/temporarily - bug 707202
+176758	[configuration] libvirt fails to save VM into NFS with RHEVM - bug 707257
+176759	[configuration] libvirtd fails to start with rhevm's cert configured - bug 723447
+176760	[configuration] run libvirtd with all vdsm related configure
+176761	[configuration] save/restore the guest to pre-created file on root_squashing export nfs with dynamic_ownership=0
+176762	[configuration] save/restore the guest to pre-created file on root_squashing export nfs with dynamic_ownership=1 - bug 810241
+176763	[configuration] Starting libvirtd with libvirtd.conf containing an unterminated string - bug 728654
+176764	[configuration] suspend-->stop VM to nfs with dynamic_ownership=0 with RHEVM - bug 716478
+176765	[configuration]Install a new guest in NFS with spice via Runonce in rhev-m
+184441	[configuration] enable or disable s3/s4 per VMs - For windows guest BZ 890648
+202520	[configuration]uri aliases and uri default
+202660	[configuration]host uuid modify BZ 858204
+203108	[configuration]Set the delay time before rebooting via boot parameter-bug855237
+204232	[configuration]keepalive protocol
+229395	[configuration] host pm tag discover
+238458	[configuration] enable or disable s3/s4 per VMs - For linux guest
+176778	[console and serial device] console is not properly released in interactive virsh -- bug 730101
+176779	[console and serial device] exiting the console during output causes subsequent commands to fail - bug731584
+176767	[Console and serial devices] Connect to a guest console
+176768	[console and serial devices] garbled console in interactive virsh session -- bug 731583
+176770	[console and serial devices] Prevent multiple connections to same VM console BZ#729940
+176771	[Console and serial devices] Receive data from character device to a file
+176772	[Console and serial devices] Serial console disconnection after guest os gets shut down
+176773	[console and serial devices] set escape character for console - bug 754800 845460
+176774	[console and serial devices] use non-root user to connect guest console - bug 700443
+176775	[console and serial devices] vc console connection and operations
+176776	[console and serial devices] virtio channel connection and operation
+176777	[console and serial devices]forced console connection--Bug:811497
+204238	[console and serial devices]Modify target type of channel element from 'virtio' to 'guestfwd' should not cause libvirtd crash -- Bug 856489
+229901	[console and serial devices]hot plug/unplug chardev BZ 878109
+236845	[console and serial devices] Provide XML mode to autoallocate unix socket path for char device -- Bug: 888325
+176781	[CPU Management] libvirt should support AMD Bulldozer cpu - bug 767364
+176782	[CPU Management] Check baseline CPU for a set of given capabilities especially with NUMA
+176783	[CPU Management] check CPU models/flags added to cpu_map.xml - bug 797283
+176784	[CPU Management] Check for maximum number of vcpus exceeding topology limit - bug 725269
+176785	[CPU Management] Check guest CPU requirements are properly updated with host CPU features
+176787	[CPU Management] Check KVM host/guest cpu capping isolation-bug822090
+176788	[CPU Management] Check KVM host/guest cpu pinning isolation-bug822064.bug871312,bug870099
+176789	[CPU Management] check the compatibility of CPU between two host
+176790	[CPU Management] Check the information about host CPU model
+176791	[CPU Management] compare baseline CPU for a set of given capabilities - bug 731151
+176792	[CPU Management] compare baseline CPU for a set of given CPUs
+176793	[CPU Management] configuring the guest CPU model-bug822613,bug864097
+176794	[CPU Management] Control multi domain vcpu affinity
+176795	[CPU Management] CPU checks during migration - feature check
+176796	[CPU Management] CPU checks during migration - verdor check
+176797	[CPU Management] CPU counting on a host with 2 cells
+176798	[CPU Management] enable/disable kvmclock - bug 783921
+176800	[CPU Management] Guest cpu topology check BZ 880017
+176802	[CPU Management] Illegal cpu_shares value of schedinfo
+176803	[CPU Management] Illegal number of vCPUs
+176804	[CPU Management] libvirt should support cpu64-rhel* cpu models - bug 768450
+176805	[CPU Management] libvirt should support new sandy bridge cpu - bug 761005
+176806	[CPU Management] new cpu's flags, to control hyper-v related features - bug 784836
+176807	[CPU Management] Check vcpupin for non-exist cpu and vcpu
+176808	[CPU Management] Start guest after offline host's cpu - bug 622515
+176810	[CPU Management] Support host-model and host-passthrough modes - bug 700272,bug858147
+176813	[CPU Management] vCPU hotplug - bug562886,533138,857013
+176814	[CPU Management] vcpu pin testing -- offline
+176815	[CPU Management] vcpu pin testing -- runtime
+185485	[CPU Management] libvirt should support AMD Seoul (AMD Opteron™ 4xxx series) processor -bug838127
+185510	[CPU Management] vcpupin after the status of physical cpu change from offline to online-bug838070
+185526	[CPU Management] Check error message when change VM's processor count to 0-bug834365
+194446	[CPU Management] libvirt support Haswell new instructions- bug843087
+197542	[CPU Management] libvirt support PV EOI feature- bug848185,bug860971
+200624	[CPU Management] Check the range of cpuset-bug852688,bug867372
+202812	[cpu management] It is failed to start guest when the number of vcpu is different between <vcpu> and <cputune/> BZ#853930
+203104	[CPU Management]libvirt should check the range of setting maxvcpus in xml when start guest - bug 855296
+203105	[CPU Management]Check vcpuinfo could show correct info after hostplug cpu - bug 855218
+206121	[CPU Management] Configure timezone of guest - bug859868
+222222	[CPU Management]cpu 'host-model' should support features in force or disable mode-bug870484
+222228	[CPU Management]Check CPU topology in capabilities XML when libvirt fails to detect host CPU model-bug866999,bug868972
+222241	[CPU Management] Enable Hyper-V Enlightenment for Windows guests-bug864606
+222250	[CPU Management] Check the cpu model on host detected as what model on guest-bug865580
+225418	[CPU Management]Hotplug vcpus when guest do S3
+225441	[CPU Management]Hotplug vcpus when guest do S4 -bug872419
+232404	[CPU Management] When CPUs in host aren't equal ,libvirt should report error-bug873926
+232425	[CPU Management] Check CPU affinity setting on big machine using virDomainGetVcpuPinInfo-bug876415
+237060	[CPU Management] Check wrong cpu topology for AMD Bulldozer 62XX familly-bug888503
+176817	[Disk hotplug] Attach 32 disks to guest
+176818	[Disk hotplug] Attach disk with allow disk format probing
+176819	[Disk hotplug] Attach disk with restart libvirtd - bug 728428
+176820	[Disk hotplug] Attach disk with unsupported driver
+176821	[Disk hotplug] Attach disk with wrong xml
+176822	[Disk hotplug] Attach disks with random target order in xml - bug 683005
+176823	[Disk hotplug] Attach iso from readonly filesystem to VM - bug 702044
+176824	[Disk hotplug] Attach virtual disks to guest over the top limitation via attach-device
+176825	[Disk hotplug] Attach virtual disks to guest over the top limitation via attach-disk
+176826	[Disk hotplug] Attach virtual disks with multifunction = on
+176827	[Disk hotplug] attach-disk should detect disk source file type when sourcetype is not specified - bug 803577
+176828	[Disk hotplug] Attach/Detach a block device to/from guest
+176831	[Disk hotplug] Attach/Detach a disk device to guest with --persistent option
+176832	[Disk hotplug] Attach/Detach a disk device to guest with optional argument
+176833	[Disk hotplug] Attach/Detach a disk to an inactive domain
+176834	[Disk hotplug] Attach/Detach a disk to an inactive domain with xml
+176835	[Disk hotplug] Attach/Detach a FC disk with readonly mode
+176836	[Disk hotplug] Attach/Detach a local disk with readonly mode
+176837	[Disk hotplug] Attach/Detach a logical volume to/from guest
+176838	[Disk hotplug] Attach/Detach a nfs disk with readonly mode
+176840	[Disk hotplug] Attach/Detach a qcow2 format disk device to guest
+176841	[Disk hotplug] Attach/Detach a raw format disk device from XML file to guest
+176842	[Disk hotplug] Attach/Detach a raw format disk device to guest
+176843	[Disk hotplug] Attach/Detach an iscsi disk to/from guest
+176844	[Disk hotplug] Attach/Detach an iscsi disk with readonly mode
+176845	[Disk hotplug] Attach/Detach disk to guest for 256 times
+176846	[Disk hotplug] Audit check when detach disk - bug 710150
+176847	[Disk hotplug] Detach virtual disks to guest over the top limitation via detach-device
+176848	[Disk hotplug] Detach virtual disks to guest over the top limitation via detach-disk
+176849	[Disk hotplug] detach-disk with wrong arguments - bug 803591
+176851	[disk hotplug] Hot-plug a large capacity disk
+176852	[Disk hotplug] Hot-plug/unplug a SAN disk with NPIV
+176853	[Disk hotplug] Hot-unplug a disk device to guest with rebooting the guest
+176854	[Disk hotplug] Hotplug a disk device to guest with rebooting the guest
+176855	[disk hotplug] hotunplug a device from guest during the process of start or shutdown guest (658713)
+176856	[Disk hotplug] IDE storage devices unsoupport hotplug
+176857	[Disk hotplug] Inject/Eject a cdrom to/from guest
+176858	[Disk hotplug] migration after attach disk device to guest
+176859	[Disk hotplug]Attach cdrom disk with startupPolicy='mandatory'
+176860	[Disk hotplug]Attach cdrom disk with startupPolicy='optional'
+176861	[Disk hotplug]Attach cdrom disk with startupPolicy='requisite'
+176862	[Disk hotplug]Attach floppy disk with startupPolicy='mandatory'
+176863	[Disk hotplug]Attach floppy disk with startupPolicy='optional'
+176864	[Disk hotplug]Attach floppy disk with startupPolicy='requisite'
+176865	[Docs] The "virt-mem" is removed from manual page - bug 639603
+176868	[Docs] virsh help: network can't be destroyed and dumped xml via id - bug 617439
+176752	[Domain async job handling] loop to cancel a stuck migration job do not cause libvirtd hang - 821468
+176874	[domain async job handling] cancel a stuck migration job -- Bug 725373
+176875	[domain async job handling] correct prompt info -- Bug 727047
+176876	[Domain async job handling] crash coredump & domjobabort
+176877	[Domain async job handling] crash coredump & domjobinfo
+176878	[Domain async job handling] live coredump & domjobabort
+176879	[Domain async job handling] live coredump & domjobinfo
+176880	[Domain async job handling] migrate & domjobabort
+176881	[Domain async job handling] migrate & domjobinfo
+176882	[Domain async job handling] Pause a domain while being migrated - bug 726650
+176883	[Domain async job handling] save & domjobabort
+176884	[Domain async job handling] save & domjobinfo
+176885	[Floppy disk support] Test floppy media insert/eject Bug - 625319
+176887	[Floppy disk support] Assign a block type floppy to guest
+176888	[Floppy disk support] readonly
+176889	[Floppy disk support] shareable
+176890	[Floppy disk support] write & read floppy
+176910	[Graphical framebuffer] Console screenshot
+176911	[Graphical framebuffer] Filter out certain devices from redirection
+176920	[Graphical framebuffer] Support connected parameter in set_password -- Bug 707212, 852675
+176923	[Graphical framebuffer] Try to connect one guest with several console -- VNC BZ 803602
+236848	[Graphical framebuffer]gain ability to limit maximum number of heads of qxl device -- bug:888762
+239894	[Graphical framebuffer]SPICE video streaming support
+176891	[Graphical framebuffers] libvirt: missing spice channel 'default' - bug 819499
+176892	[Graphical framebuffers] Host firewall port listening for different Spice ports
+176893	[Graphical framebuffers] Host firewall port listening for different VNC ports
+176894	[Graphical framebuffers] libvirt: missing spice channel 'usbredir' - bug 819498
+176895	[Graphical framebuffers] multiple spice migration
+176899	[Graphical framebuffers] set the spice listening address
+176900	[Graphical framebuffers] spice
+176901	[Graphical framebuffers] spice migration before passwdValidTo
+176902	[Graphical framebuffers] support for unix sockets - libvirt/vnc
+176903	[Graphical framebuffers] vnc -878779
+176905	[Graphical framebuffers] VNC password ticketing and reset
+176906	[Graphical framebuffers] vnc tls connection
+176907	[Graphical framebuffers] After spice passwdValidTo get expired, migration will disconnect the spice connection session
+176909	[Graphical framebuffers] Configuring Spice compression options - bug 682237
+176912	[Graphical framebuffers] Spice disable-copy-paste
+176914	[Graphical framebuffers] SPICE English keymap support
+176916	[Graphical framebuffers] SPICE German keymap support
+176917	[Graphical framebuffers] SPICE password ticketing and reset
+176918	[Graphical framebuffers] spice ssl connection
+176922	[Graphical framebuffers] Symbolic network name, to be evaluated to IP on the destination host
+176924	[Graphical framebuffers]libvirt generate right xml for smartcard -- bug 677308
+176925	[Graphical framebuffers]Specify spice mouse mode
+176926	[Graphical framebuffers]support USB redirection
+199637	[Graphical framebuffers]Remove channel content----Bug 851963
+222208	[Graphical framebuffers] migrate guest with spice (seamless-migration=on)
+229841	[Graphical framebuffers] add possibility to autoconfigure and set tls-port only BZ#875729
+229902	[Graphical framebuffers] when tlsPort is set and port is omitted, port should not set to 0 -- bug: 875730,913244
+176927	[Guest kernel debugging] Compress guest core dump to bzip2
+176928	[Guest kernel debugging] Compress guest core dump to gzip
+176929	[Guest kernel debugging] Compress guest core dump to invalid format - bug669586
+176931	[Guest kernel debugging] Compress guest core dump to lzop
+176932	[Guest kernel debugging] Compress guest core dump to xz
+176933	[Guest kernel debugging] Compress guest save file to lzop/gzip/bzip2/xz
+176934	[Guest kernel debugging] Compress guest save to invalid format
+176935	[Guest kernel debugging] Core dump a non-live guest should reprot error
+176936	[Guest kernel debugging] Libvirt could deliver human monitor commands to guest
+176937	[Guest kernel debugging] Run virsh save with option --xml to containing updated XML for the target
+176939	[guest kernel debugging] Save a shut off guest - bug 677547
+176940	[Guest kernel debugging] Send Alt+SysRq+B to trigger guest reboot - bug 708756
+176943	[Guest kernel debugging]Check libvirtd with poorly formatted human monitor command - 688723
+176945	[Guest kernel debugging]Check the dumped images can be analyzed with crash tool sucessfully
+176946	[Guest kernel debugging]domstate --reason for stop domain - bug 749096
+176947	[Guest kernel debugging]Run virsh dump with both --live and --crash options - 698490 826315
+176948	[guest kernel debugging]Run virsh dump with option --bypass-cache to avoid file system cache when saving
+176949	[Guest kernel debugging]Run virsh save after performing some domain operations - 688850
+176951	[Guest kernel debugging]Send NMI to QEMU guests - 632495
+176952	[guest kernel debugging]send SysRq key strokes to guests
+176953	[Guest kernel debugging]Sending a bad keycode to guest or send key to a shutdown guest - bug 733597/746268
+222472	[Guest kernel debugging] "virsh dump" support for SR-IOV or path through devices BZ 826325 874418
+222473	[Guest kernel debugging] Coredump filter to exclude KVM guest OS memory out of QEMU process BZ 822641
+176954	[Guest network driver] Illegal interface type or NIC model
+176956	[Guest network driver] NIC e1000 driver
+176957	[Guest network driver] NIC rtl8139 driver
+176958	[Guest network driver] NIC virtio driver
+176959	[Guest network driver] NIC virtio driver with and without vhost-net
+176960	[Guest network driver]macvtap (negtive testing) --- Bug 649964
+176742	[Guest resource control] Persistently hot-plug a qcow2 disk with a backing file pointing at a host device
+176961	[Guest resource control] a guest qcow2 disk with a backing file pointing at a host device, containing a qcow2 image, pointing at another raw host device
+176962	[Guest resource control] Hot-plug a qcow2 disk with a backing file pointing at a host device, and restarting libvirtd service
+176963	[Guest resource control] a <serial> port pointing at a host serial port
+176964	[Guest resource control] a guest qcow2 disk with a backing file pointing at a host device
+176965	[Guest resource control] a guest qcow2 disk with a backing file pointing at a host partition
+176966	[Guest resource control] a guest raw disk with a backing file pointing at a host device
+176967	[Guest resource control] a guest raw disk with a backing file pointing at a host partition
+176968	[guest resource control] bandwidth info in portgroup
+176969	[Guest resource control] blkiotune set weight on total and virtio device together will not cause libvirtd hang BZ#770520
+176970	[Guest resource control] check whether libvirt default devices appear in devices.list
+176971	[Guest resource control] check whether libvirt group can successfully be created
+176972	[Guest resource control] Control network bandwidth in guest xml
+176973	[Guest resource control] Control network bandwidth in virtual network xml
+176974	[Guest resource control] Get memory parameter for a guest with option
+176975	[Guest resource control] Get memory parameter for a guest without option
+176976	[Guest resource control] Get the current blkio parameters for a guest
+176977	[Guest resource control] Get the value of cpu_shares property of the guest
+176978	[Guest resource control] Guest can be started with <iotune> setting in xml BZ#768870
+176979	[Guest resource control] Hot-plug a qcow2 disk with a backing file pointing at a host device, and shutdowning guest
+176980	[Guest resource control] Hot-plug a qcow2 disk with a backing file pointing at a host partition, and restarting libvirtd service
+176981	[guest resource control] Hot-plug a qcow2 disk with a backing file pointing at a host partition, and shutdowning guest
+176982	[Guest resource control] hot-plug/unplug a qcow2 disk with a backing file pointing at a host device - Bug 876828 & 895906
+176983	[Guest resource control] hot-plug/unplug a qcow2 disk with a backing file pointing at a host partition - Bug 876828 & 895906
+176984	[guest resource control] Persistently hot-plug a qcow2 disk with a backing file pointing at a host partition
+176985	[Guest resource control] Set memory parameter with min_guarantee option
+176986	[Guest resource control] Set the current blkio parameters for a guest without any optional
+176987	[guest resource control] Set the outside range of 0-262144 value for cpu_shares of the guest
+176988	[Guest resource control] Set the value of cpu_shares property of the guest
+176992	[Guest resource control]Support policy base guest management BZ 826576
+203126	[Guest resource control] libvirt isn't checking values emulator_period and emulator_quota in XML and in command with --config BZ 854537 854133
+236561	[Guest resource control] Cgroups memory limit are causing the virt to be terminated unexpectedly - bug 891653
+244112	[Guest resource control] Set memory parameter for a guest with option -bug 911997
+176993	[Hooks] Check audit log records kvm related operation
+176994	[Hooks] daemon restart - return non-zero
+176995	[Hooks] daemon restart - return zero
+176996	[Hooks] daemon start - return non-zero
+176997	[Hooks] daemon start - return zero
+176998	[Hooks] daemon stop - return non-zero
+176999	[Hooks] daemon stop - return zero
+177000	[hooks] kvm-guest failed to start; avoid double-close bug in libvirt - bug 827050
+177001	[Hooks] qemu - pre-migration hook on desination - bug 795127 822916
+177002	[Hooks] qemu - return non-zero
+177003	[Hooks] qemu - return zero
+177004	[Hooks] Start guest with hooks script - bug 823716
+185916	[Hooks] lxc - return zero
+185917	[Hooks] lxc - return non-zero
+200240	[Hooks] Libvirt is missing important hooks - bug 825820
+200827	[Hooks] kill daemon with SIGHUP
+220605	[Hooks] migration with hook
+177005	[Host network interface management] Define a bond interface that contains two ethernets
+177006	[Host network interface management] 'XML error: bond interface misses the bond element' when try to stop a bond through command - bug 786696
+177007	[host network interface management] correct work flow for undefine interface BZ 721232
+177008	[Host network interface management] Define an interface with netmask > 24 -- bug 848722
+177009	[Host network interface management] define & undefine interface
+177010	[Host network interface management] Define a bridge interface contains a bond which contains two Ethernet
+177011	[Host network interface management] Define a bridge interface contains a vlan which is using an Ethernet -878394
+177012	[Host network interface management] define a bridge that uses an ethernet interface
+177013	[Host network interface management] Define a bridge using a not existing Ethernet interface
+177014	[Host network interface management] Define a bridge using an existing Ethernet interface which is not defined and up
+177015	[Host network interface management] Define a vlan
+177016	[Host network interface management] Define an arp bond interface that contains two Ethernet -878394
+177017	[Host network interface management] Define an ethernet with both static IPv4 and IPv6 address
+177018	[Host network interface management] Define an ethernet with dhcp ipv4
+177020	[Host network interface management] Define an ethernet with static IPv4 address
+177021	[Host network interface management] Define an ethernet with static IPv6 address
+177023	[Host network interface management] Define an ethernet wtih multi static ipv6 address
+177024	[Host network interface management] destroy & start interface
+177025	[Host network interface management] dump interface's xml
+177026	[Host network interface management] dump interface's xml (--inactive) -878394
+177027	[Host network interface management] edit interface's xml
+177028	[Host network interface management] Error handlING for invalid IP address
+177029	[Host network interface management] Get interface name via MAC address
+177030	[Host network interface management] Get MAC address via interface name
+177031	[Host network interface management] list interfaces
+177033	[host network interface management] transaction-oriented API for handling host interfaces BZ 737149
+236958	[Host network interface management]Set "DELAY=0" by virsh iface-bridge command - bug 892403
+177034	[Input devices] absolute cursor function
+177035	[Input devices] relative cursor function
+177036	[input/output device]Change the order of video devices - bug 823535
+177037	[input/output devices] Configure sound pass-through to appear as MIC as opposed to line-in- bug816503
+177589	[Input/Output devices] Get sound under different graphics type - spice
+177038	[Installation - cdrom] Install guest from boot.iso
+177039	[Installation - cdrom] Install guest from cdrom - spice - HDA
+177040	[Installation - net] Install guest from http
+177041	[Installation - net] Install guest from nfs - vnc - ac97
+177042	[Installation - pxe] Install guest from pxe
+177043	[installation]Can't install an OS via PXE on a VM with NIC defined to work in NAT mode BZ#809723
+177440	[Installation] serial file path is converted to lower case -- bug 731115
+221606	 [Installation] Creating domain with already used name should always fail - BZ#871452
+177044	[Interface hotplug] - Attach interface from args
+177045	[Interface hotplug] - Detach interface from args
+177046	[Interface hotplug] Attach 32 NIC to guest
+177047	[Interface hotplug] Attach interface from args with specified model type - Bug 627125
+177048	[Interface hotplug] attach interface via xml after libvirtd restart - bug 623877
+177049	[interface hotplug] Attach interface with same mac or target as already attached interface
+177050	[Interface hotplug] Attach/Detach e1000 NIC to guest
+177051	[Interface hotplug] Attach/Detach NIC to guest for 500 times - stress test - Bug 618484
+177052	[Interface hotplug] Attach/Detach rtl8139 NIC to guest
+177053	[Interface hotplug] Attach/Detach virtio NIC to guest
+177054	[interface hotplug] [6.2 FEAT] libvirt: Enable 'passthru' mode for direct interfaces - bug 693839
+177055	[interface hotplug] [RFE] virsh attach-interface can't attach a new device to an inactive domain - bug 677229
+177056	[interface hotplug] [RHEL6-Beta] 'virsh attach-interface' succeeds even if a nonexistent script file is specified to the option --script - bug 638633
+177057	[interface hotplug]hotplug supported type of interfaces
+177062	[Libvirt domain event handler] event-test.py help info
+177064	[Libvirt domain event handler] Other stopping/rebooting operation for domain
+177065	[Libvirt domain event handler] Run 'hwclock --systohc'(on the domain) to change the domain clock
+177066	[Libvirt domain event handler] Running watchdog action such as pasue action
+177067	[Libvirt domain event handler] Track all events for basic operations on a domain-bug884650
+177068	[Libvirt domain event handler] Track all events for multiple domains
+177069	[Libvirt domain event handler]VNC & SPICE connecting & disconnecting
+183803	[libvirt domain event handler] Bug 839661 - libvirt: support QMP event for S4 - Bug 872420 878966
+183805	[libvirt domain event handler]Bug 834927 - virConnectDomainEventRegisterAny won't register the same callback for the same event but for different domains
+198948	[libvirt domain event handler] Watch for an event to indicate guest stopped using a hotunplugged device - bug 813752
+233723	[Libvirt domain event handler]Track memory balloon event-bug884650
+177071	[libvirt-snmp] Control domain lifecycle
+177072	[libvirt-snmp] Request information about domain status
+177073	[libvirt-snmp] Snmptrap of domain lifecycle event
+177074	[libvirt-snmp]libvirtMib_subagent will stop when request information after libvirtd restarted - bug 736596
+177075	[libvirt-snmp]Use "ctrl+c" to close libvirtMib_subagent will not lead to memory leak - Bug 736258
+176746	[libvirtd] memory leak when performing persistent network device update (e.g. virsh domif-setlink --persistent)BZ#802854
+177080	[libvirtd] libvirtd does not close all fds opened by virt-install - bug 766308
+177081	[libvirtd] libvirtd.conf error causes libvirtd to exit silently - bug 728654
+177083	[libvirtd] /etc/init.d/libvirtd restart provides wrong status - bug 730510
+177084	[libvirtd] /var/run/libvirtd.pid will be lost after restarting libvirtd with vdsm installed - bug 726649
+177085	[libvirtd] check access control of readonly unix socket.
+177086	[libvirtd] Check for domain being active on successful job acquire
+177088	[libvirtd] daemon convention testing
+177089	[libvirtd] Delete UNIX sockets upon libvirtd shutdown
+177090	[libvirtd] fail to start guest with bad file descriptor error - bug 823716
+177092	[libvirtd] Kill qemu process using 'kill' behaves as user shutdown command and not as 'lost connection with qemu process'--Bug 656845
+177093	[libvirtd] Let /var/lib/libvirt/qemu belongs to qemu group
+177094	[libvirtd] Libvirt client may crash when it closes connection to libvirtd - bug 800185
+177095	[libvirtd] libvirt lost SIGHUP reloading behavior - bug 730428
+177096	[libvirtd] libvirt unresolved dependency: dmidecode Bug: 782444
+177097	[libvirtd] libvirtd crash/hang at virFDStreamEvent when qemu guest shuts down - BZ#716393
+177098	[libvirtd] Libvirtd daemon core dump
+177099	[libvirtd] libvirtd fails to start due to mDNS requirement- bug 746111
+177101	[libvirtd] Make avahi failure on startup non-fatal - bug 785269
+177105	[libvirtd] network interface <target> after libvirtd restart - Bug 588046
+177106	[libvirtd] option "--timeout" testing - 1
+177107	[libvirtd] option "--timeout" testing - 2
+177108	[libvirtd] option "--timeout" testing - 3
+177109	[libvirtd] per-device boot elements cannot be used together with os/boot elements - bug 751287
+177110	[libvirtd] QEMU attach a nonexistent PID
+177112	[libvirtd] Reference leak in libvirtd remote*() functions--Bug 603442
+177118	[libvirtd] Restart libvirtd without killing guest - bug 816465
+177119	[libvirtd] Restart libvirtd without killing guests
+177120	[libvirtd] run libvirtd foreground BZ#831044
+177121	[libvirtd] send "SIGABRT" and "SIGKILL" to libvirtd
+177122	[libvirtd] send signal "SIGTERM", "SIGQUIT", "SIGINT" to libvirtd
+177123	[libvirtd] start libvirtd on s390x machine - BZ#698208 & BZ#678027
+177124	[libvirtd] Upstart libvirtd service
+177126	[libvirtd] Using a self recursive snapshot backing store *takes out* libvirtd--Bug 601067
+177127	[libvirtd] virsh crashes at remoteStreamEventTimer when libvirtd restarts - BZ#716781
+177128	[libvirtd] virt-manager causes iowait, due to rewriting XML files repeatable - bug 831149
+177130	[libvirtd] xmldesc with a typo should not make libvirtd segfault - Bug 523418
+177131	[libvirtd]After issue "event-test.py qemu:///system", opening virt-viewer will not kill service libvirtd --bug 741533
+177132	[libvirtd]libvirtd crash when start a net with special MAC address Bug#817234 , 823765
+177134	[libvirtd]libvirtd crashes after running virsh cpu-compare with unexpected input--Bug 630618
+177135	[libvirtd]libvirtd crashes if client quits unexpectedly - bug 727071
+177136	[libvirtd]Qemu get hang will not lead libvirtd to hang
+184054	[libvirtd] overriding the default configuration file
+184055	[libvirtd] overriding the default pid file
+189340	[libvirtd] Include the default listen address in the live guest XML
+193554	[libvirtd] Libvirt should never be double-closing an fd - bug 845893
+193555	[libvirtd] destroy a creating domain - bug 843716
+199599	[libvirtd] libvirtd memory leak BZ#851401
+222362	[libvirtd]libvirt calls 'qemu-kvm -help' too often BZ# 863115
+177137	[lock manager] Incorrect path length check on sanlock lockspace limits directory name length to 47 characters BZ#735443
+177138	[lock manager] Live snapshot and merge with sanlock enabled BZ#785736
+177139	[lock manager] missing requirement of libvirt-lock-sanlock package BZ#738314
+177140	[lock manager] RFE: QEMU driver does not prevent a disk being added to two guests at once in non-shared modeBZ#578121
+177141	[lock manager] Sanlock library license compatibility testing
+177142	[lock manager] Sanlock socket is incorrectly labelled for SELinux BZ#735442, BZ#820173
+177143	[lock manager] virt-sanlock-cleanup command doesn't work BZ# 738534
+184058	[lock manager] Sanlock locking failed for readonly devices - Bug 837659
+189580	[lock manager] Support customizable actions when sanlock leases are lost - bug 832156
+176751	[log and debugging] libvirt Sanitized Host Logs for Guests - bug 822592
+176873	[Log and debugging]libvirt log messages - 740943 890297
+177144	[Log and debugging] Improve libvirt debug capability - bug 818467
+177145	[Log and debugging] Check the install.log for all libvirt related pkgs
+177146	[Log and debugging] Check the vm-pid in VIRT_CONTROL
+177147	[Log and debugging] log testing - 1
+177148	[Log and debugging] log testing - 2
+177149	[Log and debugging] log testing - 3
+177150	[Log and debugging] null dereference while preparing libvirt logs - bug 728546
+177151	[Log and debugging] null dereference while preparing libvirt logs - BZ#711206
+177152	[Log and debugging] per log for per-hypervisor
+177153	[Log and debugging] Starting libvirtd with libvirtd.conf containing an unterminated string - bug 728654
+194213	[Log and debugging]Enable stack traces in log messages
+233720	[Log and debugging] Libvirt won't parse dnsmasq capabilities when debug logs are enabled - bug 885727
+177155	[Longevity] 256 pools active on 1 machine for 1 week after 10 times libvirtd reload
+177158	[Longevity] Guest running 1 week with maximum attached disks number (hotplug)
+177159	[Longevity] Guest running 1 week with maximum attached interfaces number (hotplug)
+177161	[Longevity] Keep guests running 1 week after 100 times migration
+177163	[Longevity] libvirt python event handler running 1 week both on local and remote
+177168	[Longevity] Running 1024 guests 1 week - bug 707155
+177169	[LXC] Application container event register
+177170	[LXC] Application container life cycle testing
+177171	[LXC] Application container suspend/resume - bug 773212 842979 857341
+177173	[LXC] autostart enable/disable
+177174	[LXC] Check setting memory error message when cgroup is unmounted
+177175	[LXC] connect to OS container via console
+177176	[LXC] get domain infor via virsh dominfo - bug 819401
+177177	[LXC] get interface statistics
+177179	[LXC] kill process "/usr/libexec/libvirt_lxc"
+177180	[LXC] make sure it will only show the process in the container.
+177182	[LXC] OS container suspend/resume --Bug 861564
+177183	[LXC] schedinfo --bug 860907
+177184	[LXC] schedinfo - give wrong parameters
+177185	[LXC] set max memory
+177187	[LXC] set memory BZ 748354 829241
+177188	[LXC] shutdown/destroy container
+177189	[LXC] undefine
+177190	[LXC] version output
+177191	[LXC]capabilities
+222378	[LXC]check and destroy domain after restart libvirtd -- Bug 867246 ,864336
+229440	[LXC] libvirt_lxc segfaults when staring lxc guest - BZ#874549,#880064
+233086	[LXC] Libvirt leaks libvirt_lxc processes on container shutdown - bug 879360
+237061	[LXC]Checking a cloned lxc container -Bug888562
+237062	[LXC]Checking lxc containers's networking when selinux is enabled-bug888552
+244290	[LXC] start OS container with selinux disabled - bug 915485
+244296	[LXC] virsh start is too slow - bug 904951
+244297	[LXC] error message occur in libvirtd.log when destroy the lxc container - bug 903092
+177193	[Managed save] A managed save file for a domain can be manually removed
+177194	[Managed save] bypass the file system cache when saving and restoring guests
+177196	[Managed save] Cann't managed save a transient domain - bug 729714
+177197	[Managed save] Domains are *not* automatically restore via initscript with "ON_BOOT=ignore" when host boots up
+177198	[Managed save] Domains are *not* automatically restored via initscript when host boots up
+177199	[Managed save] Domains are automatically restored via initscript when host boots up
+177200	[Managed save] Domains are automatically saved via initscript when host shuts down
+177201	[Managed save] Domains are automatically shutdown PARALLELLY via initscript when host shuts down
+177202	[Managed save] Domains are automatically start via initscript when host start
+177203	[Managed save] Domains that take too long to shutdown PARALLELLY via initscript are killed when host shuts down
+177204	[Managed save] Domains that take too long to shutdown SERIALLY via initscript are killed when host shuts down
+177205	[Managed save] Don't start libvirt-guests on upgrade libvirt-client - bug 660706
+177207	[Managed save] Implement START_DELAY in libvirt-guests before starting next guest
+177209	[Managed save] invalid save file should not block the domain start - bug 730750
+177210	[Managed save] kill libvirtd in the middle of managed save - bug 727254
+177211	[Managed save] managed save should not crash libvirtd for <cpu mode='host-model'> guest - bug 801160
+177212	[Managed save] Running domain can be manually saved via virsh
+177213	[Managed save] Same domain cannot be started with the same saved image again.
+177215	[Managed save] Skip the URI during host shutdown when the URI cannot to be connectted to via initscript
+177216	[Managed save] Stopped domain fails to be saved via virsh.
+177217	[Managed save] Stopped domain with managed save file can be manually restored via virsh
+177218	[Managed save] survive from 20 iterations without failure - bug 727249
+177219	[Managed save] The managed save image is removed when undefining the domain with "--manage-save" flag
+177220	[Managed save]List the domains with managed save state-bug810799
+190040	[Managed save]Checking the status of libvirt-guests service
+222526	[Managed save] managed save the guest in pmsuspended status and resume it
+177221	[Memory management] ballooning testing(API)
+177222	[Memory management] ballooning testing(virsh)
+177226	[Memory management] Change KVM guest memory info - bug 508266
+177227	[Memory management] Deactivate memory balloon with type of none BZ 833674
+177228	[Memory management] Disable ksm for per VM - BZ#635419
+177230	[Memory management] huge pages
+177231	[Memory management] Memory usage works fine in libvirtd udev backend - bug 595490
+177234	[memory management] unit test for memory - bug 808522 813972 893933 893936
+199716	[Memory management]setmem when guest do S3 operations
+199739	[Memory management]setmem when guest do S4 operations BZ 872419 878966
+229444	[Memory management] change memory/currentMemory by virsh then do operations BZ 873134
+177235	[Migration] Do live migration from rhel6.1 to rhel6.2 or later with pci 0:0:2.0 not assign to video - bug 771603
+177236	[Migration] Bi-directional live migration between 2 hosts.
+177237	[Migration] Bi-directional tunnelled migration between 2 hosts.
+177238	[Migration] Block the storage domain connectivity on destination during migration - bug 705405
+177239	[Migration] Break migration with gdb help - bug 795305, 806206
+177240	[Migration] Change domain xml and name together during migration - Bug 744237, 741251
+177241	[migration] check the host's uuid before migration
+177242	[Migration] compare cpu number and memory size between before migration and after migration
+177243	[Migration] compare domain xml before migrated and after migrated
+177244	[Migration] direct migration - bug 832373
+177245	[Migration] Do libvirt statistics command loop during migration
+177246	[Migration] Do migration loop with setmaxdowntime - bug 803186
+177247	[Migration] Do readonly command during qemu migration - bug 704124
+177249	[Migration] During migration reboot guest with virsh command - Bug 744967
+177250	[migration] general error return on migrate after calling abortjob() - bug 760149 873792
+177251	[Migration] guest timer check after migration
+177253	[Migration] Live migrate with high memory load with no swap
+177254	[Migration] Live migration based on same cpu vendor - AMD
+177255	[Migration] Live migration based on same cpu vendor - intel
+177256	[Migration] Live migration between non-similar processors - different vendor
+177257	[Migration] Live migration of a domain while playing online streaming media
+177259	[Migration] Live migration of a domain with hotplugged disks
+177260	[Migration] Live migration of storage (without moving VM) - bug 638506
+177261	[Migration] Live migration with multiple virtual network interfaces
+177262	[Migration] Live migration with non-shared storage for kvm - 677220
+177266	[Migration] migrate a guest based on iscsi storage
+177268	[Migration] migrate a guest for 1024 rounds through TCP connection --offline
+177269	[Migration] migrate a guest with disk I/O load
+177270	[Migration] migrate a guest with heavy CPU load
+177271	[Migration] migrate a guest with heavy MEM load
+177272	[Migration] migrate a guest with hugepage memory
+177273	[Migration] migrate a guest with vcpu pinning on the same CPU model
+177274	[Migration] Migrate a paused KVM guest - Bug 519204
+177275	[Migration] Migrate guest with different connect way(tcp, tls) - Bug 491295
+177277	[Migration] Migrating the same guest again after terminating last migration with ctrl-c - bug 682953
+177278	[Migration] Migration after eject cdrom in guest - bug 725673 889961
+177279	[Migration] migration based on ssh connection with ipv6 address - Bug 624626 846013
+177280	[Migration] migration based on tcp connection with ipv6 address - Bug 624626 846013
+177281	[Migration] migration based on TLS connection with ipv6 address - Bug 624626 846013
+177283	[Migration] migration during vm installation /boot /reboot
+177285	[Migration] Migration with --persistent with changing the original xml of guest - bug 738148
+177286	[Migration] migration with 1-16 VCPUs
+177287	[Migration] Migration with different cache mode - bug 751631
+177288	[Migration] Migration with inactive iso attached with rhevm- bug 701106
+177289	[Migration] migration with large RAM
+177290	[Migration] migration with multi guests
+177291	[Migration] migration with network load on both source and target host in high speed(1000Mb/s) network
+177292	[Migration] migration with network load on both source and target host in slow(128Kb/s) network
+177293	[Migration] Migration with non-existent xml - bug 773208
+177294	[Migration] Migration with non-shared floppy and cdrom with startupPolicy
+177295	[Migration] Migration with not start libvirtd on target host - bug 736590
+177296	[Migration] migration with SMP enabled
+177297	[Migration] Migration with unknown tcp socket - bug 720269
+177299	[Migration] P2P migration using a TLS enabled URI - Bug 721411
+177300	[Migration] P2P migration using TCP enabled URI without sasl
+177301	[Migration] P2P reverse migration with TLS enabled URI - bug 722738
+177302	[Migration] Reboot the host durning live migration
+177303	[Migration] Seamless spice migration with graphic guest and windows spice client- bug 783968
+177304	[Migration] seemless SPICE migration - Bug 589989
+177305	[Migration] Set bandwidth of migration
+177307	[Migration] Set max downtime during migration
+177308	[Migration] SSL connected spice migration
+177309	[Migration] Stopping src libvirtd during migration - bug 728341
+177311	[Migration] suspend migration with option --suspend --undefinesource --persistent
+177312	[Migration] Tunnelled migration using a TLS enabled URI
+177313	[Migration] Tunnelled migration using TCP enabled URI without sasl
+177314	[Migration] Tunnelled spice migration - bug 591974
+177315	[Migration] Upload/download a big file by FTP from RHEL/Fedora guest during migration BZ 823453
+177317	[Migration]Bi-directional p2p migration between 2 hosts.
+177318	[Migration]Break migration during migrating-bug635353
+177319	[Migration]Change domain name during migration
+177320	[Migration]DNS resolving fails during migration - bug 729567, 738915
+177321	[Migration]During live migration, fail gracefully on network error BZ 822839
+177323	[Migration]During live migration, restart libvirtd - bug 690175,634065,728603
+177324	[Migration]Live migration of a domain with a PCI device hotplugged
+177325	[Migration]Live migration of a domain with hotplugged NICs
+177326	[Migration]migrating domain to unreachable destination - bug 723912, 723881,730244, 759432
+177327	[migration]migration from RHEL6.X to RHEL6.Y which X > Y BZ 815503
+177328	[Migration]Migration name collision check
+177329	[migration]migration will cause guest IO failure when DST sebool is virt_use_nfs=off BZ 822052, 895826
+177330	[Migration]Offline migration
+177331	[Migration]Tunnelled migration
+177332	[Migration]Use an alternate migration URI to do the migration
+183892	[Migration] Migration with xml and persistent - bug 835300
+184112	[Migration] Migration with copy-storage-inc
+190935	[Migration] Migration with sheepdog
+191663	[migration]error messages may not be propagated properly during failed migration 844378
+192670	[migration]Add live migration support for USB - bug 843560
+197204	[Migration]migrated VM not visible to non-root user on the target host BZ 847822
+222364	[migration]live migration converge when guest dirties pages too fast --bug 863264
+222376	[migration]p2p migration with different cache mode -- bug 867412
+234078	[migration]RFE: add optional [--clienturi] [<clienturi>] option to the migrate command BZ 883936
+234079	[migration] [FEAT RHEL6.5]: Improve the manual about "migrateuri" option of "virsh" command. BZ 878765
+236851	[Migration] when do block_stream the target snapshot file should be locked BZ 888645
+238848	[Migration] VDSM | Libvirt fails the migration process when removing 1st boot device from running VM BZ 889961
+176692	[miscellanea] Clear prompt should be seen when specify a non-existent image file in domain config file - Bug 591363
+177333	[Miscellanea] Ability to specify custom BIOS for QEMU/KVM using <loader> XML (for WHQL testing) - bug 811227
+177336	[Miscellanea] Upgrade all related pkgs on RHEL6.0 release os tree and test basic operations
+177437	[Miscellanea]Cannot roundtrip blkio parameters due to broken deviceWeight handling BZ#800734
+183817	[Miscellanea] Upgrade libvirt packages cause guest show list wrong - bug 837787
+194549	 [Miscellanea] libvirt's text interfaces are locale-dependent - 845493
+202666	[Miscellanea]Guest OS type
+202667	[Miscellanea]Guest OS bios loader
+202763	[Miscellanea] libvirt driver lock is held for too long - bz#856609
+202765	[Miscellanea] Deadlock on libvirt when playing with hotplug and add/remove vm - bz#856950, bz#875710
+202827	[Miscellanea]OS boot device and boot rules
+202828	[Miscellanea]Guest OS boot menu
+202869	[Miscellanea]Guest bios useserial
+204915	[Miscellanea]on_poweroff lifecycle control
+204916	[Miscellanea]on_reboot lifecycle control
+204917	[Miscellanea]on_crash lifecycle control
+222203	[Miscellanea]default machine type detection BZ 867764
+222632	[Miscellanea] booting delay time BZ 855237
+177338	[Network filter] - define or update a network filter from an XML file
+177339	[Network filter] - edit XML configuration for a network filter
+177340	[Network filter] - libvirt should initialize nwfilter when /tmp is mounted with noexec option - bug 752255
+177341	[Network filter] - list network filters
+177342	[Network filter] - network filter information in XML
+177343	[Network filter] - undefine a network filter
+177344	[Network filter] allow arp
+177345	[Network filter] allow incoming ipv4
+177346	[Network filter] allow ipv4
+177347	[Network filter] allow-dhcp
+177349	[Network filter] allow-ipv6
+177350	[Network filter] clean-traffic
+177351	[Network filter] disallow arp
+177352	[Network filter] disallow dhcp
+177353	[Network filter] disallow-dhcp-server
+177354	[Network filter] disallow-ipv6
+177355	[Network filter] no-arp-spoofing
+177356	[Network filter] no-ip-spoofing
+177357	[Network filter] no-mac-broadcast
+177358	[Network filter] no-mac-spoofing
+177359	[Network filter] no-other-l2-traffic
+193546	[network filter]DHCP Snooping BZ 693884
+193547	[network filter]Multiple IP address support to DHCP snooping BZ 693884
+193550	[network filter]Ip set API
+177360	[Node devices] Allow PCI PM reset on multi-function devices - bug 517460
+177362	[Node devices] Dettach node device from host
+177363	[Node devices] Dump network device xml info
+177364	[Node devices] Dump usb device xml info
+177365	[Node devices] List all node devices on host
+177366	[Node devices] node driver should be back after reattach node device - bug 713697
+177367	[Node devices] Reattach a pci device which is using by guest to host - bug 603039
+177368	[Node devices] Reattach node device on host
+177369	[Node devices] Reset node device from host
+177370	[Node devices] Support for wireless NIC node device
+177371	[Node devices] Try to create node device which is not a fibre channel HBA- bug 510426
+177372	[Node devices]Virtio Net/Disk block devices get correct parent in node device info - bug 570130
+177374	[NPIV] Create a virtual HBA with NPIV
+177375	[NPIV] Create and destroy vport frequently - bug595490
+177377	[NPIV] Create more than 2 vports and destroy one to see if others can still work
+177379	[NPIV] Destroy a virtual HBA with NPIV
+177380	[NPIV] Discover SAN Storage
+177381	[NPIV] Each guest writes data into SAN storage via different vHBA at the same time.
+177382	[NPIV] Install a guest into SAN storage via vHBA.
+177383	[NPIV] Install a guest on the storage which connect to the vport of host1 and reconnect it to host2 with the same vport
+177384	[NPIV] Restart the libvirtd to see if the wwpn is same as before
+177385	[NPIV] RFE: Automatically generate unique WWN -bug 557935
+177387	[NPIV]option to associate a WWN with a VM
+177388	[NUMA] creating vm to place the vcpu in certain cell
+177389	[NUMA] guest numa topology - bug 832165
+177390	[NUMA] libvirtd drops client connection when querying capabilities on NUMA machines with sparse topology
+177391	[NUMA] memory tuning for node out of range
+177392	[NUMA] show numa topology
+177393	[NUMA] VM CPU Runtime pinning
+177394	[NUMA]memory tuning interleave mode
+177395	[NUMA]memory tuning preferred mode
+177396	[NUMA]memory tuning strict mode
+177397	[NUMA]numad testing - bug 769930, 810157, 820461, 869096
+177962	[NUMA] CPU topology parsing bug on special NUMA platform - bug 828729,bug874050
+197505	[NUMA]Run virsh cpu-stats command on NUMA machine - bug 846629
+200102	[NUMA] NUMA aware KSM support in libvirt - bug 840113
+200111	[NUMA] vcpupin fail with non-specific error msg when numad is running - bug 846620
+218344	[NUMA] guest numa topology with node memory alignment - bug 832165
+177399	[PCI and USB assignment] USB device can be reassigned to another VM without error - bug743671
+177400	[PCI and USB device assignment] attach-detach-reattach node device for 1000 rounds
+177401	[PCI and USB device assignment] Attach 1 usb device when have 2 usb devices with same vendor and product id - bug 815755
+177402	[PCI and USB device assignment] Block assignment of devices below non-ACS switch - bug 526713
+177403	[PCI and USB device assignment] Block assignment of devices below non-ACS switch - bug 526713,706869
+177404	[PCI and USB device assignment] Check automatic PCI address assignment for USB2 companion controllers-bug820869
+177405	[PCI and USB device assignment] Check owner and selinux label after hot-unplugging a USB device from guest with managed mode-bug825068
+177406	[PCI and USB device assignment] Check whether return device to host when destroying guest with managed mode after stopping libvirtd service
+177407	[PCI and USB device assignment] Cold-plug a USB device to guest with bus + device and then hot-unplug
+177408	[PCI and USB device assignment] Cold-plug a USB device to guest with product + vendor and the hot-unplug-bug798838
+177409	[PCI and USB device assignment] Cold-plug multiple USB devices to guest
+177410	[PCI and USB device assignment] Cold/hot-plug USB/PCI devices to guest and then shutdown or reboot the guest
+177411	[PCI and USB device assignment] Detach device during guest boot- bug 807023
+177412	[PCI and USB device assignment] Dynamically switch a PCI/USB devices between different guests without shutdown
+177413	[PCI and USB device assignment] Dynamically switch one PCI/USB device between different guests
+177414	[PCI and USB device assignment] Hot plug normal PCI device with 'managed=yes'
+177415	[PCI and USB device assignment] Hot plug normal PCI device without 'managed=yes'
+177416	[PCI and USB device assignment] Hot unplug normal PCI device with 'managed=yes' - bug 781985
+177417	[PCI and USB device assignment] Hot unplug normal PCI device without 'managed=yes'
+177418	[PCI and USB device assignment] Hot/cold-plug a PCI device to guest on Intel VT/AMD-V + non-VT-d/non-IOMMU host-bug818055
+177419	[PCI and USB device assignment] Hot/Cold-plug multiple PCI devices to guest
+177420	[PCI and USB device assignment] Hotplug PCI device to guest via virt-manager - bug 555309
+177421	[PCI and USB device assignment] Hotplug/Hotunplug normal USB device with bus + device
+177422	[PCI and USB device assignment] Hotplug/Hotunplug normal USB device with product + vendor-bug798838
+177423	[PCI and USB device assignment] Need an xml switch to disable rombar of assigned devices
+177424	[PCI and USB device assignment] Pass multi usb contorllers unordered - bug 822159
+177425	[PCI and USB device assignment] passthrough multifunction PCI devices to KVM guests
+177426	[PCI and USB device assignment] PCI passthrough normal device with manage='yes' and then hot-unplug
+177427	[PCI and USB device assignment] PCI passthrough normal device without manage='yes' and then hot-unplug
+177428	[PCI and USB device assignment] Prevent PCI coldplug/hotplug on non-IOMMU host
+177429	[PCI and USB device assignment] Support for qemu PCI romfile option
+177430	[PCI and USB device assignment] tight loop of hotplug/unplug NIC to guest on normal host-- BZ#619455, BZ#822373, BZ#877095
+177431	[PCI and USB device assignment] USB 2.0 pass-through can boot guest VM for a SECOND time - bug 808459
+177432	[PCI and USB device assignment]Missing support for persistent hotplug attach/detach of <hostdev> devices BZ#802856
+177433	[PCI and USB device assignment]segfault when attempting to detach non-existent network device BZ#802664
+189583	[PCI and USB device assignment] libvirt Support ivshmem (Inter-VM Shared Memory) - bug787536
+200241	[PCI and USB device assignment] allow to disable usb & vga altogether BZ#818996
+222490	[PCI and USB device assignment] Start a guest with smartcard and remove usb controller - bug 870003
+222495	[PCI and USB device assignment] Support USB device with different policy - bug843560
+224808	[PCI and USB device assignment] support for USB 2.0 (EHCI) - bug 715590
+229441	[PCI and USB device assignment] Support ich9-uhci1/2/3 model as usb controller model - BZ#877330
+177434	[PCI and USB devices assignment] Hot/Cold-plug a PCI device without FLR capability to guest -- bug 773667
+177435	[PCI and USB devices assignment] dump guest with assigned devices - bug 816519
+233028	[performance] High disk usage when both libvirt and virt-manager are opened - bug 886933
+176750	[remote access] virsh connect should not disconnect current connection until a new connection succeeds BZ#829160
+177441	[Remote access] Configuration TLS x509 server key file path
+177442	[remote access] connect to hypervisor with unconfigured tls/tcp connection BZ#723442
+177443	[remote access] SSH GSSAPI login broken BZ#737176
+177444	[Remote access] access test driver - bug 684848
+177446	[Remote access] Check connect with UNIX sockets with polkit
+177447	[Remote access] Check connect with UNIX sockets with SASL
+177448	[Remote access] Check connect with UNIX sockets without auth check
+177449	[Remote access] Connect to a non-kvm hypervisor
+177450	[Remote access] Connect to the hypervisor on host using a plain TCP connection without SASL via ipv4
+177451	[Remote access] Connect to the hypervisor on host using TCP connection with SASL via ipv6
+177452	[Remote access] Connect to the hypervisor running on host over an SSH connection via ipv4
+177453	[Remote access] Connect to the hypervisor running on host over an SSH connection via ipv6 - bug 785164
+177454	[Remote access] Connect to the hypervisor running on host using TLS with SASL via ipv6
+177455	[Remote access] Connect to the hypervisor running on host using TLS without SASL via ipv4
+177456	[remote access] Connect to the hypervisor using TLS with SASL BZ#726568
+177457	[Remote access] Connect to the local 'default' hypervisor running on host
+177458	[remote access] Customizable x509 certificate paths for client - tls
+177459	[Remote access] Libvirtd output proper error for TLS failure
+177460	[remote access] listen_addr custom
+177461	[remote access] mDSN custom
+177462	[Remote Access] memory leak on virNetTLSContextCheckCertificate and testTLSSessionInit BZ#735650
+177465	[remote access] sasl_allowed_username_list custom
+177466	[remote access] TCP ports custom
+177467	[remote access] TLS ports custom
+177468	[Remote access] UNIX socket access controls
+177469	[remote access] UNIX socket dir custom
+177470	[remote access] virsh connect fails with remote machine which has different libvirt version BZ#760436
+177471	[remote access]Check if the guest in WaitForLaunch status after run once with "paused" mode - 748025
+177472	[remote access]libvirt runs qemu with tls options even when certs/keys are not set BZ#790436
+177473	[remote access]There are some typos when virsh connect source guest server with ssh PermitRootLogin disabled BZ#822340
+222365	[remote access] - libvirt auth.conf make virsh cmd Segmentation fault (core dumped) BZ#859320
+229462	[remote access]Permission denied error printed in wrong place when input invalid password - bug 874897
+233937	[Remote access] connecting with the libssh2 connection driver - bug 881663
+236323	[Remote access] virt-viewer to connect guest with parameter "--attach" works well BZ#891837
+243091	[rhevm+iscsi] libvirt save VM into iscsi and restore with RHEVM
+243092	[rhevm+iscsi] Migration with inactive iso attached with rhevm in ISCSI - bug 701106
+243093	[rhevm+iscsi] suspend-->stop VM to ISCSI with RHEVM - bug 716478
+243094	[rhevm+iscsi]Install a new guest in ISCSI with spice via Runonce in rhev-m
+243096	[rhevm+iscsi] Libvirtd hangs forever when destroying multiple domains with disks on an unreachable ISCSI storage. BZ#746666
+241832	[rhevm]vm pauses after live storage migration NFS and ISCSI BZ#894085
+177477	[Scalability] 256 autostarted network (isolated, route , NAT) reloading
+177478	[Scalability] 256 autostarted storage pools reloading
+177489	[Scalability] Attach 1024 virtio scsi disks on 1 guest-bug841519
+177490	[Scalability] Attach/Detach maximum Vfs to one guest for looping 10 times-bug696877,bug678368
+177491	[Scalability] Attach/Detach maxmum ide disks to guest for looping 10 times
+177492	[Scalability] Attach/Detach virtual disk which is 1TB to guest for looping 100 times - large machine
+177493	[Scalability] Attach/Detach virtual disks to guest over the top limitation via attach-device
+177494	[Scalability] Attach/Detach virtual disks to guest over the top limitation via attach-disk
+177495	[Scalability] Attach/Detach virtual interfaces (vnet) to one guest to the top limitation of the guest
+177496	[Scalability] Bi-directional migration for looping 500 times through TLS connection --tunnelled -bug807996
+177499	[Scalability] Check performance when 'cpu' controller with many sub-groups created on large SMP systems (96 cpus)-bug623712 - large machine
+177501	[Scalability] Check the libvirtd status when qemu process are unresponsive-bug692663
+177502	[Scalability] Check virDomainCreateXML status after start multi guests with vdsm-bug691514
+177503	[Scalability] Concurrent migrate 514 guests through TLS connection using live,undefinesource,persistent with ipv6 - large machine
+177504	[Scalability] Create 1024 guests on different kinds of virtual network (isolated, route , NAT) with DHCP - large machine
+177505	[Scalability] Define domain with 232 usb disks with multifunction-bug807145, 808980
+177506	[Scalability] Do bidirection migration with rhevm - bug 722282, 638285
+177507	[Scalability] Do concurrent migration with rhevm - bug 722282, 638285
+177508	[Scalability] Do libvirt statistics command to fetch the dom/blk/mem/list info about 1024 guests-bug617286,bug687907 - large machine
+177509	[Scalability] Kill SIGKILL/SIGSEGV qemu processes
+177510	[Scalability] Libvirt event handler investigation - scenario 1
+177511	[scalability] Libvirt event handler investigation - scenario 2
+177512	[Scalability] Migrate 514 guests through TCP connection --tunnelled with ipv6 - bug 807907,807910 - large machine
+177515	[Scalability] migrate a guest for 1024 rounds through SSH connection --live
+177516	[Scalability] migrate a guest for 1024 rounds through SSH connection --tunnelled
+177517	[Scalability] migrate a guest for 1024 rounds through TCP connection --live
+177518	[Scalability] migrate a guest for 1024 rounds through TCP connection --p2p
+177519	[Scalability] migrate a guest for 1024 rounds through TCP connection --tunnelled
+177520	[Scalability] migrate 3 guests for 512 rounds through TLS connection --live
+177521	[Scalability] migrate 3 guests for 512 rounds through TLS connection --p2p
+177522	[Scalability] migrate 3 guests for 512 rounds through TLS connection --tunnelled
+177523	[Scalability] migrate a guest for 1024 rounds with undefinesource and persistent option -- bug 757635
+177526	[Scalability] Reloading 1024 running guests for looping 100 times - large machine
+177527	[Scalability] Restart vdsmd service after start 200 guests with rhevm-bug723811
+177528	[Scalability] Running guests with more than 256 disks - Bug 740899
+177530	[Scalability] Start/Destroy 1024 guests including 16 kinds of os - bug 769500, 769503,806752 - large machine
+177532	[Scalability] Start/Destroy one guest with 1TB mem/160 vCPUs for looping 10 times - bug 748946 - large machine
+177533	[Scalability] Start/Destroy one guest with the minimum memory for looping 500 times
+177534	[Scalability] Start/Stop 100 guests for 10 times in rhevm, check the libvirtd status-bug670848
+177536	[Scalability]Concurrent migrate 514 guests through TLS connection using live,undefinesource,persistent with ipv4 - large machine
+177828	[Scalability] Active-inactive virtual network loop for 1000 times
+177829	[Scalability] Define-undefine single virtual network loop for 1000 times
+237406	[Scalability] Migrate 514 guests through TCP connection --tunnelled with ipv4 - large machine
+177541	[smbios]add new smbios information - bug 671326
+236852	[smbios]Verify SMBIOS values in domain xml and doc --Bug 890494
+177544	[Snapshot] Create a domain snapshot of a running domain with a specified name and description
+177545	[Snapshot] Create a domain snapshot of a shutdown domain
+177547	[Snapshot] Delete a snapshot
+177548	[Snapshot] Delete a snapshot and all children snapshots
+177549	[Snapshot] Domain snapshot with FC
+177550	[Snapshot] Domain snapshot with iSCSI
+177551	[Snapshot] Domain snapshot with NFS
+177552	[Snapshot] Dump the XML of a domain snapshot
+177553	[snapshot] Expose 'virDomainSnapshotListChildrenNames' API in python binding - bug 766553
+177554	[Snapshot] Get the current snapshot
+177555	[snapshot] libvirt should check for ABI compatibility of snapshots --bug 738676
+177556	[snapshot] libvirt should not leave stale snapshot metadata behind after domain disappears --bug 735457
+177557	[snapshot] libvirt should reject snapshots of autodestroy domains --bug 733806
+177558	[snapshot] libvirtd crash when executing "virsh snapshot-create-as" command sometimes --bug 737010
+177559	[Snapshot] List all of the snapshots for a domain
+177560	[Snapshot] Revert a running domain to a running snapshot
+177561	[Snapshot] Revert a running domain to a shutdown snapshot
+177562	[Snapshot] Revert a shutdown domain to a running snapshot
+177563	[Snapshot] Revert a shutdown domain to a shutdown snapshot
+177564	[snapshot] virsh should have better snapshot support --bug 735495
+177565	[snapshot] [RFE] support domain offline --disk-only snapshots Bug#817226
+177566	[snapshot]Check for guest agent presence when issuing command BZ 808527
+177567	[snapshot]Delete snapshot parent will crash libvirtd BZ#790744
+177569	[snapshot]libvirt should give error when qemu-kvm disabled live snapshot support --bug 747115
+177570	[snapshot]libvirtd crashed with SIGSEGV in __strcmp_ssse3() BZ 808371
+177571	[snapshot]list snapshots with options BZ 807545 807555 842947
+177572	[snapshot]live snapshot 2 disks with --disk-only --bug 740375
+177573	[snapshot]Live snapshots must be consistent (fail or succeed for all the drives) BZ#782457
+177575	[snapshot]revert a snapshot after add a disk --bug 742615
+177577	[snapshot]revert should be forbidden without --force BZ 742615
+177578	[snapshot]snapshot with --disk-only --bug 747115
+177579	[snapshot]snapshot with quiesce option BZ 804210
+177580	[snapshot]snapshot XML description --bug 741510
+177582	[snapshot]snapshot-parent should error when current snapshot is a root --bug 742410
+177584	[Snapshot]Use snapshot-edit to change snaphsot name - bug 744724
+177585	[snapshot]virsh heap corruption due to bad memmove BZ 819636
+177587	[snapshot]virsh snapshot-edit should edit disk snapshots --bug 744071
+183806	[snapshot] check snapshot-info BZ 842966
+195111	[snapshot] Return a specific error when qemu-ga is missing or unusable during a live snapshot (quiesce) BZ# 845635
+195113	[snapshot] snapshot-list --descendants --from will core dumped BZ#845468
+195114	[snapshot] disk-only snapshot create external file even if snapshot command failed BZ#843372
+195115	[snapshot] snapshot-edit will report error message but return 0 when do not update xml BZ#843324
+221849	[snapshot] poor error message for virsh snapshot-list --roots --current BZ#869100
+222359	[snapshot] create external checkpoint snapshot with xml and virsh cmd BZ# 873285 638512 874171 880521
+226899	[snapshot] [RFE] Add support for reverting and deleting of external checkpoints BZ#873285
+226902	[snapshot] - virsh should make it easier to filter snapshots by type BZ#876817
+229837	[snapshot] - create external checkpoint snapshot will change the guest pmsuspended state and guest hang forever BZ#876829 885963
+233016	[snapshot] it should give better error message when fail to create external system check point snapshot BZ#884926
+233017	[snapshot] - virsh snapshot-delete should add a check point of comparing disk before delete the snapshot.xml BZ#880565
+233021	[snapshot] - when guest use 2 same disk, create/delete snapshot will get unexpect result BZ#879087
+234077	[Snapshot] The guest will be destroyed when Fail to create snapshot for running guest BZ 885937
+236422	[snapshot] snapshot --redefine disk snapshot may cause libvirtd crash BZ#889407
+177590	[Sound devices] Intel HDA support
+177591	[SR-IOV] Assign one PF to one guest
+177592	[SR-IOV] Assign one VF to one guest
+177593	[SR-IOV] Assign seven VFs to the same guest.
+177595	[SR-IOV] Assign VF to guest with non-ACS capability SR-IOV devices and enable relaxed_acs_check in qemu.conf
+177596	[SR-IOV] Assign VF to guest with non-ACS capability SR-IOV devices and use qemu.conf default configuration
+177597	[SR-IOV] Check nodedev-dumpxml show SR-IOV detail info correctly - bug665446
+177599	[SR-IOV] Confirm a VF that is assigned to guest cannot be used by the host or other guests - bug 559122
+177601	[SR-IOV] Create up to MAX VFs
+177602	[SR-IOV] Hot unplug PF
+177603	[SR-IOV] Hot unplug VF
+177604	[SR-IOV] Hotplug PF
+177606	[SR-IOV] Hotplug VF
+177607	[SR-IOV] Hotplug VF to guest should fail when the same PF is assigned
+177609	[SR-IOV] Hotplug/hotunplug MAX VFs to guest - bug670787, 616415
+177610	[SR-IOV] Hotplug/Hotunplug VF for 500 times
+177611	[SR-IOV] Install guest through a attached VF - bug 781562 - only on 82576
+177613	[SR-IOV] Prepare: Enable VT-D
+177614	[SR-IOV] Prepare: intel network adapters includes 82576, 82599, x3100
+177616	[SR-IOV] Reboot guest with assigned VF
+177617	[SR-IOV] Released VF from guest can be used in host or the other guests
+177618	[SR-IOV] Save a guest with assigned VF
+177620	[SR-IOV] Suspend and resume guest with assigned VF
+177621	[SR-IOV] tight loop of hotplug/unplug PF to guest on SR-IOV host-- Bug 635669
+193551	[SR-IOV] Hotplug/unplug network device with managed='yes' - bug 844287, 843016
+236470	[SR-IOV] Attach pci device with interface section - bug 889319
+236474	[SR-IOV] Attach pci device with interface section without up PF - bug 893738
+177623	[Stable guest ABI] Stable domain compatibility for Linux guest
+177624	[stable guest ABI] Do live migration from rhel6.x latest release version to rhel6.x newest version - bug 796063
+177625	[Stable guest ABI] Stable domain compatibility for Windows guest
+177626	[Stable guest ABI] Stable guest ABI when migrate domain to higher version qemu-kvm
+177627	[Stable guest ABI] Stable PCI addresses when adding device for windows guest
+177628	[Stable guest ABI] Stable PCI addresses when adding devie for linux guest
+177629	[Stable guest ABI] Stable PCI addresses when removing device from linux guest
+177630	[Stable guest ABI] Stable PCI addresses when removing device from windows guest
+177631	[Stable guest ABI] Update lower version qemu-kvm with Linux domain
+177632	[Stable guest ABI] Update lower version qemu-kvm with Windows domain
+184404	[Stable Guest ABI]Check domain disk ABI Stability
+184410	[Stable Guest ABI]Check domain controller ABI Stability
+184490	[Stable Guest ABI]Check domain net ABI Stability
+184491	[Stable Guest ABI]Check domain input ABI Stability
+184496	[Stable Guest ABI]Check domain sound ABI Stability
+184497	[Stable Guest ABI]Check domain video ABI Stability
+185342	[Stable Guest ABI]Check domain smart card ABI Stability
+185343	[Stable Guest ABI]Check domain serial ABI Stability
+185345	[Stable Guest ABI]Check domain Parallel ABI Stability
+185347	[Stable Guest ABI]Check domain Channel ABI Stability - bug 842557
+185348	[Stable Guest ABI]Check domain console ABI Stability
+185349	[Stable Guest ABI]Check domain watchdog ABI Stability
+185352	[Stable Guest ABI]Check domain memballon ABI Stability
+185360	[Stable Guest ABI]Check domain status ABI Stability
+185362	[Stable Guest ABI]Check domain CPU ABI Stability
+191604	[stable guest ABI] Do live migration from rhel6.1.z release version to rhel6.x newest version and back --bug 856864 863059
+191606	[stable guest ABI] Do live migration from rhel6.2.z release version to rhel6.x newest version and back
+191608	[stable guest ABI] Do live migration from rhel6.3.z release version to rhel6.x newest version and back
+177636	[storage] Client blocks indefinitely on virStream API BZ#741337
+177637	[storage] Libvirtd hangs forever when destroying multiple domains with disks on an unreachable NFS storage. BZ#746666
+177638	[storage] creating libvirt storage pools fails for lvm volume groups with striped volumes - Bug 727474
+177639	[storage] libvirt should skip not activated/suspended volumes during pool-create/pool-refresh for logical pools BZ#748282
+177641	[storage] Clone a new vol from the source vol - Bug 671104
+177642	[Storage] correct work flow for pool management
+177643	[Storage] Create a qcow2 file using libvirt storage APIs - Bug 504119
+177645	[Storage] Delete a storage pool - Bug 496579
+177646	[Storage] Delete a vol - Bug 510450
+177647	[Storage] Delete storage volumes from a pool residing on a root-squashed NFS share - BZ#612341
+177648	[Storage] Dir based storage pool
+177649	[Storage] Disk based storage pool -- Bug 570286
+177651	[Storage] error handle for overcommit to storage - scenario 1
+177652	[Storage] error handle for overcmmit to storage - scenario 2
+177653	[Storage] FileSystem based storage pool
+177654	[Storage] Find potential storage pool sources - logical - Bug 509979
+177655	[Storage] Find potential storage pool sources - netfs
+177656	[Storage] Get vol basic info
+177657	[Storage] Get vol detail info
+177658	[Storage] Get vol key by name or path
+177659	[Storage] Get vol name by key or path
+177661	[Storage] Get vol path by name or key - Bug 509306
+177662	[storage] Incorrect hardcoded sector size in disk storage pool --bug 735441
+177663	[Storage] iSCSI based storage pool
+177664	[Storage] libvirt should places new added IDE disks after virtio/scsi disks - Bug 521053
+177665	[Storage] List vols
+177666	[Storage] Logical based storage pool
+177667	[Storage] mpath based storage pool
+177668	[Storage] netfs based storage pool - bug 878400
+177669	[Storage] SCSI based storage pool
+177670	[Storage] Using QCow2 disk encryption
+177671	[storage] vol-info get the wrong "Type" for a directory --bug 750683
+177672	[Storage]check storage pool permission -- Bug: 815644
+177673	[Storage]Create 128 partition volume on disk pool
+177674	[Storage]create guest on lvm volume groups that contains mirrored LVM
+177675	[Storage]Define a storage pool with supported format types
+177676	[Storage]Define a storage pool with unsupported format type
+177677	[Storage]define and build the disk type of pool
+177678	[storage]define multiple pools with the same target--bug: 817219
+177679	[Storage]find-storage-pool-sources/ find-storage-pool-sources-as for all pool type -- Bug 823850
+177680	[Storage]large udevadm settle waiting time when connecting to libvirtd BZ 789766
+177681	[storage]libvirt should use vgchange -aly/-aln instead of vgchange -ay/-an for clustered volume groups BZ#748248
+177682	[Storage]lvm volume groups that contains snapshot lvm
+177683	[storage]use pool-create/pool-create-as with --build option to create pool -- Bug:830056
+177684	[Storage]vol-create-as should fail when allocate a malformed size image --Bug 823362
+191110	[Storage] check vol sticky bit - bug 839463
+197477	[storage] create volumes with virsh vol-create-as command for mutipath BZ 846564
+199601	[storage] the <format> element of a disk pool can not edit by pool-edit command in active status BZ# 851078
+199605	[storage] discover potential iscsi storage - BZ#851423
+199993	[storage]create a pool based on glusterFS BZ 849796
+233195	[storage]Detection of QED file format in libvirt -- Bug : 886467
+233196	[storage]Libvirt should not keep waiting if cannot start an nfs pool.--Bug : 881574
+233198	[storage] use vol-clone to clone LVM volumes -- Bug: 879780
+233199	[storage]NULL pointer usage when starting guest with broken image chain -- Bug:878862
+236843	[storage]create/start a 'fs' pool should raise error when source device path does not exist -- Bug : 889099
+236844	[storage]block-copy full support -- Bug: 888426,856247
+236847	[storage]LVM volume created with allocation=0 -- Bug: 888118
+177685	[Supported hypervisors] KVM Xen VMware (LXC)
+177686	[Supported hypervisors]support hyper-v --Bug 884430
+177687	[Supported hypervisors]connection to vCenter server --Bug 819729
+177688	[Supported hypervisors]Probing for guest capabilities --bug 813735
+177689	[Supported hypervisors]libvirt need to support ESXi5.0 - bug 758231
+201790	[supported hypervisors]Check libvirt can deal ESX guest with distributed virtual switches network.- bug851075
+177691	[sVirt] Allow a base label to be specified in dynamic labelling mode
+177692	[sVirt] Allow for resource relabelling with static labels
+177693	[sVirt] CDROMs with <readonly/> for multiple guest access
+177694	[sVirt] create live snapshot (disk-only) with guest's image backing file on NFS storage - bug 822015
+177695	[sVirt] Failed to reload iptables rules with root permission when starting libvirtd in the way of executing /usr/sbin/libvirtd - bug 716612
+177696	[sVirt] guest create/destroy with virt-install and sVirt
+177697	[sVirt] guest create/destroy with virt-manager and sVirt
+177698	[sVirt] Guest on OS with selinux disabled
+177699	[sVirt] Guest with svirt disabled
+177700	[sVirt] guest with svirt on nfs
+177701	[sVirt] Guest with sVirt on root_squash NFS
+177702	[sVirt] Hot unplug normal PCI device with svirt
+177703	[sVirt] hotplug pci device to guest with svirt
+177704	[sVirt] Manually setting sVirt domain labels using virt-manager
+177705	[sVirt] migration with svirt - scenario 1
+177706	[sVirt] migration with svirt - scenario 2
+177707	[sVirt] Passthrough pci device with svirt
+177708	[sVirt] qemu-kvm cannot access -mem-path if umask is 027 - bug 815206
+177709	[sVirt] save and restore with svirt - scenario 1
+177710	[sVirt] save and restore with svirt - scenario 2
+177711	[sVirt] save and restore with svirt - scenario 3
+177712	[sVirt] save and restore with svirt - scenario 4
+177713	[sVirt] Save/Restore guest on no_root_squash NFS
+177714	[sVirt] Save/Restore guest on root_squash NFS
+177715	[sVirt] selinux should not block start virtual network - bug 788985
+177716	[sVirt] set security_default_confined in qemu.conf - bug 823857
+177717	[sVirt] set security_driver in /etc/libvirt/qemu.conf
+177718	[sVirt] set security_require_confined in qemu.conf
+177719	[sVirt] set set_process_name in /etc/libvirt/qemu.conf
+177720	[sVirt] shared disks with <shareable/> usability
+177721	[sVirt] start guest with image labelled by incorrect security context
+177722	[sVirt] sVirt error message handling for NFS permission denial
+177780	[sVirt][FEAT RHEL6.3]: Grant KVM guests retain arbitrary capabilitiesBZ#767425
+200107	[sVirt] libvirt (KVM) NFS Image File Isolation - bug 738882
+200239	[sVirt] libvirt DAC Isolation - bug 822589
+204396	[sVirt] static DAC seclable value check problem - bug 856951
+213360	[sVirt] security: support for names on DAC labels - 860519
+177727	[Update device flags] Cannot insert CD (update device) to VM when LIVE constant is not used in updateDeviceFlags command - bug 716826
+177728	[Update device flags] change the media in an existing CDROM device on the fly
+177729	[Update device flags] change the media in an existing FLOPPY device on the fly
+177730	[Update device flags] control link up/down state of guest NICs via XML & on the fly - bug 643373
+177731	[Update device flags] Eject CD-ROM in use with --force option
+177733	[Update device flags] persistent option of virsh update-device command never work - bug 598792
+177737	[Update device flags] Update spice password for live domain
+177738	[Update device flags] Update vnc password for live domain - Bug 524623, 596100
+177739	[Update device flags] using virsh command to insert & eject media - bug 713932
+177740	[update device flags] virsh can't detach virtio-scsi CD-ROM (passed through from host) - Bug 809783
+177741	[Video devices] cirrus
+177742	[Video devices] Compare the resolution of display between 2 video types
+177743	[Video devices] qxl---For Linux
+177744	[Video devices] qxl---For Windows
+177745	[Video devices] Remove video device
+177746	[Video devices] vga
+177748	[VirtFS] Invalid virtfs parameters handling
+177749	[VirtFS] Run a guest with virtio p9fs supported
+177750	[VirtFS] Try to start a guest with a emulator that does not support virtfs
+177751	[VirtFS]Run a guest with different access mode for virtfs mount type
+177752	[VirtFS]support readonly
+229451	[Virtio disks] Hotplug/unplug virtio-scsi CD-ROM
+229898	[Virtio disks] Attach disks with wrong optional arguments - bug 872498
+177753	[Virtio-serial] Create a channel with pty-virtserialport type
+177754	[Virtio-serial] Create a socket channel with unix type
+177755	[Virtio-serial] Hotplug of channel device
+177756	[Virtio-serial] Open multiple channels at same time
+177757	[Virtio-serial] Create a channel with socket-virtconsole type
+177758	[Virtio-serial] Migrate a guest with assigned virtio-serial
+177759	[Virtio-serial] Verify virtio-serial functionality with MSI Enabled/Disabled
+177760	[virtio-serial]libvirtd dead when create a guest with "--channel pty,target_type=virtio" by virt-install BZ#790745
+177761	[Virtio] control the event index support in virtio and vhost-net - BZ#725448
+177763	[Virtio] Create domain with virtio block device driver (only for Linux)
+177764	[Virtio] Create domain with virtio block device driver (only for Windows)
+177765	[Virtio] EMBARGOED libvirt: support SG_IO for virtio-blk opt-in (CVE-2011-4127 mitigation) [rhel-6.3] - bug 756678
+177766	[Virtio] Hot plug a virtio disk
+177767	[Virtio] Hot plug a virtio NIC
+177768	[Virtio] Hot plug multiple (up to 29 or so) virtio disks
+177769	[Virtio] Hot plug multiple (up to 29 or so) virtio NIC
+177770	[Virtio] Hot unplug a virtio disk
+177771	[Virtio] Hot unplug a virtio NIC
+177772	[Virtio] Migrate a guest with virtio NICs and disks
+177773	[Virtio] Replace a domain's existing e1000/RTL8139 network driver to virtio
+177774	[Virtio] Replace a domain's existing SCSI/IDE block device driver to virtio
+177775	[Virtio] Save/restore a guest with virtio NICs and disks
+177776	[Virtio] Support for KVM virtio console
+177777	[Virtio] Support for setting IOeventFD for virtio block
+177778	[Virtio] Support for virtio-net tuning option
+177779	[virtio]Controllers do not support virsh attach/detach-device --persistent BZ#804601
+177781	[Virtual disks] Attach a disk with specific name - bug 829246
+177782	[virtual disks] Attach scsi disks with wwn and serial numbers - bug 831099
+177783	[Virtual disks] create guest with disk have error_policy - bug 730909
+177784	[Virtual disks] Eject CDROM/Floppy device on guest - bug 575160
+177785	[Virtual disks] Entry into S4 state after hotplug disks - bug 808463
+177786	[Virtual disks] Hotplug/unplug Hotplug/unplug disk with scsi bus type
+177787	[Virtual disks] Support disk file name with comma - bug 801970
+177788	[Virtual disks] Support virtio-scsi disk - bug 782034, 801772
+177789	[Virtual disks]Attach disk with --cache - bug 829562
+189612	[Virtual disks] Split ide-drive into ide-cd and ide-hd - BZ 801772 #c6
+222485	[Virtual disks] Start a guest with kernel and disk on r/o file system - bug 862756
+229944	[Virtual disks] open UNMAP and WRITE SAME commands to users without CAP_SYS_RAWIO - bug 878578
+233936	[Virtual disks] change-media on virtio scsi cdrom - bug 886456
+244291	[Virtual disks] Start a guest with shareable block cdrom/floppy - bug 908073
+244302	[Virtual disks] Start a guest with multiple shareable block disks with rhel6u3 kernel- bug 914677
+176687	[virtual networks]Cloned domain with macvtap NIC - bug 786648
+176749	[virtual networks] Unable to determine device index for network device" when attaching new network device to a guest that already has a netdev of type='hostdev' BZ#827519
+176955	[virtual networks] macvtap (type='direct')
+177790	[virtual networks] - VM creation failure should not leave behind stale macvtap interfaces - bug 754621
+177791	[Virtual Networks] activate network
+177792	[virtual networks] Bridged network, eth + bridge + tap
+177793	[virtual networks] Bridged network, eth + macvtap + bridge
+177794	[virtual networks] Bridged network, eth + macvtap + passthrough
+177795	[virtual networks] Bridged network, eth + macvtap + vepa
+177796	[Virtual Networks] Bridges created by libvirtd should be started even the network interface has no IP - Bug 532834
+177797	[virtual networks] check /var/lib/libvirt/dnsmasq/default.hostsfile - bug 727982
+177800	[Virtual Networks] create network
+177801	[Virtual Networks] deactivate network
+177802	[Virtual Networks] define network
+177803	[Virtual Networks] destroy network
+177804	[Virtual Networks] Enlarge the maximum number of DHCP leases to 253 in libvirt - Bug 524280
+177805	[Virtual Networks] IPv6 support in Isolated network
+177806	[Virtual Networks] IPv6 support in NAT virtual network
+177807	[Virtual Networks] IPv6 support in Shared physical network
+177808	[Virtual Networks] Isolated virtual network
+177809	[Virtual networks] libvirtd in guest collides with default host virtual network routing - bug 594494
+177811	[Virtual Networks] migrate guest with the virtual network that doesn't exist on target host
+177812	[virtual networks] Migrate with Bridged network, eth + bridge + tap BZ 851981
+177813	[virtual networks] Migrate with Bridged network, eth + macvtap + bridge
+177814	[virtual networks] Migrate with Bridged network, eth + macvtap + vepa
+177815	[Virtual Networks] NAT virtual network
+177816	[Virtual Networks] network autostart set
+177817	[Virtual Networks] nfs access from guest
+177818	[virtual networks] Restart libvirtd after create networks - bug 819416
+177819	[Virtual Networks] Route virtual network
+177820	[Virtual Networks] Shared physical network
+177821	[Virtual Networks] the number of guests exceeds the maximum IP number of DHCP
+177822	[Virtual Networks] undefine network
+177823	[Virtual Networks] using remote TFTP server in virtual network - bug 683377
+177825	[virtual networks] xml with mutiple dhcp sections - bug 735950 907769
+177826	[virtual networks]Libvirt with NAT setup nukes port forwarding into the internal network BZ#812441
+177827	[Virtual Networks]PXE and TFTP support in virtual network
+194551	 [virtual networks] RFE: [required for VMFEX support] Add ability to dynamically change a libvirt network - BZ#844404
+199844	[virtual networks] openvswitch support
+202519	[virtual networks] Defining the port masquerading range in XML - bug 851455
+222193	[Virtual Networks] Verify the network XML files when creating transient networks and the dnsmasq persistent host file is not created - bug 869913
+222194	[Virtual Networks] Destroy/Start network after updating dnsmasq or radvd packages - bug 871201
+222196	[Virtual Networks] Add more than 256 logical networks - bug 869557 &877244
+222198	[Virtual Networks] Multiple default portgroups definitions - bug 868483
+222201	[Virtual Networks] Live add static hosts into a network
+222487	[Virtual Networks] attach/detach of netdevs with matching mac addresss - bug 862515
+222489	[Virtual Networks] virtualport parameter profileid in a <network> or <portgroup> causes failure to initialize guest interface - bug 864122
+233030	[Virtual Networks] libvirt-launched dnsmasq listens on localhost when it shouldn't - Bug 886821
+233034	[Virtual Networks] virDomainUpdateDeviceFlags fails when interface type is 'network' - bug 881480&885838
+233035	[Virtual Networks] Guest can use inactive macvtap-passthrough network - bug 880483
+233575	[Virtual Networks] libvirt needs to use new dnsmasq option to avoid open DNS proxy and listen on localhost- bug 882265
+233579	[Virtual Networks] libvirt RPM should depend on dbus (but not avahi-daemond) - bug 830201
+177830	[volume wiping] the volume format of qcow2 is changed to raw after volume wiped
+177831	[Volume wiping] wipe logical volume in logical volume pool
+177832	[Volume wiping] wipe partition volume in disk pool - bug 738936
+177833	[Volume wiping] wipe volume(QCOW2) in directory pool
+177834	[Volume wiping] wipe volume(QCOW2) in filesystem pool
+177835	[Volume wiping] wipe volume(QCOW2) in network filesystem pool
+177836	[Volume wiping] wipe volume(RAW) in directory pool
+177837	[Volume wiping] wipe volume(RAW) in directory pool by vol-key or vol-path
+177838	[Volume wiping] wipe volume(RAW) in filesystem pool
+177839	[Volume wiping] wipe volume(RAW) in network filesystem pool
+177840	[Volume wiping] wipe volume(sparse file) in directory pool
+177841	[Volume wiping] wipe volume(sparse file) in directory pool by pool uuid
+177842	[Volume wiping] wipe volume(sparse file) in filesystem pool
+177843	[Volume wiping] wipe volume(sparse file) in network filesystem pool
+177844	[Volume wiping] wipe volume(VMDK) in directory pool
+177845	[Volume wiping] wipe volume(VMDK) in filesystem pool
+177846	[Volume wiping] wipe volume(VMDK) in network filesystem pool
+177847	[Watch dog device] Watchdog device "ib700" - shutdown (bug667090)
+177848	[Watch dog device]Watchdog device "ib700" - none(bug667090)
+177849	[Watch dog device]Watchdog device "ib700" - pause(bug667090)
+177850	[Watch dog device]Watchdog device "ib700" - reset(bug667090)
+177851	[Watchdog device] Watchdog device "i6300esb" - shutdown
+177852	[Watchdog device] Watchdog device "i6300esb" - dump
+177853	[Watchdog device] Watchdog device "i6300esb" - none
+177854	[Watchdog device] Watchdog device "i6300esb" - poweroff
+177855	[Watchdog device] Watchdog device "ib700" - dump(bug667090)
+177856	[Watchdog device] Watchdog device "ib700" - poweroff(bug667090)
+177857	[Watchdog device]Watchdog device "i6300esb" - pause
+177858	[Watchdog device]Watchdog device "i6300esb" - reset

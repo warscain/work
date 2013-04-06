@@ -1,0 +1,18 @@
+244101	 - vdsm: cannot run a vm with several snapshots BZ#903248	xinsun
+226913T[blockcommit] Commit changes from a snapshot down to its backing image	bili
+202753	[blockjob]Relabel and configure cgroups for the backing files on VIR_DOMAIN_BLOCK_JOB_ABORT_PIVOT -- Bug 856247	xuzhang
+176460	[connect] - (Re)connect to hypervisor-bug851413	honzhang
+176466	[cpu-stats] get physical cpu utilization per cpu - bug 737726	zhwang
+176512P[dump] - Dump the core of a domain to a file	xuzhang
+176514P[dump] dump guest with physical device BZ 820808 826325	zhpeng
+176511P[dumpxml] - Get domain xml information	bili
+204936	[emulatorpin] control or query domain emulator affinity	honzhang
+176543	[list] list the domain status as crash when the guest is paniced	nobody
+205041	[qemu-agent-command] Run an arbitrary qemu guest agent command (use at your own risk)	bili
+176623	[restore] - Restore a domain from a saved state in a file	honzhang
+176652	[shutdown] - Gracefully shutdown a domain - 889635	zhwang
+235484	[snapshot-revert] - revert a domain to a snapshot	tpelka
+176665	[suspend] - Suspend a running domain	zhwang
+176675	[vcpupin] - Control domain vcpu affinity	honzhang
+176722	[virt-xml-validate] validate libvirt XML files against a schema	bili
+236616	virsh reports no error message when using empty string as arguments for some command options - bug 889276	bili

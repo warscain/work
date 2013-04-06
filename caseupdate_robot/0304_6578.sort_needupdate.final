@@ -1,0 +1,17 @@
+176807	[CPU Management] Check vcpupin for non-exist cpu and vcpu	honzhang
+185510	[CPU Management] vcpupin after the status of physical cpu change from offline to online-bug838070	honzhang
+239894	[Graphical framebuffer]SPICE video streaming support	nobody
+236561	[Guest resource control] Cgroups memory limit are causing the virt to be terminated unexpectedly - bug 891653	zhpeng
+190935	[Migration] Migration with sheepdog	weizhan
+204915	[Miscellanea]on_poweroff lifecycle control	zhpeng
+204916	[Miscellanea]on_reboot lifecycle control	zhpeng
+204917	[Miscellanea]on_crash lifecycle control	zhpeng
+193546	[network filter]DHCP Snooping BZ 693884	zhpeng
+193547	[network filter]Multiple IP address support to DHCP snooping BZ 693884	zhpeng
+177383	[NPIV] Install a guest on the storage which connect to the vport of host1 and reconnect it to host2 with the same vport	ydu
+177560	[Snapshot] Revert a running domain to a running snapshot	dyuan
+177674	[Storage]create guest on lvm volume groups that contains mirrored LVM	ydu
+236847	[storage]LVM volume created with allocation=0 -- Bug: 888118	zpeng
+177694	[sVirt] create live snapshot (disk-only) with guest's image backing file on NFS storage - bug 822015	gsun
+200107	[sVirt] libvirt (KVM) NFS Image File Isolation - bug 738882	gsun
+189612	[Virtual disks] Split ide-drive into ide-cd and ide-hd - BZ 801772 #c6	weizhan

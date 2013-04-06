@@ -1,0 +1,7 @@
+		176940 	[Guest kernel debugging] Send Alt+SysRq+B to trigger guest reboot - bug 708756 	yoyzhang 	None 	Manual 		Feature 	P1 	None 	Edit
+		176943 	[Guest kernel debugging]Check libvirtd with poorly formatted human monitor command - 688723 	yupzhang 	None 	Manual 		Negative test 	P1 	None 	Edit
+		176947 	[Guest kernel debugging]Run virsh dump with both --live and --crash options - 698490 826315 	yupzhang 	None 	Manual 		Negative test 	P1 	None 	Edit
+		176948 	[guest kernel debugging]Run virsh dump with option --bypass-cache to avoid file system cache when saving 	yupzhang 	None 	Manual 		Function 	P1 	None 	Edit
+		176949 	[Guest kernel debugging]Run virsh save after performing some domain operations - 688850 	yupzhang 	None 	Manual 		Negative test 	P1 	None 	Edit
+		176951 	[Guest kernel debugging]Send NMI to QEMU guests - 632495 	yupzhang 	None 	Manual 		Feature 	P1 	None 	Edit
+		176953 	[Guest kernel debugging]Sending a bad keycode to guest or send key to a shutdown guest - bug 733597/746268 	yupzhang 	None 	Manual 		Function 	P1 	None 	Edit

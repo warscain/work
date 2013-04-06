@@ -1,0 +1,29 @@
+244101	 - vdsm: cannot run a vm with several snapshots BZ#903248
+226913	[blockcommit] Commit changes from a snapshot down to its backing image
+202753	[blockjob]Relabel and configure cgroups for the backing files on VIR_DOMAIN_BLOCK_JOB_ABORT_PIVOT -- Bug 856247
+176449	[blockpull] support domain offline blockpull--Bug : 816667
+176454	[blockresize] Resize block device of domain-bug 817232 769251
+176455	[blockresize] support offline blockresize BZ#817232
+176460	[connect] - (Re)connect to hypervisor-bug851413
+176466	[cpu-stats] get physical cpu utilization per cpu - bug 737726
+176500	[dompmsuspend] suspend a domain for a given time duration - bug 766958 872424
+176512	[dump] - Dump the core of a domain to a file
+176514	[dump] dump guest with physical device BZ 820808 826325
+176511	[dumpxml] - Get domain xml information
+176697	[edit] edit domain is not allowed - Bug 504262 Bug 864773
+236855	[edit]two same virtio-serial address in the guest's xml --bug 890606
+204936	[emulatorpin] control or query domain emulator affinity
+233724	[iface-list] list_all_interfaces can not list any interfaces with default flag - bug 884382
+176543	[list] list the domain status as crash when the guest is paniced
+176580	[non-root user] Execute virsh commands with non-root user - bug 785038, bug 880044
+205041	[qemu-agent-command] Run an arbitrary qemu guest agent command (use at your own risk)
+176623	[restore] - Restore a domain from a saved state in a file
+176651	[setvcpus] - Persistently change number of virtual CPUs -bug847198
+176652	[shutdown] - Gracefully shutdown a domain - 889635
+235484	[snapshot-revert] - revert a domain to a snapshot
+176663	[start] Start a guest when it can't allocate memory - bug 765733
+176665	[suspend] - Suspend a running domain
+176675	[vcpupin] - Control domain vcpu affinity
+176722	[virt-xml-validate] validate libvirt XML files against a schema
+236856	[virt-xml-validate] virt-xml-validate should report error while the pool xml didn't contains <path> element - bug 893273
+236616	virsh reports no error message when using empty string as arguments for some command options - bug 889276

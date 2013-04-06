@@ -1,0 +1,11 @@
+176449	[blockpull] support domain offline blockpull--Bug : 816667
+176454	[blockresize] Resize block device of domain-bug 817232 769251
+176455	[blockresize] support offline blockresize BZ#817232
+176500	[dompmsuspend] suspend a domain for a given time duration - bug 766958 872424
+176697	[edit] edit domain is not allowed - Bug 504262 Bug 864773
+236855	[edit]two same virtio-serial address in the guest's xml --bug 890606
+233724	[iface-list] list_all_interfaces can not list any interfaces with default flag - bug 884382
+176580	[non-root user] Execute virsh commands with non-root user - bug 785038, bug 880044
+176651	[setvcpus] - Persistently change number of virtual CPUs -bug847198
+176663	[start] Start a guest when it can't allocate memory - bug 765733
+236856	[virt-xml-validate] virt-xml-validate should report error while the pool xml didn't contains <path> element - bug 893273

@@ -1,0 +1,29 @@
+		176449	[blockpull] support domain offline blockpull--Bug : 816667	zpeng	None	Manual		 Function	P1	None	Edit
+		176454	[blockresize] Resize block device of domain-bug 817232 769251	dyuan	None	Manual		 Function	P1	None	Edit
+		176455	[blockresize] support offline blockresize BZ#817232	whuang	None	Manual		 Regression	P1	None	Edit
+		176466	[cpu-stats] get physical cpu utilization per cpu - bug 737726	mzhan	mzhan	Manual		 Function	P1	None	Edit
+		176500	[dompmsuspend] suspend a domain for a given time duration - bug 766958 872424	dyuan	None	Manual		 Regression	P1	None	Edit
+		176514	[dump] dump guest with physical device BZ 820808 826325	dyuan	None	Manual		 Function	P1	None	Edit
+		176543	[list] list the domain status as crash when the guest is paniced	dyuan	None	Manual		 Function	P1	None	Edit
+		176580	[non-root user] Execute virsh commands with non-root user - bug 785038, bug 880044	yupzhang	yupzhang	Manual		 Regression	P1	None	Edit
+		176663	[start] Start a guest when it can't allocate memory - bug 765733	yupzhang	yupzhang	Manual		 Regression	P1	None	Edit
+		202753	[blockjob]Relabel and configure cgroups for the backing files on VIR_DOMAIN_BLOCK_JOB_ABORT_PIVOT -- Bug 856247	zpeng	None	Manual		 Function	P1	None	Edit
+		204936	[emulatorpin] control or query domain emulator affinity	dyuan	None	Manual		 Function	P1	None	Edit
+		205041	[qemu-agent-command] Run an arbitrary qemu guest agent command (use at your own risk)	dyuan	None	Manual		 Function	P1	None	Edit
+		226913	[blockcommit] Commit changes from a snapshot down to its backing image	dyuan	None	Manual		 Function	P1	None	Edit
+		233724	[iface-list] list_all_interfaces can not list any interfaces with default flag - bug 884382	bili	None	Manual		 Function	P1	None	Edit
+		235484	[snapshot-revert] - revert a domain to a snapshot	bili	None	Manual		 Function	P1	None	Edit
+		236616	virsh reports no error message when using empty string as arguments for some command options - bug 889276	bili	None	Manual		 Function	P1	None	Edit
+		236855	[edit]two same virtio-serial address in the guest's xml --bug 890606	lsu	None	Manual		 Function	P1	None	Edit
+		236856	[virt-xml-validate] virt-xml-validate should report error while the pool xml didn't contains <path> element - bug 893273	xuzhang	None	Manual		 Regression	P1	None	Edit
+		244101	 - vdsm: cannot run a vm with several snapshots BZ#903248	whuang	None	Manual		 Function	P1	None	Edit
+		176512	[dump] - Dump the core of a domain to a file	yoyzhang	None	Manual		Feature	P1	0	Edit
+		176511	[dumpxml] - Get domain xml information	yoyzhang	yoyzhang	Manual		Feature	P1	130	Edit
+		176675	[vcpupin] - Control domain vcpu affinity	yoyzhang	yoyzhang	Manual		Feature	P1	170	Edit
+		176665	[suspend] - Suspend a running domain	yoyzhang	yoyzhang	Manual		Feature	P1	230	Edit
+		176652	[shutdown] - Gracefully shutdown a domain - 889635	yoyzhang	yoyzhang	Manual		Feature	P1	250	Edit
+		176623	[restore] - Restore a domain from a saved state in a file	yoyzhang	yoyzhang	Manual		Feature	P1	280	Edit
+		176460	[connect] - (Re)connect to hypervisor-bug851413	yoyzhang	yoyzhang	Manual		Feature	P1	590	Edit
+		176651	[setvcpus] - Persistently change number of virtual CPUs -bug847198	mzhan	mzhan	Manual		Feature	P1	600	Edit
+		176722	[virt-xml-validate] validate libvirt XML files against a schema	yoyzhang	yoyzhang	Manual		Regression	P3	690	Edit
+		176697	[edit] edit domain is not allowed - Bug 504262 Bug 864773	yoyzhang	yoyzhang	Manual		Regression	P3	5630	Edit
